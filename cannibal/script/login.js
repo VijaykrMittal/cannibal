@@ -20,6 +20,14 @@
             $('#moveToRegisterStep2').click(function(){
                 app.mobileApp.navigate('#signupView2');
             });
+            
+            $('#signup').click(function(){
+                app.mobileApp.navigate('views/shop.html');    
+            });
+            
+            $('#signin').click(function(){
+                app.mobileApp.navigate('views/shop.html');    
+            });
         },
         
         moveToForgetPwd:function()

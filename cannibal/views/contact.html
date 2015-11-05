@@ -1,25 +1,31 @@
-<div data-role="view" id="billingView" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show" data-use-native-scrolling="true">
+<div data-role="view" id="contactView" data-use-native-scrolling="true">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu"></a>
+            <a data-role="button" data-align="right" class="cart"></a>
+        </div>
+    </div>
     <div data-role="content">
         <div class="wrapper">
             <div class="header">
                 <p>
-                    Billing Info
+                    Contact Us
                 </p>
             </div>
             <div class="conFldDv">
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="bill_fname" id="bill_fname" class="txtFld" placeholder="First Name"/>
+                        <input type="text" name="contact_name" id="contact_name" class="txtFld" placeholder="Name"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="bill_lname" id="bill_lname" class="txtFld" placeholder="Last Name"/>
+                        <input type="number" name="contact_phone" id="contact_phone" class="txtFld" placeholder="Phone Number"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="bill_address" id="bill_address" class="txtFld" placeholder="Street Address"/>
+                        <input type="text" name="contact_mail" id="bill_address" class="txtFld" placeholder="Street Address"/>
                     </p>
                 </div>
                 <div class="fldDv mixdrop">

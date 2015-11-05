@@ -18,6 +18,11 @@
             this.set('shopListSource',data);
         },
         
+        moveToMain:function()
+        {
+            app.mobileApp.navigate('views/productDetail.html');   
+        }
+        
     });
     
     app.shopService = {

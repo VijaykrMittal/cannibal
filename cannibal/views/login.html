@@ -2,8 +2,8 @@
     <div data-role="content">
         <div class="wrapper">
             <div class="logoPrt">
-                <p>
-                   
+                <p style="text-align: center;">
+                   <img src="style/images/390/logo_icon.png" style="width:120px"/>
                 </p>
             </div>
             <div class="contFldPrt">
@@ -29,7 +29,7 @@
                 </div>
                 <div class="logSub">
                     <p>
-                        <a data-role="button">SIGN IN</a>
+                        <a data-role="button" id="signin">SIGN IN</a>
                     </p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
 </div>
 
 <!--Signup View-->
-<div data-role="view" id="signupView" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+<div data-role="view" id="signupView" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show" data-use-native-script="true">
     <div data-role="content">
         <div class="wrapper">
             <div class="header">
@@ -140,7 +140,7 @@
             </div>
             <div class="subDv">
                 <p>
-                    <a data-role="button">SIGN UP</a>
+                    <a data-role="button" id="signup">SIGN UP</a>
                 </p>
             </div>
         </div>
