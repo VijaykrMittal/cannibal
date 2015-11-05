@@ -1,0 +1,47 @@
+<div data-role="view" id="shopView" data-title="SHOP" data-model="app.shopService.viewModel" data-show="app.shopService.viewModel.show" data-use-native-scrolling="true">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" class="menu"></a>
+            <span data-role="view-title"></span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper">
+           <div class="main">
+                <div class="prodSrchDv">
+                    <p>
+                        <select class="dropDwn">
+                            <option>Product Categories</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="listContentDV">
+                    <ul id="shopListData" data-role="listview" data-template="shopListView" data-bind="source:shopListSource"></ul>
+                </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="shopListView">
+    <div class="dynDv">
+        <div class="prodCls">
+            <img src="#:data['prodImg']#"/>
+        </div>
+        <div class="prodTitle">
+            <p>#:data['title']#</p>
+        </div>
+        <div class="bindCls">
+            <div class="priCls">
+                <p>
+                    #:data['price']#
+                </p>
+            </div>
+            <div class="cartCls">
+                <p>
+                    <img src="#:data['cart']#"/>
+                </p>
+            </div>
+        </div>
+    </div>
+</script>

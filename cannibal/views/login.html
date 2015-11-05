@@ -1,0 +1,148 @@
+<div data-role="view" id="loginView" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="logoPrt">
+                <p>
+                   
+                </p>
+            </div>
+            <div class="contFldPrt">
+               <div class="logmail">
+                   <div class="txticon">
+                       <img src="style/images/390/message.png"/>
+                   </div>
+                   <div class="txtfldDv">
+                       <p>
+                           <input type="text" name="log_email" class="txtFld" id="log_email" placeholder="Email Address"/>
+                       </p>
+                   </div>
+               </div>
+                <div class="logpwd">
+                    <div class="txticon">
+                        <img src="style/images/390/lock.png"/>
+                    </div>
+                   <div class="txtfldDv">
+                       <p>
+                           <input type="password" name="log_pwd" class="txtFld" id="log_pwd" placeholder="Password"/>
+                       </p>
+                   </div>
+                </div>
+                <div class="logSub">
+                    <p>
+                        <a data-role="button">SIGN IN</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" data-role="footer">
+       <div class="footerLeft" data-bind="click:moveToForgetPwd">
+           <p>
+               Forgot Password?
+           </p>
+       </div>
+        <div class="footerRight" data-bind="click:moveToRegister">
+           <p>
+               Create New Account
+           </p>
+        </div>
+    </div>
+</div>
+
+<!--Signup View-->
+<div data-role="view" id="signupView" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="header">
+                <p>
+                    Club Registration
+                </p>
+            </div>
+            <div class="conFldDv">
+                <div class="fldDv">
+                    <p>
+                        <input type="text" name="fname" id="fname" class="txtFld" placeholder="First Name"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="text" name="lname" id="lname" class="txtFld" placeholder="Last Name"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="number" name="phonenum" id="phonenum" class="txtFld" placeholder="Phone Number"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="text" name="email" id="email" class="txtFld" placeholder="Email Address"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="text" name="licenceId" id="licenceId" class="txtFld attch" placeholder="Upload California Driver's License/ID" />
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="text" name="prescroption" id="prescroption" class="txtFld attch" placeholder="Upload Your Prescription"/>
+                    </p>
+                </div>
+            </div>
+            <div class="subDv">
+                <p>
+                    <a data-role="button" id="moveToRegisterStep2">SUBMIT</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Signup View 2-->
+<div data-role="view" id="signupView2" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="header">
+                <p>
+                    Account Details
+                </p>
+            </div>
+            <div class="conFldDv">
+                <div class="fldDv">
+                    <p>
+                        <input type="text" name="username" id="username" class="txtFld" placeholder="Choose a Username"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="password" name="userPwd" id="userPwd" class="txtFld" placeholder="Select a Password"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <p>
+                        <input type="password" name="userCnfPwd" id="userCnfPwd" class="txtFld" placeholder="Confirm Your Password"/>
+                    </p>
+                </div>
+                <div class="fldDv">
+                    <div class="checkDv">
+                        <p style="padding-bottom: 0px;">
+                            <img src="style/images/390/check.png" id="check"/>
+                            <img src="style/images/390/uncheck.png" id="uncheck"/>
+                        </p>
+                    </div>
+                    <div class="txtTitDv">
+                        <p style="padding-bottom: 0px;color:#E0E0E0">
+                            Agree to Terms & Conditions
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subDv">
+                <p>
+                    <a data-role="button">SIGN UP</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,137 @@
+@media (min-width:0px) and (max-width:390px) {
+    
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Login View*/
+    
+    #loginView .wrapper {width:100%;height:auto}
+    #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: 120px;margin-top: 20%;}
+    #loginView .wrapper .contFldPrt {width:80%;height:auto;margin:0px auto;}
+    #loginView .wrapper .contFldPrt .logmail {width:100%;display: inline-block;}
+    #loginView .wrapper .contFldPrt .logmail .txticon {width:15%;float:left;}
+    #loginView .wrapper .contFldPrt .logmail .txtfldDv {width:85%;float:left}
+    #loginView .wrapper .contFldPrt .logmail .txtfldDv p {margin:-5px 0 0 0}
+    #loginView .wrapper .contFldPrt .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
+    #loginView .wrapper .contFldPrt .logpwd {width:100%;display: inline-block;  margin-top: 25px;}
+    #loginView .wrapper .contFldPrt .logpwd .txticon {width:15%;float:left;}
+    #loginView .wrapper .contFldPrt .logpwd .txtfldDv {width:85%;float:left}
+    #loginView .wrapper .contFldPrt .logpwd .txtfldDv p {margin:-5px 0 0 0}
+    #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
+    #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:30px}
+    #loginView .wrapper .contFldPrt .logSub p {margin: 0 0 0 0;}
+    #loginView .wrapper .contFldPrt .logSub a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 240px 9px;background-size: 35px 19px;}
+    #loginView .wrapper .contFldPrt .logSub a span {font-size:17px;line-height:25px;color:#23A503 !important}
+    #loginView .footer {width:100%;display:inline-block}
+    #loginView .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid #1E9E01;}
+    #loginView .footer .footerRight {width:50%;height:60px;background-color:#1E9101;float:left}
+    #loginView .footer .footerLeft,#loginView .footer .footerRight {text-align: center;line-height: 35px;font-size: 16px;color: #F1F1F1;}
+    ::-webkit-input-placeholder { font-style:normal;color:#E0E0E0;font-size:16px;font-weight:lighter}
+    
+   /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Registration View*/
+    #signupView .wrapper {width:100%;height:auto}
+    #signupView .wrapper .header {width:100%;margin-top: 10%;}
+    #signupView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
+    #signupView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
+    #signupView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
+    #signupView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
+    #signupView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
+    #signupView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
+    #signupView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
+    #signupView .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 260px 9px;background-size: 35px 19px;}
+    #signupView .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important}
+    
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Registration View 2*/
+    #signupView2 .wrapper {width:100%;height:auto}
+    #signupView2 .wrapper .header {width:100%;margin-top: 20%;}
+    #signupView2 .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
+    #signupView2 .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
+    #signupView2 .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
+    #signupView2 .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
+    #signupView2 .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
+    #signupView2 .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 25%;}
+    #signupView2 .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 260px 9px;background-size: 35px 19px;}
+    #signupView2 .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important}
+    #signupView2 .wrapper .conFldDv .fldDv .checkDv {width:10%;float:left;margin-left: 5px;}
+    #signupView2 .wrapper .conFldDv .fldDv .txtTitDv {width:80%;float:left}
+    .checkDv p,.txtTitDv P {border-bottom:none !importaNT;padding-bottom:0px}
+    
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Shop*/
+    
+    #shopView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #shopView .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #shopView .nvbar span {color:#fff;  font-size: 18px;}
+    
+    #shopView .wrapper {width:100%;}
+    #shopView .wrapper .main {width:100%;margin:0px auto}
+    #shopView .wrapper .prodSrchDv {width:100%;}
+    #shopView .wrapper .prodSrchDv .dropDwn{width: 100%;height: 38px;border: 1px solid #ccc;}
+    #shopView .wrapper .listContentDV{width:100%}
+    
+    #shopListData .dynDv {width: 100%;height: auto;margin: 0px auto;border: 1px solid #ccc;box-shadow: 0px 0px 10px 0px #888888;}
+    #shopListData .dynDv .prodCls {  width: 100%;height: auto;border-bottom:1px solid #E5E5E5}
+    #shopListData .dynDv .prodCls img {width:100%;}
+    #shopListData .dynDv .prodTitle {width: 100%;}
+    #shopListData .dynDv .prodTitle p {font-size: 16px;color: #000;font-weight: 500;}
+    #shopListData .dynDv .bindCls {width: 100%;display: inline-block;}
+    #shopListData .dynDv .bindCls .priCls {width: 50%;float: left;}
+    #shopListData .dynDv .bindCls .priCls p{font-size: 17px;color:#23A505}
+    #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
+    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 10px 0 0px;}
+    #shopListData li {width:50%;float:left}
+    
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Product Detail*/
+    #productDetail .nvbar {background-color:#23A505 !important;height: 55px;}
+    #productDetail .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #productDetail .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #productDetail .nvbar span {color:#fff;  font-size: 18px;}
+    
+    #productDetail .wrapper {width:100%;height:auto}
+    #productDetail .wrapper .prod_image {width:100%;border:1px solid #E5E5E5}
+    #productDetail .wrapper .prod_image img {width:100%}
+    #productDetail .wrapper .mixCls {width:100%;display:inline-block;border-bottom: 1px solid #E5E5E5;}
+    #productDetail .wrapper .mixCls .title {width:50%;float:left;}
+    #productDetail .wrapper .mixCls .title p{font-size: 17px;font-weight: bold;font-family: inherit;color: #000;}
+    #productDetail .wrapper .mixCls .price {width:50%;float:left}
+    #productDetail .wrapper .mixCls .price p {text-align:right;font-size: 17px;color: #23A505;font-weight: 600;}
+    #productDetail .wrapper .prodCont {width:100%;height:auto;padding-top:15px;padding-bottom:15px;border-bottom:1px solid #E5E5E5}
+    #productDetail .wrapper .prodCont p {text-align: justify;font-size: 16px;}
+    #productDetail .wrapper .fldDv {width:100%}
+    #productDetail .wrapper .fldDv .leftFldDv {width:50%;float:left}
+    #productDetail .wrapper .fldDv .leftFldDv p{text-align: left;}
+    #productDetail .wrapper .fldDv .leftFldDv .dropdwn {width:63%;height: 35px;border: 1px solid #ccc;}
+    #productDetail .wrapper .fldDv .rightFldDv {width:50%;float:left}
+    #productDetail .wrapper .fldDv .rightFldDv p{text-align: right;}
+    #productDetail .wrapper .fldDv .rightFldDv .dropdwn {width:63%;height: 35px;border: 1px solid #ccc;}
+    #productDetail .footer {width:100%;height:50px !important;background-color:#23A505 !important}
+    #productDetail .footer p {text-align: center;margin: 1px 0 0 0;}
+    #productDetail .footer p a{width: 50%;height: 45px;background: none;border: none;}
+    #productDetail .footer p a:active {background:none;color:#fff;border:none}
+    #productDetail .footer p a span {line-height: 28px;font-size: 18px;color: #fff;}
+    
+    
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Billing Info */
+    #billingView .wrapper {width:100%;height:auto}
+    #billingView .wrapper .header {width:100%;margin-top: 10%;}
+    #billingView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
+    #billingView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
+    #billingView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
+    #billingView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
+    #billingView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
+    #billingView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
+    #billingView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
+    #billingView .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important;}
+    #billingView .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important}
+    
+    #billingView .wrapper .conFldDv .mixdrop {width:100%;margin-top: -10px !important;}
+    #billingView .wrapper .conFldDv .mixdrop .city_FldDV {width:50%;float:left}
+    #billingView .wrapper .conFldDv .mixdrop .city_FldDV .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
+    #billingView .wrapper .conFldDv .mixdrop .state_FldDv {width:50%;float:left}
+    #billingView .wrapper .conFldDv .mixdrop .state_FldDv .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
+    
+   
+    
+}
