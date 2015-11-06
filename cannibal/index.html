@@ -16,7 +16,7 @@
 </head>
 <body>
     
-    <div data-role="drawer" id="drawerList" data-use-native-scrolling="true" style="width:80%" data-swipe-to-open="false">
+    <div data-role="drawer" id="drawerList" data-use-native-scrolling="true" style="width:80%" data-swipe-to-open="false" data-model="app.drawerService.viewModel" data-show="app.drawerService.viewModel.show">
         <ul style="list-style-type: none;margin: 0 0 0 -40px;">
             <li style="background-color:#243117;padding: 60px 0 10px 0;border-bottom:1px solid #1F670E;">
                 <div style="width:100%">
@@ -26,7 +26,7 @@
                     <div style="width:80%;float:left;margin: -52px 0 0 50px;"><p style="font-size: 18px;color: #fff;">Robert Wade</p></div>
                 </div>
             </li>
-            <li>
+            <li data-bind="click:moveToProfile">
                 <div style="width:100%;display:inline-block">
                     <div style="width:20%;float:left">
                         <p>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <li data-bind="click:moveToAboutus">
                 <div style="width:100%;display:inline-block">
                     <div style="width:20%;float:left">
                         <p>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <li data-bind="click:moveToContactus">
                 <div style="width:100%;display:inline-block">
                     <div style="width:20%;float:left">
                         <p>
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <li data-bind="click:moveToLogout">
                 <div style="width:100%;display:inline-block">
                     <div style="width:20%;float:left">
                         <p style="margin-left: 17px;">
@@ -75,64 +75,12 @@
                 </div>
             </li>
         </ul>
-        <!--<ul data-role="listview" class="drawerListView">
-            <li class="firstchild">
-                <div class="profilePic">
-                    <p>
-                        <img src="style/images/390/user_ico.png"/>
-                        <a data-role="button" class="drawerEditBtn fixpos" data-bind="click:profEditbyDrawer"></a>
-                    </p>
-                    <p>
-                        Dave Michalle
-                    </p>
-                </div>
-            </li>
-            <li data-bind="click:moveToInbox">
-                <div class="iconDv">
-                    <p>
-                        <img src="styles/images/msg.png"/>
-                    </p>
-                </div>
-                <div class="titleDv">
-                    <span>My Profile</span>
-                </div>
-            </li>
-            <li data-bind="click:moveToMeet">
-                <div class="iconDv">
-                    <p>
-                        <img src="styles/images/meet.png"/>
-                    </p>
-                </div>
-                <div class="titleDv">
-                    <span>About Us</span>
-                </div>
-            </li>
-            <li data-bind="click:moveToSearch">
-                <div class="iconDv">
-                    <p>
-                        <img src="styles/images/search_ico.png"/>
-                    </p>
-                </div>
-                <div class="titleDv">
-                    <span>Contact Us</span>
-                </div>
-            </li>
-            <li data-bind="click:moveToNearby">
-                <div class="iconDv">
-                    <p>
-                        <img src="styles/images/nearby.png"/>
-                    </p>
-                </div>
-                <div class="titleDv">
-                    <span>Logout</span>
-                </div>
-            </li>
-        </ul>-->
     </div>
     
     <!--External File Place here-->
     <script src="script/app.js"></script>
     <script src="script/login.js"></script>
     <script src="script/shop.js"></script>
+    <script src="script/drawer.js"></script>
 </body>
 </html>
