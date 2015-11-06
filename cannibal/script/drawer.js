@@ -12,7 +12,7 @@
         moveToProfile:function()
         {
           //  alert("profile");
-          //  app.mobileApp.navigate('');
+            app.mobileApp.navigate('views/myprofile.html');
         },
         
         moveToContactus:function()

@@ -1,4 +1,4 @@
-<div data-role="view" id="productDetail" data-title="PRODUCT DETAIL"  data-use-native-scrolling="true">
+<div data-role="view" id="productDetail" data-title="PRODUCT DETAIL"  data-use-native-scrolling="true" data-model="app.productService.viewModel" data-show="app.productService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
             <a data-role="button" data-align="left" data-rel="drawer" href="#drawerList" class="menu"></a>
@@ -62,7 +62,7 @@
     </div>
     <div class="footer" data-role="footer">
         <p>
-            <a data-role="button">ADD TO CART</a>
+            <a data-role="button" id="addcart">ADD TO CART</a>
         </p>
     </div>
 </div>

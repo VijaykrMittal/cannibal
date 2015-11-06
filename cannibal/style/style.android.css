@@ -172,4 +172,25 @@
     #aboutusView .wrapper .mainbind .contentDv {width:90%;float:left;}
     #aboutusView .wrapper .mainbind .contentDv p {font-size:16px;text-align:justify}
     
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*My Profile View*/
+    #profileView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #profileView .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #profileView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #profileView .nvbar span {color:#fff;  font-size: 18px;}
+    #profileView .wrapper {width:100%;margin:0px auto}
+    #profileView .wrapper .profile_pic {width:50%;margin:0px auto;margin-top: 10%;}
+    #profileView .wrapper .profile_pic p {text-align:center}
+    #profileView .wrapper .addressDV {width:80%;margin:0px auto;}
+    #profileView .wrapper .addressDV p {text-align:center}
+    #profileView .wrapper .addressDV p:nth-child(1) {font-size:18px;font-weight:bold;color:#000}
+    #profileView .wrapper .edtscn {width:90%;margin:0px auto;  margin-top: 15%;}
+    #profileView .wrapper .edtscn p{text-align: center;}
+    #profileView .wrapper .edtscn .editBtn {width:60%;background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 10px 8px;}
+    #profileView .wrapper .edtscn .editBtn:active {background:none;border:none;color:#4c5356}
+    #profileView .wrapper .edtscn .editBtn span{font-size: 18px;}
+    #profileView .wrapper .edtscn .changePwdBtn {width:75%;background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 10px 8px;}
+    #profileView .wrapper .edtscn .changePwdBtn:active {background:none;border:none;color:#4c5356}
+    #profileView .wrapper .edtscn .changePwdBtn span {font-size:18px}
+    
 }
