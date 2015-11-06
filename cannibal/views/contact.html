@@ -1,7 +1,7 @@
 <div data-role="view" id="contactView" data-use-native-scrolling="true">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
-            <a data-role="button" data-align="left" class="menu"></a>
+            <a data-role="button" data-align="left" data-rel="drawer" href="#drawerList" class="menu"></a>
             <a data-role="button" data-align="right" class="cart"></a>
         </div>
     </div>
@@ -25,51 +25,23 @@
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="contact_mail" id="bill_address" class="txtFld" placeholder="Street Address"/>
-                    </p>
-                </div>
-                <div class="fldDv mixdrop">
-                    
-                    
-                    <!--<p>
-                        <input type="text" name="email" id="email" class="txtFld" placeholder="Email Address"/>
-                    </p>-->
-                    
-                    <div class="city_FldDV">
-                        <p>
-                            <input type="text" name="bill_city" id="bill_city" class="txtFld" placeholder="City"/>
-                        </p>
-                    </div>
-                    <div class="state_FldDv">
-                        <p>
-                            <select class="dropdown">
-                                <option>State</option>
-                                <option>Maharashtra</option>
-                                <option>Tamil Nadu</option>
-                                <option>Delhi</option>>
-                            </select>
-                        </p>
-                    </div>
-                </div>
-                <div class="fldDv">
-                    <p>
-                        <input type="number" name="bill_zipcode" id="bill_zipcode" class="txtFld" placeholder="Zipcode" />
+                        <input type="text" name="contact_mail" id="contact_mail" class="txtFld" placeholder="Email"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="number" name="bill_phone" id="bill_phone" class="txtFld" placeholder="Phone"/>
+                        <input type="text" name="contact_subject" id="contact_subject" class="txtFld" placeholder="Subject"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="bill_email" id="bill_email" class="txtFld" placeholder="Email Address"/>
+                        <textarea class="txtarea" id="contact_message" name="contact_message" placeholder="Message"></textarea>
                     </p>
                 </div>
             </div>
             <div class="subDv">
                 <p>
-                    <a data-role="button" id="moveToRegisterStep2">CHECK OUT</a>
+                    <a data-role="button" id="moveToRegisterStep2">SUBMIT</a>
                 </p>
             </div>
         </div>

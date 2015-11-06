@@ -3,7 +3,7 @@ var app = (function(){
     mobileApp = new kendo.mobile.Application(document.body,
                                                             {
                                                                 skin:'flat',
-                                                                initial:'views/login.html'
+                                                                initial:'views/myprofile.html'
                                                             }
     );
     

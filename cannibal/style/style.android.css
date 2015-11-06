@@ -140,20 +140,36 @@
     #contactView .nvbar span {color:#fff;  font-size: 18px;}
     
     #contactView .wrapper {width:100%;height:auto}
-    #contactView .wrapper .header {width:100%;margin-top: 10%;}
+    #contactView .wrapper .header {width:100%;margin-top: -10px;}
     #contactView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
-    #contactView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
+    #contactView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:0px}
     #contactView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
     #contactView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
     #contactView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
-    #contactView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
+    #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;}
     #contactView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
     #contactView .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important;}
-    #contactView .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important}
+    #contactView .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important;font-weight: bold;}
     
-    #contactView .wrapper .conFldDv .mixdrop {width:100%;margin-top: -10px !important;}
-    #contactView .wrapper .conFldDv .mixdrop .city_FldDV {width:50%;float:left}
-    #contactView .wrapper .conFldDv .mixdrop .city_FldDV .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
-    #contactView .wrapper .conFldDv .mixdrop .state_FldDv {width:50%;float:left}
-    #contactView .wrapper .conFldDv .mixdrop .state_FldDv .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
+    
+     /*-------------------------------------------------------------------------------------------------------------------**/
+    /*Slider View*/
+    .textTitle {font-size: 16px;color: #fff;margin-top: 24px;}
+    
+    /*-------------------------------------------------------------------------------------------------------------------**/
+    /*About Us View*/
+    
+    #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #aboutusView .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #aboutusView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #aboutusView .nvbar span {color:#fff;  font-size: 18px;}
+    
+    #aboutusView .wrapper {width:100%;height:auto}
+    #aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
+    #aboutusView .wrapper .mainbind .checkGreenDv {width:10%;float:left;}
+    #aboutusView .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
+    #aboutusView .wrapper .mainbind .checkGreenDv img {width:20px}
+    #aboutusView .wrapper .mainbind .contentDv {width:90%;float:left;}
+    #aboutusView .wrapper .mainbind .contentDv p {font-size:16px;text-align:justify}
+    
 }
