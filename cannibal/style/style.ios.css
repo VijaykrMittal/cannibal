@@ -221,7 +221,7 @@
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv {width:85%;float:left}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv p {margin:-5px 0 0 0}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
-    #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:30px}
+    #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:15%}
     #loginView .wrapper .contFldPrt .logSub p {margin: 0 0 0 0;}
     #loginView .wrapper .contFldPrt .logSub a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 280px 9px;background-size: 35px 19px;}
     #loginView .wrapper .contFldPrt .logSub a span {font-size:17px;line-height:25px;color:#23A503 !important}
