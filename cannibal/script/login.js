@@ -28,9 +28,17 @@
             });
             
             $('#signin').click(function(){
-               // app.mobileApp.navigate('views/shop.html');    
                 app.loginService.viewModel.loginValidation();
             });
+        },
+        
+        checkEnter : function(e)
+        {
+            if(e.keyCode === 13)
+            {
+                $(e.target).blur();
+                app.loginService.viewModel.loginValidation();
+            }
         },
         
         // Validation Function for Login
@@ -41,31 +49,93 @@
                 password = that.get('log_pwd');
             
             var dataParam = [];
-            //console.log(navigator.notification.alert);
+            
             if(username === "")
             {
-                navigator.notification.alert('Please enter Username/Email',function(){},'Notification','OK');
+                navigator.notification.confirm("Please Enter Username/Email",function(confirm){
+                    if(confirm === 1 || confirm === '1')
+                    {
+                        $('#log_email').focus();
+                    }
+                },'Notification','OK');
+                
+                return;
             }
-            else if(password === "")
+            
+            if(password === "")
             {
-                navigator.notification.alert('Please enter Password',function(){},'Notification','OK');
+                navigator.notification.confirm("Please Enter Password",function(confirm){
+                    if(confirm === 1 || confirm === '1')
+                    {
+                        $('#log_pwd').focus();
+                    }
+                },'Notification','OK');
+                
+                return;
+            }
+            
+            if(!window.connectionInfo.checkConnection())
+            {
+                navigator.notification.confirm("Internet Connection not found.",function(confirm){
+                    if(confirm === 1 || confirm === '1')
+                    {
+                        app.loginService.viewModel.loginValidation();
+                    }
+                },'Connection Error?','Retry,Cancel');
             }
             else
             {
                 dataParam['userName'] = username;
                 dataParam['pass'] = password;
-                console.log(dataParam);
-                
-                var loginDataSource = new kendo.data.DataSource({
-                    transport:{
-                        read:{
-                            url:'',
-                            type:'GET',
-                            dataType:''
-                        }
-                    }
-                });
+                app.loginService.viewModel.userLogin(dataParam);
             }
+        },
+        
+        userLogin : function(data)
+        {
+            app.mobileApp.showLoading();
+            var loginDataSource = new kendo.data.DataSource({
+                transport:{
+                    read:{
+                        url:localStorage.getItem('login_API'),
+                        type:'GET',
+                        dataType:'JSON',
+                        data:data
+                    }
+                },
+                schema:{
+                    data:function(data)
+                    {
+                        return [data];
+                    }
+                },
+                error:function(e)
+                {
+                    app.mobileApp.hideLoading();
+                    navigator.notification.alert("Server not responding properly.Please check your internet connection.",
+                        function () { }, "Message", 'OK');
+                }
+            });
+            loginDataSource.fetch(function(){
+               var data = this.data();
+                console.log(data);
+                if(data[0]['status'] === 0 || data[0]['status'] === '0')
+                {
+                    navigator.notification.alert("Username/Password does not exist.",function () { }, "Notification", 'OK');
+                    app.mobileApp.hideLoading();
+                }
+                else
+                {
+                    app.loginService.viewModel.setUserLoginStatus();
+                    app.mobileApp.hideLoading();
+                }
+            });
+        },
+        
+        setUserLoginStatus : function()
+        {
+            localStorage.setItem("login_status",1);
+            app.mobileApp.navigate('views/shop.html');
         },
         
         moveToForgetPwd:function()

@@ -7,31 +7,33 @@
                 </p>
             </div>
             <div class="contFldPrt">
-               <div class="logmail">
-                   <div class="txticon">
-                       <img src="style/images/390/message.png"/>
-                   </div>
-                   <div class="txtfldDv">
-                       <p>
-                           <input type="text" name="log_email" data-bind="value:log_email" class="txtFld" id="log_email" placeholder="Email Address"/>
-                       </p>
-                   </div>
-               </div>
-                <div class="logpwd">
-                    <div class="txticon">
-                        <img src="style/images/390/lock.png"/>
+                <form id="loginForm" data-bind="events: { keyup: checkEnter }">
+                    <div class="logmail">
+                        <div class="txticon">
+                            <img src="style/images/390/message.png"/>
+                        </div>
+                        <div class="txtfldDv">
+                            <p>
+                                <input type="text" name="log_email" data-bind="value:log_email" class="txtFld" id="log_email" placeholder="Email Address"/>
+                            </p>
+                        </div>
                     </div>
-                   <div class="txtfldDv">
-                       <p>
-                           <input type="password" name="log_pwd" data-bind="value:log_pwd" class="txtFld" id="log_pwd" placeholder="Password"/>
-                       </p>
-                   </div>
-                </div>
-                <div class="logSub">
-                    <p>
-                        <a data-role="button" id="signin">SIGN IN</a>
-                    </p>
-                </div>
+                    <div class="logpwd">
+                        <div class="txticon">
+                            <img src="style/images/390/lock.png"/>
+                        </div>
+                        <div class="txtfldDv">
+                            <p>
+                                <input type="password" name="log_pwd" data-bind="value:log_pwd" class="txtFld" id="log_pwd" placeholder="Password"/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="logSub">
+                        <p>
+                            <a data-role="button" id="signin">SIGN IN</a>
+                        </p>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
