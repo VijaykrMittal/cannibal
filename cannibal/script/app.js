@@ -1,8 +1,31 @@
 var app = (function(){
     
+    var onBackKeyDown = function(e)
+    {
+        if(mobileApp.view()['element']['0']['id']==='shopView')
+        {
+            e.preventDefault();
+            navigator.notification.confirm('You want to exit App',function(confirm){
+                if(confirm === 1 || confirm === '1')
+                {
+                    navigator.app.exitApp();
+                }
+            },'Notification',"Yes,No");
+        }
+        else if(mobileApp.view()['element']['0']['id']==='loginView')
+        {
+            navigator.app.exitApp();
+        }
+        else
+        {
+            mobileApp.navigate('#:back');
+        }
+    }
+    
     var onDeviceReady = function()
     {
-      window.connectionInfo = new connectionApp();
+        window.connectionInfo = new connectionApp();
+        document.addEventListener('backbutton',onBackKeyDown,false);
     };
     
     function connectionApp()

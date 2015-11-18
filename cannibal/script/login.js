@@ -139,9 +139,16 @@
             app.mobileApp.navigate('views/shop.html');
         },
         
+        blankLoginFld : function()
+        {
+            this.set('log_email','');
+            this.set('log_pwd','');
+        },
+        
         setUserLogout : function()
         {
             localStorage.setItem("login_status",0);
+            app.loginService.viewModel.blankLoginFld();
             app.mobileApp.navigate('views/login.html');
         },
         

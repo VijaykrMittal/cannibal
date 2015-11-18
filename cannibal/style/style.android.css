@@ -511,6 +511,8 @@
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(2) {width:30px;height:25px;border:1px solid #E2DEDE;margin: 17px 0px 0 0px;float:left;padding: 3px 0 0 10px;font-size: 15px;}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(3) {float:left}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(3) a {background:url('./images/390/plus.png') no-repeat;width:30px;height:25px;border:none;background-size:100% 100%}
+    #myCart #cartListData .main .dv3 {width:15%;float:left;}
+    #myCart #cartListData .main .dv3 p {color:#23A505;font-size:16px;font-weight:bold;margin: 30px 0 0 5px;}
     
     #myCart .footer {width:100%;height:50px !important;background-color:#23A505 !important}
     #myCart .footer p {text-align: center;margin: 1px 0 0 0;}
@@ -538,10 +540,10 @@
     #productDetail .wrapper .fldDv {width:100%}
     #productDetail .wrapper .fldDv .leftFldDv {width:50%;float:left}
     #productDetail .wrapper .fldDv .leftFldDv p{text-align: left;}
-    #productDetail .wrapper .fldDv .leftFldDv .dropdwn {width:60%;height: 35px;border: 1px solid #ccc;background:none;  margin-left: 5px;}
+    #productDetail .wrapper .fldDv .leftFldDv .dropdwn {width:60%;height: 35px;border: 1px solid #ccc;background:none;  margin-left: 3px;}
     #productDetail .wrapper .fldDv .rightFldDv {width:50%;float:left}
     #productDetail .wrapper .fldDv .rightFldDv p{text-align: right;}
-    #productDetail .wrapper .fldDv .rightFldDv .dropdwn {width:63%;height: 35px;border: 1px solid #ccc;background:none;  margin-left: 5px;}
+    #productDetail .wrapper .fldDv .rightFldDv .dropdwn {width:63%;height: 35px;border: 1px solid #ccc;background:none;  margin-left: 3px;}
     #productDetail .footer {width:100%;height:50px !important;background-color:#23A505 !important}
     #productDetail .footer p {text-align: center;margin: 1px 0 0 0;}
     #productDetail .footer p a{width: 50%;height: 45px;background: none;border: none;}
@@ -571,7 +573,7 @@
     
     /*-------------------------------------------------------------------------------------------------------------------**/
     /*Contact Form */
-    #contactView .nvbar {background-color:#23A505 !important;border-bottom: none !important;}
+    #contactView .nvbar {background-color:#23A505 !important;  border-bottom: 1px solid #23A505 !important;}
     #contactView .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
     #contactView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
     #contactView .nvbar span {color:#fff;  font-size: 18px;}
