@@ -25,7 +25,7 @@
 
 <script type="text/x-kendo-template" id="shopListView">
     <div class="dynDv">
-        <div class="prodCls" data-bind="click:moveToMain">
+        <div class="prodCls" data-bind="click:moveToMain" data-id="#:data['id']#">
             <img src="#:data['prodImg']#"/>
         </div>
         <div class="prodTitle">

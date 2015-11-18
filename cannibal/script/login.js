@@ -27,7 +27,8 @@
                 app.mobileApp.navigate('views/shop.html');    
             });
             
-            $('#signin').click(function(){
+            $('#signin').unbind(".myPlugin");
+            $('#signin').on('click.myPlugin',function(){
                 app.loginService.viewModel.loginValidation();
             });
         },
@@ -136,6 +137,12 @@
         {
             localStorage.setItem("login_status",1);
             app.mobileApp.navigate('views/shop.html');
+        },
+        
+        setUserLogout : function()
+        {
+            localStorage.setItem("login_status",0);
+            app.mobileApp.navigate('views/login.html');
         },
         
         moveToForgetPwd:function()

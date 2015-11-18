@@ -27,7 +27,7 @@
         
         moveToLogout:function()
         {
-            app.mobileApp.navigate('views/login.html');
+            app.loginService.viewModel.setUserLogout();
         }
     });
     

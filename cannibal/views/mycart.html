@@ -1,9 +1,59 @@
-<!DOCTYPE html>
+<div data-role="view" id="myCart" data-title="MY CART"  data-use-native-scrolling="true" data-model="app.cartService.viewModel" data-show="app.cartService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="nvbar">
+            <a data-role="button" data-align="left" data-rel="drawer" href="#drawerList" class="menu"></a>
+            <span data-role="view-title"></span>
+            <a data-role="button" data-align="right" class="cart"></a>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper">
+            <ul id="cartListData" data-role="listview" data-template="cartListView" data-bind="source:cartListSource"></ul>
+        </div>
+    </div>
+    <div class="footer" data-role="footer">
+        <p>
+            <a data-role="button" id="addcart">CHECKOUT</a>
+        </p>
+    </div>
+</div>
 
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-    </body>
-</html>
+<script type="text/x-kendo-template" id="cartListView">
+    <div class="main">
+        <div class="dv1">
+            <p>
+                <img src="#:data['prodImg']#"/>
+            </p>
+        </div>
+        <div class="dv2">
+            <div class="dv21">
+                <p>
+                    #:data['title']#
+                </p>
+            </div>
+            <div class="dv22">
+                <p>
+                    #:data['desc']#
+                </p>
+            </div>
+            <div class="dv23">
+                <div class="dv231">
+                    <p style="float:left;">
+                        <a data-role="button"></a>
+                    </p>
+                    <p>
+                        #:data['quantity']#
+                    </p>
+                    <p>
+                        <a data-role="button"></a>
+                    </p>    
+                </div>
+            </div>
+        </div>
+        <div class="dv2" style="width:15%;float:left;">
+            <p style="color:\#23A505;font-size:16px;font-weight:bold;margin: 30px 0 0 10px;">
+                #:data['price']#
+            </p>
+        </div>
+    </div>
+</script>
