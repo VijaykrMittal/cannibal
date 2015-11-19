@@ -16,6 +16,10 @@ var app = (function(){
         {
             navigator.app.exitApp();
         }
+        else if(mobileApp.view()['element']['0']['id']==='signupView2')
+        {
+            e.preventDefault();
+        }
         else
         {
             mobileApp.navigate('#:back');
@@ -78,6 +82,7 @@ var app = (function(){
     
     /* ALL WEB SERVICE STORE IN THE LOCAL STORAGE*/
     localStorage.setItem('login_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/login.php');
+    localStorage.setItem('forgot_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Forget.php');
     
     return{
         mobileApp:mobileApp

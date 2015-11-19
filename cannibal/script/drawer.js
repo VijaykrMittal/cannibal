@@ -28,6 +28,16 @@
         moveToLogout:function()
         {
             app.loginService.viewModel.setUserLogout();
+        },
+        
+        moveToShop:function()
+        {
+            app.mobileApp.navigate('views/shop.html');
+        },
+        
+        moveToShoppingCart:function()
+        {
+            app.mobileApp.navigate('views/mycart.html');
         }
     });
     

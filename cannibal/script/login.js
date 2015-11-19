@@ -6,31 +6,43 @@
         
         log_email:'',
         log_pwd:'',
+        forgotTextFld:'',
+        
         show:function()
         {
-            
-            $('#uncheck').click(function(){
+            $('#uncheck').unbind(".myPlugin");
+            $('#uncheck').on('click.myPlugin',function(){
                 $('#check').show();
                 $(this).hide();
             });
             
-            $('#check').click(function(){
+            $('#check').unbind(".myPlugin");
+            $('#check').on('click.myPlugin',function(){
                 $('#uncheck').show();
                 $(this).hide();
-            });
-            
-            $('#moveToRegisterStep2').click(function(){
-                app.mobileApp.navigate('#signupView2');
-            });
-            
-            $('#signup').click(function(){
-                app.mobileApp.navigate('views/shop.html');    
             });
             
             $('#signin').unbind(".myPlugin");
             $('#signin').on('click.myPlugin',function(){
                 app.loginService.viewModel.loginValidation();
             });
+            
+            $('#signup').click(function(){
+                app.mobileApp.navigate('views/shop.html');    
+            });
+            
+             $('#newaccount').unbind(".myPlugin");
+             $('#newaccount').on('click.myPlugin',function(){
+               
+                $('.footerLeft').css('background-color','#1E9E01');
+                $('.footerRight').css('background-color','#1A530C');
+                app.mobileApp.navigate('#signupView');
+                 
+             });
+            
+            app.loginService.viewModel.blankForgotFld();
+            app.loginService.viewModel.blankLoginFld();
+            
         },
         
         checkEnter : function(e)
@@ -118,8 +130,7 @@
                 }
             });
             loginDataSource.fetch(function(){
-               var data = this.data();
-                console.log(data);
+                var data = this.data();
                 if(data[0]['status'] === 0 || data[0]['status'] === '0')
                 {
                     navigator.notification.alert("Username/Password does not exist.",function () { }, "Notification", 'OK');
@@ -154,15 +165,92 @@
         
         moveToForgetPwd:function()
         {
+            app.mobileApp.navigate('#forgotpasswordView');
             $('.footerLeft').css('background-color','#1A530C');
             $('.footerRight').css('background-color','#1E9E01');
         },
         
         moveToRegister:function()
         {
-            $('.footerLeft').css('background-color','#1E9E01');
-            $('.footerRight').css('background-color','#1A530C');
-            app.mobileApp.navigate('#signupView');
+            
+        },
+        
+        /*Forgot Password Section*/
+        
+        submitforgotpwd:function()
+        {
+            var forgor_fld = this.get('forgotTextFld');
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            
+            if(forgor_fld === "")
+            {
+                navigator.notification.alert("Please enter Email Address.",function () { }, "Notification", 'OK');
+            }
+            else if(!filter.test(forgor_fld))
+            {
+                navigator.notification.alert("Please Enter valid Email Address.",function(){},'Notification','OK');
+            }
+            else if(!window.connectionInfo.checkConnection())
+            {
+                navigator.notification.confirm("Internet Connection not found.",function(confirm){
+                    if(confirm === 1 || confirm === '1')
+                    {
+                        app.loginService.viewModel.submitforgotpwd();
+                    }
+                },'Connection Error?','Retry,Cancel');
+            }
+            else
+            {
+                dataParam = [];
+                dataParam['email'] = forgor_fld;
+                app.loginService.viewModel.forgotPasswordAPI(dataParam);
+            }
+        },
+        
+        forgotPasswordAPI : function(data)
+        {
+            app.mobileApp.showLoading();
+            var forgotDataSource = new kendo.data.DataSource({
+                transport:{
+                    read:{
+                        url:localStorage.getItem('forgot_API'),
+                        type:'GET',
+                        dataType:'JSON',
+                        data:data
+                    }
+                },
+                schema:{
+                    data:function(data)
+                    {
+                        return [data];
+                    }
+                },
+                error:function(e)
+                {
+                    app.mobileApp.hideLoading();
+                    navigator.notification.alert("Server not responding properly.Please check your internet connection.",
+                        function () { }, "Message", 'OK');
+                }
+            });
+            forgotDataSource.fetch(function(){
+                var data = this.data();
+                if(data[0]['status'] === 0 || data[0]['status'] === '0')
+                {
+                    navigator.notification.alert("Email Id does not exist.",function () { }, "Notification", 'OK');
+                    app.mobileApp.hideLoading();
+                }
+                else
+                {
+                    navigator.notification.alert(data[0]['msg'],function () { }, "Notification", 'OK');
+                    app.mobileApp.navigate('#loginView');
+                    app.mobileApp.hideLoading();
+                }
+            });
+        },
+        
+        blankForgotFld : function()
+        {
+            this.set('forgotTextFld','');
         }
     });
     

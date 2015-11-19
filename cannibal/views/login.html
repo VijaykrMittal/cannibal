@@ -38,47 +38,59 @@
         </div>
     </div>
     <div class="footer" data-role="footer">
-       <div class="footerLeft" data-bind="click:moveToForgetPwd">
+       <div class="footerLeft" >
            <p>
-               Forgot Password?
+               <a data-role="button" data-bind="click:moveToForgetPwd">Forgot Password?</a>
            </p>
        </div>
-        <div class="footerRight" data-bind="click:moveToRegister">
+        <div class="footerRight" >
            <p>
-               Create New Account
+               <a data-role="button" id="newaccount">Create New Account</a>
            </p>
         </div>
     </div>
 </div>
 
+<script>
+    $(document).ready(function(){
+       
+    })
+</script>
+
 <!--Signup View-->
-<div data-role="view" id="signupView" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show" data-use-native-scrolling="true">
+<div data-role="view" id="signupView" data-title="CLUB REGISTRATION" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show" data-use-native-scrolling="true">
+    <div data-role="header">
+        <div data-role="navbar" style="background-color:#23A505;border-bottom:none">
+            <a data-align="left" data-role="backbutton" class="backArrow"></a>
+            <span data-role="view-title" style="font-size:20px;color:#fff;margin-left: 15px;"></span>
+        </div>
+    </div>
     <div data-role="content">
         <div class="wrapper">
-            <div class="header">
+            <!--<div class="header">
                 <p>
                     Club Registration
                 </p>
-            </div>
+            </div>-->
             <div class="conFldDv">
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="fname" id="fname" class="txtFld" placeholder="First Name"/>
+                        <input type="text" name="fname" id="fname" data-bind="value:firstname" class="txtFld" placeholder="First Name"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="lname" id="lname" class="txtFld" placeholder="Last Name"/>
+                        <input type="text" name="lname" id="lname" data-bind="value:lastname" class="txtFld" placeholder="Last Name"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="number" name="phonenum" id="phonenum" class="txtFld" placeholder="Phone Number"/>
+                        <input type="number" name="phonenum" id="phonenum" data-bind="value:mobilenum" class="txtFld" maxlength="10" placeholder="Phone Number"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="email" id="email" class="txtFld" placeholder="Email Address"/>
+                        <input type="text" name="email" id="email" data-bind="value:emailadd" class="txtFld" placeholder="Email Address"/>
                     </p>
                 </div>
                 <div class="fldDv">
@@ -88,7 +100,7 @@
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="prescroption" id="prescroption" class="txtFld attch" placeholder="Upload Your Prescription"/>
+                        <input type="text" name="prescroption" id="prescroption"  class="txtFld attch" placeholder="Upload Your Prescription"/>
                     </p>
                 </div>
             </div>
@@ -100,6 +112,12 @@
         </div>
     </div>
 </div>
+
+<script>
+    function phonenum(){          
+        
+    }
+</script>
 
 <!--Signup View 2-->
 <div data-role="view" id="signupView2" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
@@ -149,5 +167,64 @@
     </div>
 </div>
 
-<!--Modal View for forgot password-->
+<!--Forgot Password-->
+<div data-role="view" id="forgotpasswordView" data-title="FORGOT PASSWORD" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" style="background-color:#23A505;border-bottom:none">
+            <a data-align="left" data-role="backbutton" class="backArrow"></a>
+            <span data-role="view-title" style="font-size:20px;color:#fff;margin-left: 15px;"></span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div class="wrapper">
+            <div class="main">
+                <div class="logoPrt">
+                    <p>
+                       <img src="style/images/390/logo_icon.png"/>
+                    </p>
+                </div>
+                <div class="logmail">
+                    <div class="txticon">
+                        <img src="style/images/390/message.png"/>
+                    </div>
+                    <div class="txtfldDv">
+                        <p>
+                            <input type="text" name="forgot_email" data-bind="value:forgotTextFld" class="txtFld" id="forgot_email" placeholder="Email Address"/>
+                        </p>
+                    </div>
+                </div>
+                <div class="subBtnDv">
+                    <p>
+                        <a data-role="button" data-bind="click:submitforgotpwd">Submit</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<!--Modal View for forgot password-->
+<!--<div data-role="modalview" id="forgotPassword" style="width:95%;height:34%" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="navbar">
+            <span>FORGOT PASSWORD</span>
+        </div>
+    </div>
+    <div data-role="content" id="maincontent">
+        <p> 
+            <input name="verificationcode" id="verificationcode" data-bind="value:forgotTextFld" class="forgotfTxtfld" placeholder="Email Address"/>
+        </p>
+        <p>
+            <a data-role="button" data-bind="click:submitforgotpwd">Submit</a>
+            <a data-role="button" data-click="cancelModalView">Cancel</a>
+        </p>
+    </div>
+</div>
+
+<script>
+    function cancelModalView()
+    {
+        $('#forgotPassword').data('kendoMobileModalView').close();
+        app.loginService.viewModel.blankForgotFld();
+    }
+</script>-->
