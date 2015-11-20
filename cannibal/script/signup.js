@@ -28,7 +28,7 @@
         
         registrationStep1 : function()
         {
-            var firstname = this.get('firstname'),
+           /* var firstname = this.get('firstname'),
                 lastname = this.get('lastname'),
                 mobilenum = this.get('mobilenum'),
                 emailAdd = this.get('emailadd');
@@ -73,9 +73,9 @@
                 dataParamSignup['lname'] = lastname,
                 dataParamSignup['mobile'] = mobilenum,
                 dataParamSignup['email'] = emailAdd;
-                console.log(dataParamSignup);
+                console.log(dataParamSignup);*/
                 app.mobileApp.navigate('#signupView2');
-            }
+        //    }
             
             
            /* app.mobileApp.showLoading();
