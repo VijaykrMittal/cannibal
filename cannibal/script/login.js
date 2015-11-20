@@ -131,6 +131,7 @@
             });
             loginDataSource.fetch(function(){
                 var data = this.data();
+                console.log(data);
                 if(data[0]['status'] === 0 || data[0]['status'] === '0')
                 {
                     navigator.notification.alert("Username/Password does not exist.",function () { }, "Notification", 'OK');
@@ -138,15 +139,19 @@
                 }
                 else
                 {
-                    app.loginService.viewModel.setUserLoginStatus();
+                    app.loginService.viewModel.setUserLoginStatus(data[0]['UserData'][0]);
                     app.mobileApp.hideLoading();
                 }
             });
         },
         
-        setUserLoginStatus : function()
+        setUserLoginStatus : function(data)
         {
+            console.log(data);
             localStorage.setItem("login_status",1);
+            localStorage.setItem("user_id",data['user_id']);
+            localStorage.setItem("user_fname",data['firstName']);
+            localStorage.setItem("user_lname",data['lastName']);
             app.mobileApp.navigate('views/shop.html');
         },
         
@@ -159,6 +164,9 @@
         setUserLogout : function()
         {
             localStorage.setItem("login_status",0);
+            localStorage.removeItem("user_id");
+            localStorage.removeItem("user_fname");
+            localStorage.removeItem("user_lname");
             app.loginService.viewModel.blankLoginFld();
             app.mobileApp.navigate('views/login.html');
         },

@@ -1,4 +1,4 @@
-<div data-role="view" id="profileView" data-title="MY PROFILE" data-use-native-scrolling="true">
+<div data-role="view" id="profileView" data-title="MY PROFILE" data-use-native-scrolling="true" data-model="app.profileService.viewModel" data-show="app.profileService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
             <a data-role="button" data-align="left" data-rel="drawer" href="#drawerList" class="menu"></a>
@@ -34,9 +34,38 @@
                    <a data-role="button" class="editBtn">Edit Account</a> 
                 </p>
                 <p>
-                    <a data-role="button" class="changePwdBtn">Change Passowrd</a> 
+                    <a data-role="button" class="changePwdBtn" data-rel="modalview" href="#changePassword">Change Passowrd</a> 
                 </p>
             </div>
         </div>
     </div>
 </div>
+
+<!--Modal View for forgot password-->
+<div data-role="modalview" id="changePassword" style="width:95%;height:30%" data-use-native-scrolling="false" data-model="app.profileService.viewModel" data-show="app.profileService.viewModel.show">
+    <div data-role="header">
+        <div data-role="navbar" class="navbar">
+            <span>CHANGE PASSWORD</span>
+        </div>
+    </div>
+    <div data-role="content" id="maincontent">
+        <p> 
+            <input type="password" name="changePwdold" id="changePwdold" data-bind="value:oldpwdTextFld" class="pwdTextFld" placeholder="Old Password"/>
+        </p>
+        <p> 
+            <input type="password" name="changePwdnew" id="changePwdnew" data-bind="value:newpwdTextFld" class="pwdTextFld" placeholder="New Password"/>
+        </p>
+        <p>
+            <a data-role="button" id="changePassordSubmit">Submit</a>
+            <a data-role="button" data-click="cancelModalView">Cancel</a>
+        </p>
+    </div>
+</div>
+
+<script>
+    function cancelModalView()
+    {
+        $('#changePassword').data('kendoMobileModalView').close();
+        app.loginService.viewModel.blankForgotFld();
+    }
+</script>
