@@ -10,6 +10,8 @@
         
         show:function()
         {
+            $('#uncheck').show();
+            $('#check').hide();
             $('#uncheck').unbind(".myPlugin");
             $('#uncheck').on('click.myPlugin',function(){
                 $('#check').show();
