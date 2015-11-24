@@ -14,6 +14,11 @@
         setCartListview : function(data)
         {
             this.set('cartListSource',data);
+        },
+        
+        checkoutSubmit:function()
+        {
+            app.mobileApp.navigate('views/billing.html');
         }
     });
     
