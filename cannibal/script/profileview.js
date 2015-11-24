@@ -9,7 +9,6 @@
         
         show:function()
         {
-            alert("show");
             $('#changePassordSubmit').unbind(".myPlugin");
             $('#changePassordSubmit').on('click.myPlugin',function(){
                 app.profileService.viewModel.changePwdValidation();         
@@ -20,7 +19,6 @@
         {
             var oldpassword = this.get('oldpwdTextFld'),
                 newpassword = this.get('newpwdTextFld');
-            
             
             if(!window.connectionInfo.checkConnection())
             {
@@ -54,7 +52,6 @@
         
         changePasswordAPI : function(data)
         {
-            console.log(data);
             app.mobileApp.showLoading();
             var changePwdDataS = new kendo.data.DataSource({
                 transport:{
@@ -74,7 +71,6 @@
                 error:function(e)
                 {
                     app.mobileApp.hideLoading();
-                    console.log(e);
                     navigator.notification.alert("Server not responding properly.Please check your internet connection.",
                         function () { }, "Message", 'OK');
                 }
@@ -82,18 +78,25 @@
             changePwdDataS.fetch(function(){
                 var data = this.data();
                 console.log(data);
-                app.mobileApp.hideLoading();
-               /* if(data[0]['status'] === 0 || data[0]['status'] === '0')
+                
+                if(data[0]['status'] === 0 || data[0]['status'] === '0')
                 {
-                    navigator.notification.alert("Username/Password does not exist.",function () { }, "Notification", 'OK');
+                    navigator.notification.alert("Old Password did not match.",function () { }, "Notification", 'OK');
                     app.mobileApp.hideLoading();
                 }
                 else
                 {
-                    app.loginService.viewModel.setUserLoginStatus(data[0]['UserData'][0]);
-                    app.mobileApp.hideLoading();
-                }*/
+                     navigator.notification.alert(data[0]['msg'],function () { }, "Notification", 'OK');
+                     app.profileService.viewModel.changePwdModalView();
+                     app.mobileApp.hideLoading();
+                }
             });
+        },
+        
+        changePwdModalView : function()
+        {
+            $('#changePassword').data('kendoMobileModalView').close();
+            app.loginService.viewModel.blankForgotFld();
         }
     });
     app.profileService = {

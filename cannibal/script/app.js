@@ -16,10 +16,10 @@ var app = (function(){
         {
             navigator.app.exitApp();
         }
-        else if(mobileApp.view()['element']['0']['id']==='signupView2')
+       /* else if(mobileApp.view()['element']['0']['id']==='signupView2')
         {
             e.preventDefault();
-        }
+        }*/
         else
         {
             mobileApp.navigate('#:back');

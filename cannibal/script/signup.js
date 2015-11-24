@@ -24,10 +24,23 @@
                     e.preventDefault();
                 }
             });
+            
+            $('#i_file').change( function(event) {
+                console.log(event.target.files[0]);
+                var aa = URL.createObjectURL(event.target.files[0]);
+                console.log(URL.createObjectURL(event.target.files[0]));
+                console.log(URL.revokeObjectURL(aa));
+                $("img").fadeIn("fast").attr('src',URL.createObjectURL(event.target.files[0]));
+            });
         },
         
         registrationStep1 : function()
         {
+           // var x = document.getElementById("getFile").value;
+            //$('#myimage').attr('src','C:\Users\Flexsin\Downloads\leftarrow.png');
+           // $("#myimage").fadeIn("fast").attr('src',URL.createObjectURL(event.target.files[0]));
+           // alert(x);
+            
            /* var firstname = this.get('firstname'),
                 lastname = this.get('lastname'),
                 mobilenum = this.get('mobilenum'),
@@ -74,7 +87,7 @@
                 dataParamSignup['mobile'] = mobilenum,
                 dataParamSignup['email'] = emailAdd;
                 console.log(dataParamSignup);*/
-                app.mobileApp.navigate('#signupView2');
+                app.mobileApp.navigate('#signupView2'); ///-----------------------------------------
         //    }
             
             

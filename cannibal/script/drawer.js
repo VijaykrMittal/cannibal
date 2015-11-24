@@ -11,7 +11,6 @@
         
         moveToProfile:function()
         {
-          //  alert("profile");
             app.mobileApp.navigate('views/myprofile.html');
         },
         
@@ -38,7 +37,39 @@
         moveToShoppingCart:function()
         {
             app.mobileApp.navigate('views/mycart.html');
-        }
+        },
+        
+        moveToClones:function()
+        {
+            alert("Clones");
+        },
+        
+        moveToSpecials:function()
+        {
+            alert("Specials");
+        },
+        
+        moveToGallery:function()
+        {
+            alert("Gallery");
+        },
+        
+        moveToPrivacyPloicy:function()
+        {
+            alert("Privacy Policy");
+        },
+        
+        moveToTerms_Condition:function()
+        {
+            alert("Terms and Condition");
+        },
+        
+        moveToInviteFriend:function()
+        {
+            alert("Invite a Friend");
+        },
+        
+        
     });
     
     app.drawerService = {
