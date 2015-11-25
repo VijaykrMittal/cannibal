@@ -15,13 +15,13 @@
     #loginView .wrapper .contFldPrt .logmail .txticon img{width:30px;}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv {width:85%;float:left}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv p {margin:-5px 0 0 0}
-    #loginView .wrapper .contFldPrt .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
+    #loginView .wrapper .contFldPrt .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 20px;}
     #loginView .wrapper .contFldPrt .logpwd {width:100%;display: inline-block;  margin-top: 25px;}
     #loginView .wrapper .contFldPrt .logpwd .txticon {width:15%;float:left;}
     #loginView .wrapper .contFldPrt .logpwd .txticon img{width:30px}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv {width:85%;float:left}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv p {margin:-5px 0 0 0}
-    #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
+    #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 20px;}
     #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:30px}
     #loginView .wrapper .contFldPrt .logSub p {margin: 0 0 0 0;}
     #loginView .wrapper .contFldPrt .logSub a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 11px;background-size: 35px 19px;}
@@ -47,7 +47,7 @@
     #signupView .wrapper .conFldDv {width:95%;height:auto;margin:0px auto;margin-top:15%}
     #signupView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
     #signupView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
-    #signupView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
+    #signupView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:20px}
     #signupView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 94% 4px !important;background-size: 20px 20px !important;}
     #signupView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
     #signupView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 9px;background-size: 35px 19px;}
@@ -62,7 +62,7 @@
     #signupView2 .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
     #signupView2 .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
     #signupView2 .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
-    #signupView2 .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
+    #signupView2 .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:20px}
     #signupView2 .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 20%;}
     #signupView2 .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 11px;background-size: 35px 19px;}
     #signupView2 .wrapper .subDv a span{font-size:20px;line-height:27px;color:#23A503 !important}
@@ -93,7 +93,7 @@
     #shopListData .dynDv .bindCls .priCls p{font-size: 17px;color:#23A505}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 10px 0 0px;}
-    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border:none}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border:none;background-size: 80% 80%;}
     #shopListData li {width:50%;float:left}
     
     /*-------------------------------------------------------------------------------------------------------------------**/
@@ -117,8 +117,8 @@
     #myCart #cartListData .main .dv23 .dv231 {width:100%;}
     #myCart #cartListData .main .dv23 .dv231 p {}
     #myCart #cartListData .main .dv23 .dv231 p .minus {width: 35px;height: 30px;float: left;}
-    #myCart #cartListData .main .dv23 .dv231 p .qty {width: 35px;height: 30px;background-color: #fff;margin: 16px 53% 0 0;padding: 1px 0 0 42px;border:1px solid #ccc}
-    #myCart #cartListData .main .dv23 .dv231 p .add{margin-left: 123px;width: 35px;height: 30px;}
+    #myCart #cartListData .main .dv23 .dv231 p .qty {width: 10px;height: 30px;background-color: #fff;margin: 17px 310px 0 0;padding: 1px 0 0 42px;border:1px solid #ccc}
+    #myCart #cartListData .main .dv23 .dv231 p .add{margin-left: 118px;width: 35px;height: 30px;}
     /*#myCart #cartListData .main .dv23 .dv231 p:nth-child(1) {float:left;}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(1) a {background:url('./images/390/minus.png') no-repeat;width:40px;height:30px;border:none;background-size:100% 100%}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(2) {width:40px;height:30px;border:1px solid #E2DEDE;margin: 18px 0px 0 0px;float:left;padding: 6px 0 0 13px;font-size: 15px;}
@@ -173,17 +173,17 @@
     #billingView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
     #billingView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
     #billingView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
-    #billingView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
+    #billingView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:20px}
     #billingView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
     #billingView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
-    #billingView .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important;}
+    #billingView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;}
     #billingView .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important}
     
     #billingView .wrapper .conFldDv .mixdrop {width:100%;margin-top: -10px !important;}
     #billingView .wrapper .conFldDv .mixdrop .city_FldDV {width:50%;float:left}
     #billingView .wrapper .conFldDv .mixdrop .city_FldDV .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
-    #billingView .wrapper .conFldDv .mixdrop .state_FldDv {width:50%;float:left}
-    #billingView .wrapper .conFldDv .mixdrop .state_FldDv .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
+    #billingView .wrapper .conFldDv .mixdrop .state_FldDv {width:50%;float:left;}
+    #billingView .wrapper .conFldDv .mixdrop .state_FldDv .dropdown{width: 100%;height: 35px;color:#FFFFFF;border:none;background:none;font-size: 18px;}
     
     /*-------------------------------------------------------------------------------------------------------------------**/
     /*Contact Form */
@@ -198,8 +198,8 @@
     #contactView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:0px}
     #contactView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
     #contactView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
-    #contactView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:16px}
-    #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;}
+    #contactView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:20px}
+    #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;font-size: 20px;color:#fff}
     #contactView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
     #contactView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;}
     #contactView .wrapper .subDv a span{font-size:20px;line-height:27px;color:#23A503 !important;font-weight: bold;}
@@ -223,7 +223,7 @@
     #aboutusView .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
     #aboutusView .wrapper .mainbind .checkGreenDv img {width:20px}
     #aboutusView .wrapper .mainbind .contentDv {width:90%;float:left;}
-    #aboutusView .wrapper .mainbind .contentDv p {font-size:16px;text-align:justify}
+    #aboutusView .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}
     
     /*-------------------------------------------------------------------------------------------------------------------**/
     /*My Profile View*/
@@ -263,9 +263,9 @@
     #forgotpasswordView .wrapper .main .logmail {width:100%;display: inline-block;margin-top: 13%;}
     #forgotpasswordView .wrapper .main .logmail .txticon {width:10%;float:left;margin-left: 15px;}
     #forgotpasswordView .wrapper .main .logmail .txticon img {width:30px}
-    #forgotpasswordView .wrapper .main .logmail .txtfldDv {width:82%;float:left}
+    #forgotpasswordView .wrapper .main .logmail .txtfldDv {width:83%;float:left}
     #forgotpasswordView .wrapper .main .logmail .txtfldDv p {margin:-5px 0 0 0}
-    #forgotpasswordView .wrapper .main .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
+    #forgotpasswordView .wrapper .main .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 20px;}
     
     #forgotpasswordView .wrapper .main .subBtnDv {width: 100%;margin-top: 12%;}
     #forgotpasswordView .wrapper .main .subBtnDv a:nth-child(1) {width: 100%;height: 45px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;font-size: 20px;}
@@ -601,7 +601,7 @@
     
     #myCart .nvbar {background-color:#23A505 !important;height: 55px;}
     #myCart .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
-    #myCart .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #myCart .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;}
     #myCart .nvbar span {color:#fff;  font-size: 18px;}
     
     #myCart .wrapper {width:100%;}
@@ -617,8 +617,8 @@
     #myCart #cartListData .main .dv23 .dv231 {width:100%;}
     #myCart #cartListData .main .dv23 .dv231 p {}
     #myCart #cartListData .main .dv23 .dv231 p .minus {width: 35px;height: 30px;float: left;}
-    #myCart #cartListData .main .dv23 .dv231 p .qty {width: 35px;height: 30px;background-color: #fff;margin: 24px 34% 0 0;padding: 1px 0 0 42px;border:1px solid #ccc}
-    #myCart #cartListData .main .dv23 .dv231 p .add{margin-left: 107px;width: 35px;height: 30px;}
+    #myCart #cartListData .main .dv23 .dv231 p .qty {width: 35px;height: 30px;background-color: #fff;margin: 31px 113px 0 0;padding: 1px 0 0 42px;border:1px solid #ccc;float:left}
+    #myCart #cartListData .main .dv23 .dv231 p .add{margin-left: 142px;float:left;margin-top:-30px;width: 35px;height: 30px;}
     /*#myCart #cartListData .main .dv23 .dv231 p:nth-child(1) {float:left;}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(1) a {background:url('./images/390/minus.png') no-repeat;width:40px;height:30px;border:none;background-size:100% 100%}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(2) {width:40px;height:30px;border:1px solid #E2DEDE;margin: 18px 0px 0 0px;float:left;padding: 6px 0 0 13px;font-size: 15px;}
@@ -637,7 +637,7 @@
     /*Product Detail*/
     #productDetail .nvbar {background-color:#23A505 !important;height: 55px;}
     #productDetail .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
-    #productDetail .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #productDetail .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;}
     #productDetail .nvbar span {color:#fff;  font-size: 18px;}
     
     #productDetail .wrapper {width:100%;height:auto}
@@ -690,7 +690,7 @@
     /*Contact Form */
     #contactView .nvbar {background-color:#23A505 !important;  border-bottom: 1px solid #23A505 !important;}
     #contactView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
-    #contactView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 15px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #contactView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 15px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;}
     #contactView .nvbar span {color:#fff;  font-size: 18px;}
     
     #contactView .wrapper {width:100%;height:auto}
@@ -715,7 +715,7 @@
     
     #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
     #aboutusView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
-    #aboutusView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;  margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #aboutusView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;  margin-top: 11px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;}
     #aboutusView .nvbar span {color:#fff;  font-size: 18px;}
     
     #aboutusView .wrapper {width:100%;height:auto}
