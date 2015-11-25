@@ -93,7 +93,7 @@
     #shopListData .dynDv .bindCls .priCls p{font-size: 17px;color:#23A505}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 10px 0 0px;}
-    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border: none;}
     #shopListData li {width:50%;float:left}
     
     /*-------------------------------------------------------------------------------------------------------------------**/
@@ -578,6 +578,7 @@
     #shopListData .dynDv .bindCls .priCls p{font-size: 17px;color:#23A505}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 10px 0 0px;}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border: none;}
     #shopListData li {width:50%;float:left}
     
     /*-------------------------------------------------------------------------------------------------------------------**/
@@ -862,38 +863,39 @@
     #shopListData .dynDv .bindCls .priCls p{font-size: 17px;color:#23A505}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 10px 0 0px;}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border: none;}
     #shopListData li {width:50%;float:left}
     
     /*-------------------------------------------------------------------------------------------------------------------**/
     /*My Cart*/
     
     #myCart .nvbar {background-color:#23A505 !important;height: 55px;}
-    #myCart .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
+    #myCart .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #myCart .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #myCart .nvbar span {color:#fff;  font-size: 18px;}
+    #myCart .nvbar span {color:#fff;  font-size: 22px;}
     
     #myCart .wrapper {width:100%;}
-    #myCart #cartListData .main {width:100%;display:inline-block}
-    #myCart #cartListData .main .dv1 {width:20%;float:left;background:red}
+    #myCart #cartListData .main {width:100%;display:inline-block;margin-top: 15px;}
+    #myCart #cartListData .main .dv1 {width:25%;float:left;background:red}
     #myCart #cartListData .main .dv1 p {margin:0 0 0 0}
-    #myCart #cartListData .main .dv1 p img {width:100%;height:85px}
-    #myCart #cartListData .main .dv2 {width:65%;float:left;}
+    #myCart #cartListData .main .dv1 p img {width:100%;height:105px}
+    #myCart #cartListData .main .dv2 {width:60%;float:left;  margin-top: -15px;}
     #myCart #cartListData .main .dv21,#myCart #cartListData .main .dv22,#myCart #cartListData .main .dv23 {width:100%;}
-    #myCart #cartListData .main .dv23 {display:inline-block;margin-top: -4px;}
-    #myCart #cartListData .main .dv21 p {margin:0 0 0 10px;font-weight:bold}
-    #myCart #cartListData .main .dv22 p {margin: 6px 0 0 10px;font-size: 12px;}
+    #myCart #cartListData .main .dv23 {display:inline-block;margin-top: 8px;}
+    #myCart #cartListData .main .dv21 p {/*margin:0 0 0 10px;*/font-weight:bold;font-size:17px}
+    #myCart #cartListData .main .dv22 p {margin: -5px 0 0 15px;font-size: 15px;}
     #myCart #cartListData .main .dv23 .dv231 {width:100%;}
     #myCart #cartListData .main .dv23 .dv231 p {}
     #myCart #cartListData .main .dv23 .dv231 p .minus {width: 35px;height: 30px;float: left;}
-    #myCart #cartListData .main .dv23 .dv231 p .qty {width: 35px;height: 30px;background-color: #fff;margin: 5px 37% 0 0;padding: 1px 0 0 42px;border:1px solid #ccc}
-    #myCart #cartListData .main .dv23 .dv231 p .add{margin-left: 114px;width: 35px;height: 30px;}
+    #myCart #cartListData .main .dv23 .dv231 p .qty {width: 35px;height: 30px;background-color: #fff;margin: 26px 33% 0 0;padding: 1px 0 0 42px;border:1px solid #ccc}
+    #myCart #cartListData .main .dv23 .dv231 p .add{margin-left: 108px;width: 35px;height: 30px;}
     /*#myCart #cartListData .main .dv23 .dv231 p:nth-child(1) {float:left;}
-    #myCart #cartListData .main .dv23 .dv231 p:nth-child(1) a {background:url('./images/390/minus.png') no-repeat;width:30px;height:25px;border:none;background-size:100% 100%}
-    #myCart #cartListData .main .dv23 .dv231 p:nth-child(2) {width:30px;height:25px;border:1px solid #E2DEDE;margin: 17px 0px 0 0px;float:left;padding: 3px 0 0 10px;font-size: 15px;}
+    #myCart #cartListData .main .dv23 .dv231 p:nth-child(1) a {background:url('./images/390/minus.png') no-repeat;width:40px;height:30px;border:none;background-size:100% 100%}
+    #myCart #cartListData .main .dv23 .dv231 p:nth-child(2) {width:40px;height:30px;border:1px solid #E2DEDE;margin: 18px 0px 0 0px;float:left;padding: 6px 0 0 13px;font-size: 15px;}
     #myCart #cartListData .main .dv23 .dv231 p:nth-child(3) {float:left}
-    #myCart #cartListData .main .dv23 .dv231 p:nth-child(3) a {background:url('./images/390/plus.png') no-repeat;width:30px;height:25px;border:none;background-size:100% 100%}*/
+    #myCart #cartListData .main .dv23 .dv231 p:nth-child(3) a {background:url('./images/390/plus.png') no-repeat;width:40px;height:30px;border:none;background-size:100% 100%}*/
     #myCart #cartListData .main .dv3 {width:15%;float:left;}
-    #myCart #cartListData .main .dv3 p {color:#23A505;font-size:16px;font-weight:bold;margin: 30px 0 0 5px;}
+    #myCart #cartListData .main .dv3 p {color:#23A505;font-size:16px;font-weight:bold;margin: 55px 0 0 5px;}
     
     #myCart .footer {width:100%;height:50px !important;background-color:#23A505 !important}
     #myCart .footer p {text-align: center;margin: 1px 0 0 0;}
