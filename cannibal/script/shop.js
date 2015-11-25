@@ -26,6 +26,14 @@
         moveToCart:function()
         {
             app.mobileApp.navigate('views/mycart.html')
+        },
+        
+        addToCart:function(e)
+        {
+            console.log(e);
+            console.log(e['target'][0]['attributes']['data-id']['value']);
+            console.log(e['target'][0]['attributes']['data-price']['value']);
+            alert("Id : "+e['target'][0]['attributes']['data-id']['value']+' , Price : '+e['target'][0]['attributes']['data-price']['value']);
         }
         
     });

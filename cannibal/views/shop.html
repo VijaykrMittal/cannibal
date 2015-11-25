@@ -39,7 +39,8 @@
             </div>
             <div class="cartCls">
                 <p>
-                    <img src="#:data['cart']#"/>
+                   <!-- <img src="#:data['cart']#"/>-->
+                    <a data-role="button" class="cartImage" data-price="#:data['price']#" data-id="#:data['id']#" data-bind="click:addToCart"></a>
                 </p>
             </div>
         </div>

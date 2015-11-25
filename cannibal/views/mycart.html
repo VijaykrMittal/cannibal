@@ -36,18 +36,25 @@
                     #:data['desc']#
                 </p>
             </div>
-            <div class="dv23">
+            <div class="dv23" >
                 <div class="dv231">
-                    <p style="float:left;">
-                        <a data-role="button"></a>
+                    <!--<p style="float:left;">
+                        <a data-role="button" data-id="#:data['id']#"  id="decreaseQuantity" class="minus"></a>
                     </p>
-                    <p>
+                    <p class="qty" id="setQuantity#:data['id']#">
                         #:data['quantity']#
                     </p>
                     <p>
-                        <a data-role="button"></a>
-                    </p>    
+                        <a data-role="button" data-id="#:data['id']#"  id="increaseQuantity" class="add" ></a>
+                    </p> -->
+                    <p>
+                        <img src="style/images/390/minus.png" id="minus2" width="20" height="20" class="minus"/>
+                        <input id="qty2" type="text" value="#:data['quantity']#" class="qty" disabled="true"/>
+                        <img id="add2" src="style/images/390/plus.png" width="20" height="20" class="add"/>
+                    </p>
+    
                 </div>
+                
             </div>
         </div>
         <div class="dv3">
