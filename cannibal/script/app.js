@@ -63,7 +63,7 @@ var app = (function(){
         mobileApp = new kendo.mobile.Application(document.body,
                                                             {
                                                                 skin:'flat',
-                                                                initial:'views/mycart.html'
+                                                                initial:'views/login.html'
                                                             }
         );
     }

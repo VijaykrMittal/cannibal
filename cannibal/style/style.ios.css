@@ -202,7 +202,7 @@
     #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;}
     #contactView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
     #contactView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;}
-    #contactView .wrapper .subDv a span{font-size:20px;line-height:27px;color:#23A503 !important;font-weight: bold;}
+    #contactView .wrapper .subDv a span{font-size:20px;line-height:27px;color:#23A503 !important;}
     
     
      /*-------------------------------------------------------------------------------------------------------------------**/
@@ -260,10 +260,10 @@
     #forgotpasswordView .wrapper .logoPrt {width:80%;margin:0px auto;height: auto;margin-top: 30%;}
     #forgotpasswordView .wrapper .logoPrt p {text-align:center;font-size: 30px;color: #fff;}
     #forgotpasswordView .wrapper .logoPrt p img {width:200px}
-    #forgotpasswordView .wrapper .main .logmail {width:100%;display: inline-block;margin-top: 13%;}
+    #forgotpasswordView .wrapper .main .logmail {width:100%;display: inline-block;margin-top: 13%;margin-left: 7px;}
     #forgotpasswordView .wrapper .main .logmail .txticon {width:10%;float:left;margin-left: 15px;}
     #forgotpasswordView .wrapper .main .logmail .txticon img {width:30px}
-    #forgotpasswordView .wrapper .main .logmail .txtfldDv {width:82%;float:left}
+    #forgotpasswordView .wrapper .main .logmail .txtfldDv {width:84%;float:left}
     #forgotpasswordView .wrapper .main .logmail .txtfldDv p {margin:-5px 0 0 0}
     #forgotpasswordView .wrapper .main .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 16px;}
     

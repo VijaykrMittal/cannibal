@@ -9,7 +9,6 @@
         
         show:function()
         {
-            alert("hello");
             $('#changePassordSubmit').unbind(".myPlugin");
             $('#changePassordSubmit').on('click.myPlugin',function(){
                 app.accountService.viewModel.changePwdValidation();         
