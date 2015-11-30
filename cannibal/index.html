@@ -17,156 +17,182 @@
 <body>
     
     <div data-role="drawer" id="drawerList" data-use-native-scrolling="true" style="width:80%" data-swipe-to-open="false" data-model="app.drawerService.viewModel" data-show="app.drawerService.viewModel.show">
-        <ul style="list-style-type: none;margin: 0 0 0 -40px;">
-            <li style="background-color:#243117;padding: 60px 0 10px 0;border-bottom:1px solid #1F670E;">
-                <div style="width:100%">
-                    <div style="width:20%;float:left;margin: -45px 0 0px 0px;padding: 0 0 0px 10px;">
-                        <img src="style/images/390/user_ico.png"/>
+        <ul class="listparent">
+            <li>
+                <div class="header">
+                    <div class="headerinner1">
+                        <img src="style/slideimage/user_ico.png"/>
                     </div>
-                    <div style="width:80%;float:left;margin: -52px 0 0 50px;"><p style="font-size: 18px;color: #fff;">Robert Wade</p></div>
+                    <div class="headerinner2">
+                        <p>Robert Wade</p>
+                    </div>
                 </div>
             </li>
             <li data-bind="click:moveToAboutus">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/about_left.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">About Us</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">About Us</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToShop">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/product.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">Products</p>
+                    <div  class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Products</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToClones">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/clones.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">Clones</p>
+                    <div  class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Clones</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToSpecials">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/special.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">Specials</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Specials</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToGallery">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/gallery.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">Gallery</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Gallery</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToShoppingCart">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/cart_ico.png"/>
+                            <img src="style/slideimage/cart.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:30px">Shopping Cart</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Shopping Cart</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToProfile">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/profile_ico.png"/>
+                            <img src="style/slideimage/my_account.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:30px">My Account</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">My Account</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToPrivacyPloicy">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/390/about.png"/>
+                            <img src="style/slideimage/privacy_policy.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle">Privacy Policy</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Privacy Policy</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToTerms_Condition">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/term_condition.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">Terms & Conditions</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Terms & Conditions</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToInviteFriend">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/shop.png"/>
+                            <img src="style/slideimage/about_left.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle" style="margin-top:34px">Invite a Friend</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Invite a Friend</p>
+                    </div>
+                </div>
+            </li>
+            <li data-bind="click:moveToPastorder">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
+                        <p>
+                            <img src="style/slideimage/past_order.png"/>
+                        </p>
+                    </div>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Past Order</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToContactus">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p>
-                            <img src="style/images/390/contact.png"/>
+                            <img src="style/slideimage/contact_left.png"/>
                         </p>
                     </div>
-                    <div  style="width:80%;float:left">
-                        <p class="textTitle">Contact Us</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Contact Us</p>
+                    </div>
+                </div>
+            </li>
+            <li data-bind="click:moveToRateapp">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
+                        <p>
+                            <img src="style/slideimage/rate_aap_left.png"/>
+                        </p>
+                    </div>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Rate the App</p>
                     </div>
                 </div>
             </li>
             <li data-bind="click:moveToLogout">
-                <div style="width:100%;display:inline-block">
-                    <div style="width:20%;float:left">
+                <div class="drawerDv">
+                    <div class="drawerinnerDv1">
                         <p style="margin-left: 17px;">
-                            <img src="style/images/390/logout.png"/>
+                            <img src="style/slideimage/logout_left.png"/>
                         </p>
                     </div>
-                    <div style="width:80%;float:left">
-                        <p class="textTitle" style="margin-left: 18px;">Logout</p>
+                    <div class="drawerinnerDv2">
+                        <p class="textTitle" style="margin-top:24px">Logout</p>
                     </div>
                 </div>
             </li>

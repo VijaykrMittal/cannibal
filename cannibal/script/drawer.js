@@ -69,6 +69,16 @@
             alert("Invite a Friend");
         },
         
+        moveToPastorder:function()
+        {
+            alert("Past Order");
+        },
+        
+        moveToRateapp:function()
+        {
+            alert("Rate the App");
+        }
+        
         
     });
     
