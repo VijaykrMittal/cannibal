@@ -1,5 +1,5 @@
 
-#aboutusView .km-content,#productDetail .km-content,#shopView .km-content,#myCart .km-content,#profileView .km-content {background-color:#fff !important}
+#aboutusView .km-content,#productDetail .km-content,#shopView .km-content,#myCart .km-content,#profileView .km-content,#privacy_policy .km-content {background-color:#fff !important}
 #check {display:none}
 
 #drawerList .km-content {background:url('./images/sidebar_bg.png') no-repeat!important}

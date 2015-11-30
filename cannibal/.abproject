@@ -21,7 +21,7 @@
   "DeviceOrientations": [
     "Portrait"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",

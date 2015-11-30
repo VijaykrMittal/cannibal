@@ -47,21 +47,21 @@
                 html+='<div class="dv21"><p>'+data[i]['title']+'</p></div>';
                 html+='<div class="dv22"><p>'+data[i]['desc']+'</p></div>';
                 html+='<div class="dv23">';
-                html+='<div class="dv231"><img class="minus" src="style/images/390/minus.png"/></div><div class="dv232" id="qunatDv"><input tyep="text" id="quantity" value="'+data[i]['quantity']+'"/></div><div class="dv233"><img class="add" src="style/images/390/plus.png"/></div>';
+                html+='<div class="dv230"><p>'+data[i]['price']+'</p></div><div class="dv231"><img class="minus" src="style/images/390/green_minus.png"/></div><div class="dv232" id="qunatDv"><input tyep="text" id="quantity" value="'+data[i]['quantity']+'"/></div><div class="dv233"><img class="add" src="style/images/390/green_plus.png"/></div>';
                 html+='</div>';
                 html+='</div>';
                 html+='<div class="dv3">';
-                html+='<p>'+data[i]['price']+'</p>';
+                html+='<p><img class="cross" src="style/images/390/cross_icon.png"/></p>';
                 html+='</div>';
                 html+='</div>';
                 $('#cartListData').html(html);
             }
             
             var hhtml = '';
-            hhtml +='<div style="width:100%;height:auto;display:inline-block">';
-            hhtml +='<div style="width:80%;float:left"><p>TOTAL</p>';
+            hhtml +='<div class="mainTotalDv" style="width:100%;height:auto;display:inline-block">';
+            hhtml +='<div class="leftdv1"><p>Total</p>';
             hhtml +='</div>';
-            hhtml +='<div style="width:20%;float:left"><p style="text-align:center">3202.00</p>';
+            hhtml +='<div class="leftdv2"><p>$180.00</p>';
             hhtml +='</div>';
             hhtml +='<div>';
             $('#total').html(hhtml);

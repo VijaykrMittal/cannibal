@@ -163,27 +163,46 @@
     #myCart .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
     #myCart .nvbar span {color:#fff;  font-size: 22px;}
     
-    #myCart .wrapper {width:100%;padding: 5px 5px 5px 5px;}
+    #myCart .wrapper {width:100%;padding: 15px 10px 10px 10px;}
     
     /**************************Dynamic HTML CSS***************************/
-    #myCart .wrapper .main {width:100%;height:auto;display:inline-block;border-bottom:1px solid #ECE7E7;padding: 0 0 20px 0;}
+    #myCart .wrapper .main {width:100%;height:auto;display:inline-block;border-bottom:1px solid #ECE7E7;padding: 15px 0 12px 0;}
     #myCart .wrapper .main .dv1{width:20%;float:left}
+    #myCart .wrapper .main .dv1 p {margin:0 0 0 0}
     #myCart .wrapper .main .dv1 img {width:100%}
-    #myCart .wrapper .main .dv2 {width:60%;float:left;} 
+    #myCart .wrapper .main .dv2 {width:60%;float:left;  margin-top: -14px;} 
     #myCart .wrapper .main .dv2 .dv21 {width:100%;}
-    #myCart .wrapper .main .dv2 .dv21 p {font-weight:bold;color:#000;font-size:18px}
+    #myCart .wrapper .main .dv2 .dv21 p {font-weight:bold;color:#000;font-size:20px}
     #myCart .wrapper .main .dv2 .dv22 {width:100%;}
+    #myCart .wrapper .main .dv2 .dv22 p {font-size:16px;}
     #myCart .wrapper .main .dv2 .dv23 {width:100%;display:inline-block;margin-left: 15px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv230 {width:24%;float:left}
+    #myCart .wrapper .main .dv2 .dv23 .dv230 p {margin:10px 0 0 0;color:#CF2321;font-weight:bold;font-size: 18px;}
     #myCart .wrapper .main .dv2 .dv23 .dv231 {width:12%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:35px;height:30px;}
-    #myCart .wrapper .main .dv2 .dv23 .dv232 {width:13%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:30px;border:1px solid #ccc;text-align:center;font-size:15px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:36px;height:36px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 {width:12%;float:left}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:20px;color: #23A505;}
     #myCart .wrapper .main .dv2 .dv23 .dv233 {width:12%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:35px;height:30px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:36px;height:36px;}
     #myCart .wrapper .main .dv3 {width:20%;float:left}
-    #myCart .wrapper .main .dv3 p {margin: 55px 15px 0px 0px;float: right;color:#23A503;font-weight:bold;font-size:17px;}
+    #myCart .wrapper .main .dv3 p {margin: 8px 15px 0px 0px;float: right;}
+    #myCart .wrapper .main .dv3 p .cross {width:40px;}
+    #myCart .mainTotalDv {width:100%;height:auto;display:inline-block}
+    #myCart .mainTotalDv .leftdv1 {width:80%;float:left}
+    #myCart .mainTotalDv .leftdv1 p {font-size:18px;color:#000;}
+    #myCart .mainTotalDv .leftdv2 {width:20%;float:left}
+    #myCart .mainTotalDv .leftdv2 p {text-align:center;color:#23A505;font-weight:bold;}
     
-    
+    #myCart .footer {width:100%;display:inline-block}
+    #myCart .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid #1E9E01;}
+    #myCart .footer .footerRight {width:50%;height:60px;background-color:#1E9101;float:left;text-align:center;}
+    #myCart .footer .footerLeft,#loginView .footer .footerRight {text-align: center;/*line-height: 35px;*/font-size: 16px;color: #F1F1F1;}
+    #myCart .footer .footerLeft p {margin:0 0 0 0}
+    #myCart .footer .footerRight p {margin:0 0 0 0}
+    #myCart .footer .footerLeft p a {border: none;background:none;line-height:30px;font-size: 18px;}
+    #myCart .footer .footerLeft p a:active {border: none;background: none;}
+    #myCart .footer .footerRight p a {border: none;background:none;line-height:30px;font-size: 18px;color:#fff}
+    #myCart .footer .footerRight p a:active {border: none;background: none;}
     
     
     /*********************************************************************/
@@ -210,11 +229,11 @@
     /*#myCart #cartListData .main .dv3 {width:15%;float:left;}
     #myCart #cartListData .main .dv3 p {color:#23A505;font-size:16px;font-weight:bold;margin: 55px 0 0 5px;}*/
     
-    #myCart .footer {width:100%;height:50px !important;background-color:#23A505 !important}
+    /*#myCart .footer {width:100%;height:50px !important;background-color:#23A505 !important}
     #myCart .footer p {text-align: center;margin: 1px 0 0 0;}
     #myCart .footer p a{width: 50%;height: 45px;background: none;border: none;}
     #myCart .footer p a:active {background:none;color:#fff;border:none}
-    #myCart .footer p a span {line-height: 28px;font-size: 18px;color: #fff;}
+    #myCart .footer p a span {line-height: 28px;font-size: 18px;color: #fff;}*/
     
     /*****************************************************Aboutus View********************************************************/
     #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
@@ -222,13 +241,22 @@
     #aboutusView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
     #aboutusView .nvbar span {color:#fff;  font-size: 22px;}
     
-    #aboutusView .wrapper {width:100%;height:auto}
-    #aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
+    #aboutusView .wrapper {width:96%;height:auto;margin:0px auto;}
+    /*#aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
     #aboutusView .wrapper .mainbind .checkGreenDv {width:10%;float:left;}
     #aboutusView .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
     #aboutusView .wrapper .mainbind .checkGreenDv img {width:20px}
     #aboutusView .wrapper .mainbind .contentDv {width:90%;float:left;}
-    #aboutusView .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}
+    #aboutusView .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}*/
+    
+    /*NEW DESIGN CSS*/
+    #aboutusView .wrapper .textDesc {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDV {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDV p {font-size: 20px;color: #000;font-weight: bold;margin: 15px 0 15px 0;}
+    #aboutusView .wrapper .textDesc .titleDesc {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDesc p {font-size:16px;text-align:justify;margin: 15px 0 15px 0;}
+    #aboutusView .wrapper .mapView {width:100%;border:1px solid #ccc;height:300px;background-color:#ccc}
+    #aboutusView .wrapper .hoursDv { width:100%;margin-top: 25px;}
     
     /*****************************************************My Account View********************************************************/
     #profileView .nvbar {background-color:#23A505 !important;height: 55px;}
@@ -244,10 +272,10 @@
     #profileView .wrapper .addressDV p:nth-child(1) {font-size:20px;font-weight:bold;color:#000}
     #profileView .wrapper .edtscn {width:90%;margin:0px auto;  margin-top: 10%;}
     #profileView .wrapper .edtscn p{text-align: center;}
-    #profileView .wrapper .edtscn .editBtn {width:38%;background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 10px 8px;}
+    #profileView .wrapper .edtscn .editBtn {width:38%;background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 10px 8px;background-size: 23px 23px;}
     #profileView .wrapper .edtscn .editBtn:active {background:none;border:none;color:#4c5356}
     #profileView .wrapper .edtscn .editBtn span{font-size: 20px;}
-    #profileView .wrapper .edtscn .changePwdBtn {width:46%;background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 10px 8px;}
+    #profileView .wrapper .edtscn .changePwdBtn {width:46%;background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 10px 8px;background-size: 23px 23px;}
     #profileView .wrapper .edtscn .changePwdBtn:active {background:none;border:none;color:#4c5356}
     #profileView .wrapper .edtscn .changePwdBtn span {font-size:20px}
     
@@ -275,7 +303,7 @@
     #billingView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
     #billingView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
     #billingView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
-    #billingView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
+    #billingView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 12px;}
     #billingView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:20px}
     #billingView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
     #billingView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
@@ -299,6 +327,43 @@
     #changePassword #maincontent p:nth-child(3) {margin-top:25px;}
     #changePassword #maincontent p:nth-child(3) a:nth-child(1) {width: 48%;height: 40px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;}
     #changePassword #maincontent p:nth-child(3) a:nth-child(2) {width: 48%;margin-left:3px;height: 40px;line-height: 25px;background-color: #23A505;border: 1px solid #ccc;color: #FFF;} 
+    
+    
+    /*****************************************************Clone View********************************************************/
+    #clonesView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #clonesView .nvbar .back {background: url('./slideImage/down_arrow.png') no-repeat !important;width: 20px;height: 25px;border: none !important;margin-top: 11px;padding-left: 8px;padding-top: 10px;padding-bottom: 10px;}
+    #clonesView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
+    #clonesView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #clonesView .nvbar span {color:#fff;  font-size: 22px;}
+    
+    #clonesView .wrapper {width:100%;}
+    #clonesView #cloneListData .main {width:100%;display:inline-block;margin-top: 15px;}
+    #clonesView #cloneListData .main .dv1 {width:20%;float:left;background:red}
+    #clonesView #cloneListData .main .dv1 p {margin:0 0 0 0}
+    #clonesView #cloneListData .main .dv1 p img {width:100%;height:105px}
+    #clonesView #cloneListData .main .dv2 {width:65%;float:left;  margin-top: -15px;}
+    #clonesView #cloneListData .main .dv21,#myCart #cartListData .main .dv22,#myCart #cartListData .main .dv23 {width:100%;}
+    #clonesView #cloneListData .main .dv23 {display:inline-block;margin-top: 8px;}
+    #clonesView #cloneListData .main .dv21 p {/*margin:0 0 0 10px;*/font-weight:bold;font-size:17px}
+    #clonesView #cloneListData .main .dv22 p {margin: -5px 0 0 15px;font-size: 15px;}
+    #clonesView #cloneListData .main .dv23 .dv231 {width:100%;}
+    #clonesView #cloneListData .main .dv23 .dv231 p {color: #23A505;font-weight: bold;font-size: 17px;}
+    
+    /*****************************************************Privacy Policy View********************************************************/
+    #privacy_policy .nvbar {background-color:#23A505 !important;height: 55px;}
+    #privacy_policy .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
+    #privacy_policy .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #privacy_policy .nvbar span {color:#fff;font-size: 22px;}
+    
+    #privacy_policy .wrapper {width:96%;height:auto;margin:0px auto;}
+    #privacy_policy .wrapper .mainbind{width:100%;height:auto;display:inline-block}
+    #privacy_policy .wrapper .mainbind .checkGreenDv {width:5%;float:left;}
+    #privacy_policy .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
+    #privacy_policy .wrapper .mainbind .checkGreenDv img {width:20px}
+    #privacy_policy .wrapper .mainbind .contentDv {width:90%;float:left;}
+    #privacy_policy .wrapper .mainbind .contentDv .termsTit {color:#000;font-weight:bold}
+    #privacy_policy .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}
+    #termsList li{padding: 0 0 15px 0;margin-left: -5px;}
 }
 
 @media (min-width:0px) and (max-width:440px) {
@@ -501,13 +566,20 @@
     #aboutusView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
     #aboutusView .nvbar span {color:#fff;  font-size: 20px;}
     
-    #aboutusView .wrapper {width:100%;height:auto}
-    #aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
+    #aboutusView .wrapper {width:95%;height:auto;margin:0px auto;}
+    /*#aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
     #aboutusView .wrapper .mainbind .checkGreenDv {width:10%;float:left;}
     #aboutusView .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
     #aboutusView .wrapper .mainbind .checkGreenDv img {width:20px}
     #aboutusView .wrapper .mainbind .contentDv {width:90%;float:left;}
-    #aboutusView .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}
+    #aboutusView .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}*/
+    
+    /*NEW DESIGN CSS*/
+    #aboutusView .wrapper .textDesc {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDV {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDV p {font-size: 20px;color: #000;font-weight: bold;}
+    #aboutusView .wrapper .textDesc .titleDesc {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDesc p {font-size:18px;text-align:justify}
     
     /*****************************************************My Account View********************************************************/
     #profileView .nvbar {background-color:#23A505 !important;height: 55px;}

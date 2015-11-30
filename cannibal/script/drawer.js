@@ -41,7 +41,7 @@
         
         moveToClones:function()
         {
-            alert("Clones");
+            app.mobileApp.navigate('views/clones.html');
         },
         
         moveToSpecials:function()
@@ -56,7 +56,7 @@
         
         moveToPrivacyPloicy:function()
         {
-            alert("Privacy Policy");
+            app.mobileApp.navigate('views/privacy_policy.html');
         },
         
         moveToTerms_Condition:function()

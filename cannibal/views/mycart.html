@@ -1,4 +1,4 @@
-<div data-role="view" id="myCart" data-title="MY CART"  data-use-native-scrolling="true" data-model="app.cartService.viewModel" data-show="app.cartService.viewModel.show">
+<div data-role="view" id="myCart" data-title="SHOPPING CART"  data-use-native-scrolling="true" data-model="app.cartService.viewModel" data-show="app.cartService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
             <a data-role="button" data-align="left" data-rel="drawer" href="#drawerList" class="menu"></a>
@@ -7,7 +7,7 @@
         </div>
     </div>
     <div data-role="content">
-        <div id="cartListData" class="wrapper" style="padding: 5px 5px 5px 5px;">
+        <div id="cartListData" class="wrapper">
             <!--<ul id="cartListData" data-role="listview" data-template="cartListView" data-bind="source:cartListSource"></ul>-->
             
         </div>
@@ -15,10 +15,23 @@
             
         </div>
     </div>
-    <div class="footer" data-role="footer">
+    <!--<div class="footer" data-role="footer">
         <p>
             <a data-role="button" id="addcart" data-bind="click:checkoutSubmit">CHECKOUT</a>
         </p>
+    </div>-->
+    
+    <div class="footer" data-role="footer">
+       <div class="footerLeft" >
+           <p>
+               <a data-role="button" data-bind="click:moveToForgetPwd">Update Cart</a>
+           </p>
+       </div>
+        <div class="footerRight" >
+           <p>
+               <a data-role="button" id="newaccount">Checkout</a>
+           </p>
+        </div>
     </div>
 </div>
 
