@@ -364,6 +364,28 @@
     #privacy_policy .wrapper .mainbind .contentDv .termsTit {color:#000;font-weight:bold}
     #privacy_policy .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}
     #termsList li{padding: 0 0 15px 0;margin-left: -5px;}
+    
+    /*****************************************************Terms and Condition View********************************************************/
+    #terms_cond .nvbar {background-color:#23A505 !important;height: 55px;}
+    #terms_cond .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
+    #terms_cond .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #terms_cond .nvbar span {color:#fff;font-size: 22px;}
+    
+    #terms_cond .wrapper {width:96%;height:auto;margin:0px auto;}
+    #terms_cond .wrapper .mainbind{width:100%;height:auto;display:inline-block}
+    #terms_cond .wrapper .mainbind .checkGreenDv {width:5%;float:left;}
+    #terms_cond .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
+    #terms_cond .wrapper .mainbind .checkGreenDv img {width:20px}
+    #terms_cond .wrapper .mainbind .contentDv {width:90%;float:left;}
+    #terms_cond .wrapper .mainbind .contentDv .termsTit {color:#000;font-weight:bold}
+    #terms_cond .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}
+    #termsList li{padding: 0 0 15px 0;margin-left: -5px;}
+    
+    /*****************************************************Past Order view View********************************************************/
+    #pastOrderView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #pastOrderView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
+    #pastOrderView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #pastOrderView .nvbar span {color:#fff;  font-size: 22px;}
 }
 
 @media (min-width:0px) and (max-width:440px) {
