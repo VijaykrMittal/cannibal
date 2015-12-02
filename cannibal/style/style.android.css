@@ -935,7 +935,7 @@
     #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:30px}
     #loginView .wrapper .contFldPrt .logSub p {margin: 0 0 0 0;}
     #loginView .wrapper .contFldPrt .logSub a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 11px;background-size: 35px 19px;}
-    #loginView .wrapper .contFldPrt .logSub a span {font-size:20px;line-height:28px;color:#23A503 !important}
+    #loginView .wrapper .contFldPrt .logSub a span {font-size:18px;line-height:28px;color:#23A503 !important}
     #loginView .footer {width:100%;display:inline-block}
     #loginView .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid #1E9E01;}
     #loginView .footer .footerRight {width:50%;height:60px;background-color:#1E9101;float:left}
@@ -953,13 +953,13 @@
     #forgotpasswordView .nvbar { background-color:#23A505;border-bottom:none}
     #forgotpasswordView .nvbar span {font-size:25px;color:#fff;margin-left: 15px;}
     #verificationcode::-webkit-input-placeholder{color:#999;}
-    #forgotpasswordView .backArrow {width:40px;height:40px;border:none;background:url('./images/leftarrow.png') no-repeat;background-size:100% 100%;}
+    #forgotpasswordView .backArrow {width:30px;height:35px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
     #forgotpasswordView .wrapper {width:100%;height:auto;}
     #forgotpasswordView .wrapper .main {width:90%;height:auto;margin:0px auto;}
     #forgotpasswordView .wrapper .main .forgotFldDv {width:100%;margin-top:40%}
     /*#forgotpasswordView .wrapper .main .forgotFldDv input{width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}*/
     #forgotpasswordView .wrapper .logoPrt {width:80%;margin:0px auto;height: auto;margin-top: 40%;}
-    #forgotpasswordView .wrapper .logoPrt p {text-align:center;font-size: 30px;color: #fff;}
+    #forgotpasswordView .wrapper .logoPrt p {text-align:center;font-size: 28px;color: #fff;}
     #forgotpasswordView .wrapper .logoPrt p img {width:200px}
     #forgotpasswordView .wrapper .main .logmail {width:100%;display: inline-block;margin-top: 13%;}
     #forgotpasswordView .wrapper .main .logmail .txticon {width:10%;float:left;margin-left: 15px;}
@@ -969,11 +969,11 @@
     #forgotpasswordView .wrapper .main .logmail .txtfldDv .txtFld{width:100%;height:35px;padding-left:8px;border:1px solid #D5F5A9;background: none;border-top: none;border-right: none;border-left: none;color: #fff;font-size: 20px;}
     
     #forgotpasswordView .wrapper .main .subBtnDv {width: 100%;margin-top: 12%;}
-    #forgotpasswordView .wrapper .main .subBtnDv a:nth-child(1) {width: 100%;height: 45px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;font-size: 20px;}
+    #forgotpasswordView .wrapper .main .subBtnDv a:nth-child(1) {width: 100%;height: 40px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;font-size: 18px;}
     
     
     /*****************************************************Registration 1 View********************************************************/
-    #signupView .backArrow {width:40px;height:40px;border:none;background:url('./images/leftarrow.png') no-repeat;background-size:100% 100%;}
+    #signupView .backArrow {width:30px;height:35px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
     #signupView .wrapper {width:100%;height:auto}
     #signupView .wrapper .header {width:100%;margin-top: -10px;}
     #signupView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
@@ -984,11 +984,11 @@
     #signupView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 94% 4px !important;background-size: 20px 20px !important;}
     #signupView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
     #signupView .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 9px;background-size: 35px 19px;}
-    #signupView .wrapper .subDv a span{font-size:20px;line-height:25px;color:#23A503 !important}
+    #signupView .wrapper .subDv a span{font-size:18px;line-height:25px;color:#23A503 !important}
     
     
     /*****************************************************Registration 2 View********************************************************/
-    #signupView2 .backArrow {width:40px;height:40px;border:none;background:url('./images/leftarrow.png') no-repeat;background-size:100% 100%;}
+    #signupView2 .backArrow {width:30px;height:35px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
     #signupView2 .wrapper {width:100%;height:auto}
     #signupView2 .wrapper .header {width:100%;margin-top: -10px;}
     #signupView2 .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
@@ -998,7 +998,7 @@
     #signupView2 .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:8px;border:none;background: none;color:#fff;font-size:20px}
     #signupView2 .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 28%;}
     #signupView2 .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 11px;background-size: 35px 19px;}
-    #signupView2 .wrapper .subDv a span{font-size:20px;line-height:27px;color:#23A503 !important}
+    #signupView2 .wrapper .subDv a span{font-size:18px;line-height:27px;color:#23A503 !important}
     #signupView2 .wrapper .conFldDv .fldDv .checkDv {width:10%;float:left;margin-left: 5px;}
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv {width:80%;float:left}
     .checkDv p,.txtTitDv P {border-bottom:none !importaNT;padding-bottom:0px}
@@ -1006,7 +1006,7 @@
     /*****************************************************Products View********************************************************/
     #shopView .nvbar {background-color:#23A505 !important;height: 55px;}
     #shopView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
-    #shopView .nvbar span {color:#fff;  font-size: 20px;}
+    #shopView .nvbar span {color:#fff;  font-size: 18px;}
     
     #shopView .wrapper {width:100%;}
     #shopView .wrapper .main {width:100%;margin:0px auto}
@@ -1044,7 +1044,7 @@
     #productDetail .nvbar {background-color:#23A505 !important;height: 55px;}
     #productDetail .nvbar .menu {background:url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;}
     #productDetail .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;  padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #productDetail .nvbar span {color:#fff;  font-size: 20px;}
+    #productDetail .nvbar span {color:#fff;  font-size: 18px;}
     
     #productDetail .wrapper {width:100%;height:auto}
     #productDetail .wrapper .prod_image {width:100%;border:1px solid #E5E5E5}
@@ -1059,7 +1059,7 @@
     #productDetail .wrapper .fldDv {width:100%}
     #productDetail .wrapper .fldDv .leftFldDv {width:50%;float:left}
     #productDetail .wrapper .fldDv .leftFldDv p{text-align: left;}
-    #productDetail .wrapper .fldDv .leftFldDv .dropdwn {width:60%;height: 35px;border: 1px solid #ccc;background:none;margin-left:5px}
+    #productDetail .wrapper .fldDv .leftFldDv .dropdwn {width:58%;height: 35px;border: 1px solid #ccc;background:none;margin-left:5px}
     #productDetail .wrapper .fldDv .rightFldDv {width:50%;float:left}
     #productDetail .wrapper .fldDv .rightFldDv p{text-align: right;}
     #productDetail .wrapper .fldDv .rightFldDv p label {margin-right:15px}
@@ -1074,7 +1074,7 @@
     #myCart .nvbar {background-color:#23A505 !important;height: 55px;}
     #myCart .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #myCart .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #myCart .nvbar span {color:#fff;  font-size: 20px;}
+    #myCart .nvbar span {color:#fff;  font-size: 18px;}
     
     #myCart .wrapper {width:100%;padding: 15px 10px 10px 10px;}
     
@@ -1104,7 +1104,7 @@
     #myCart .mainTotalDv .leftdv1 {width:80%;float:left}
     #myCart .mainTotalDv .leftdv1 p {font-size:18px;color:#000;}
     #myCart .mainTotalDv .leftdv2 {width:20%;float:left}
-    #myCart .mainTotalDv .leftdv2 p {text-align:center;color:#23A505;font-weight:bold;}
+    #myCart .mainTotalDv .leftdv2 p {text-align:center;color:#23A505;font-weight:bold;margin: 20px 20px 0 0;}
     
     #myCart .footer {width:100%;display:inline-block}
     #myCart .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid #1E9E01;}
@@ -1152,7 +1152,7 @@
     #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
     #aboutusView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #aboutusView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #aboutusView .nvbar span {color:#fff;  font-size: 20px;}
+    #aboutusView .nvbar span {color:#fff;  font-size: 18px;}
     
     #aboutusView .wrapper {width:96%;height:auto;margin:0px auto;}
     /*#aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
@@ -1175,9 +1175,9 @@
     #profileView .nvbar {background-color:#23A505 !important;height: 55px;}
     #profileView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #profileView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #profileView .nvbar span {color:#fff;  font-size: 20px;}
+    #profileView .nvbar span {color:#fff;  font-size: 18px;}
     #profileView .wrapper {width:100%;margin:0px auto}
-    #profileView .wrapper .profile_pic {width:50%;margin:0px auto;margin-top: 22%;}
+    #profileView .wrapper .profile_pic {width:50%;margin:0px auto;margin-top: 12%;}
     #profileView .wrapper .profile_pic p {text-align:center}
     #profileView .wrapper .profile_pic p img {width:130px}
     #profileView .wrapper .addressDV {width:80%;margin:0px auto;font-size:20px}
@@ -1208,7 +1208,7 @@
     #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;font-size: 20px;color:#fff}
     #contactView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
     #contactView .wrapper .subDv a {width:100%;height:40px;background-color:#fff !important;}
-    #contactView .wrapper .subDv a span{font-size:20px;line-height:27px;color:#23A503 !important;font-weight: bold;}
+    #contactView .wrapper .subDv a span{font-size:18px;line-height:27px;color:#23A503 !important;font-weight: bold;}
     
     /*****************************************************Billing info View********************************************************/
     #billingView .wrapper {width:100%;height:auto}
@@ -1247,7 +1247,7 @@
     #clonesView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 20px;height: 30px;border: none !important;margin-top: 2px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;}
     #clonesView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #clonesView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #clonesView .nvbar span {color:#fff;  font-size: 20px;}
+    #clonesView .nvbar span {color:#fff;  font-size: 18px;}
     
     #clonesView .wrapper {width:100%;}
     #clonesView #cloneListData .main {width:100%;display:inline-block;margin-top: 15px;}
@@ -1266,7 +1266,7 @@
     #privacy_policy .nvbar {background-color:#23A505 !important;height: 55px;}
     #privacy_policy .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #privacy_policy .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #privacy_policy .nvbar span {color:#fff;font-size: 20px;}
+    #privacy_policy .nvbar span {color:#fff;font-size: 18px;}
     
     #privacy_policy .wrapper {width:96%;height:auto;margin:0px auto;}
     #privacy_policy .wrapper .mainbind{width:100%;height:auto;display:inline-block}
@@ -1282,7 +1282,7 @@
     #terms_cond .nvbar {background-color:#23A505 !important;height: 55px;}
     #terms_cond .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #terms_cond .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #terms_cond .nvbar span {color:#fff;font-size: 20px;}
+    #terms_cond .nvbar span {color:#fff;font-size: 18px;}
     
     #terms_cond .wrapper {width:96%;height:auto;margin:0px auto;}
     #terms_cond .wrapper .mainbind{width:100%;height:auto;display:inline-block}
@@ -1298,7 +1298,7 @@
     #pastOrderView .nvbar {background-color:#23A505 !important;height: 55px;}
     #pastOrderView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #pastOrderView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #pastOrderView .nvbar span {color:#fff;  font-size: 20px;}
+    #pastOrderView .nvbar span {color:#fff;  font-size: 18px;}
     #pastOrderView #pastOrderListData .main {width:100%;display:inline-block}
     #pastOrderView #pastOrderListData .main .leftDv {width:70%;float:left}
     #pastOrderView #pastOrderListData .main .leftDv p:nth-child(1) {color:#000;font-size:18px;font-weight:bold;}
@@ -1335,7 +1335,7 @@
     #specialView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 20px;height: 30px;border: none !important;margin-top: 2px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;}
     #specialView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #specialView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #specialView .nvbar span {color:#fff;  font-size: 20px;}
+    #specialView .nvbar span {color:#fff;  font-size: 18px;}
     #specialView #specialListData .main {width:100%;display:inline-block}
     #specialView #specialListData .main .leftDv {width:70%;float:left}
     #specialView #specialListData .main .leftDv p:nth-child(1) {color:#000;font-size:18px;font-weight:bold;}
@@ -1351,7 +1351,7 @@
     #galleryView .nvbar {background-color:#23A505 !important;height: 55px;}
     #galleryView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #galleryView .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #galleryView .nvbar span {color:#fff;  font-size: 20px;}
+    #galleryView .nvbar span {color:#fff;  font-size: 18px;}
     #galleryView .wrapper {width:100%;height:auto;}
     #galleryView .wrapper .headerTab {width:100%;height:auto;display:inline-block}
     #galleryView .wrapper .headerTab .tab1 {width:50%;float:left;height:50px;background-color:#F1F1F1;border-right:1px solid #ccc}

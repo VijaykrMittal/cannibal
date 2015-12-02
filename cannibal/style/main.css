@@ -1,5 +1,5 @@
 
-#aboutusView .km-content,#productDetail .km-content,#shopView .km-content,#myCart .km-content,#profileView .km-content,#privacy_policy .km-content,#specialView .km-content,#galleryView .km-content {background-color:#fff !important}
+#aboutusView .km-content,#productDetail .km-content,#shopView .km-content,#myCart .km-content,#profileView .km-content,#privacy_policy .km-content,#specialView .km-content,#galleryView .km-content,#terms_cond .km-content,#privacy_policy .km-content {background-color:#fff !important}
 #inviteFriend .km-content {background:url('./slideImage/invite_friend_bg.png') !important}
 #check {display:none}
 
