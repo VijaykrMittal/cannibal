@@ -46,12 +46,12 @@
         
         moveToSpecials:function()
         {
-            alert("Specials");
+            app.mobileApp.navigate('views/special.html');
         },
         
         moveToGallery:function()
         {
-            alert("Gallery");
+           app.mobileApp.navigate('views/gallery.html');
         },
         
         moveToPrivacyPloicy:function()
@@ -61,17 +61,17 @@
         
         moveToTerms_Condition:function()
         {
-            alert("Terms and Condition");
+            app.mobileApp.navigate('views/terms_condition.html');
         },
         
         moveToInviteFriend:function()
         {
-            alert("Invite a Friend");
+            app.mobileApp.navigate('views/invite_friend.html');
         },
         
         moveToPastorder:function()
         {
-            alert("Past Order");
+            app.mobileApp.navigate('views/past_order.html');
         },
         
         moveToRateapp:function()

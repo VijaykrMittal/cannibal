@@ -63,7 +63,7 @@ var app = (function(){
         mobileApp = new kendo.mobile.Application(document.body,
                                                             {
                                                                 skin:'flat',
-                                                                initial:'views/past_order.html'
+                                                                initial:'views/login.html'
                                                             }
         );
     }
@@ -72,7 +72,7 @@ var app = (function(){
         mobileApp = new kendo.mobile.Application(document.body,
                                                             {
                                                                 skin:'flat',
-                                                                initial:'views/clones.html'
+                                                                initial:'views/shop.html'
                                                             }
         );
     }
