@@ -448,6 +448,7 @@
     #galleryView .wrapper .tab1View {width:100%;height:auto;}
     #galleryView .wrapper .tab2View {width:100%;height:auto;}
     #tab1ListData li,#tab2ListData li {padding:0 0 0 0 !important}
+    .km-badge {font-size:10px !important;margin: 0 15px 0 0 !important;}
     
     
 }
