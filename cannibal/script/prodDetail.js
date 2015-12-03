@@ -107,7 +107,6 @@
             html += '</div>';
             html += '</div>';
             
-            
             $('#selectProdDtl').html(html);
         },
         
