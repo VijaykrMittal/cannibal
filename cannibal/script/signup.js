@@ -18,6 +18,23 @@
         show:function()
         {
             $(".km-native-scroller").scrollTop(0);
+            
+            /*For check and uncheck the terms and condition*/
+            $('#uncheck').show();
+            $('#check').hide();
+            $('#uncheck').unbind(".myPlugin");
+            $('#uncheck').on('click.myPlugin',function(){
+                $('#check').show();
+                $(this).hide();
+            });
+            
+            $('#check').unbind(".myPlugin");
+            $('#check').on('click.myPlugin',function(){
+                $('#uncheck').show();
+                $(this).hide();
+            });
+            
+            /* validation for registration step1 and registration step2 */
             $('#moveToRegisterStep1').unbind('.myPlugin');
             $('#moveToRegisterStep1').on('click.myPlugin',function(){
                 app.signupService.viewModel.registrationStep1();
@@ -28,20 +45,13 @@
                 app.signupService.viewModel.registrationStep2();
             });
             
+            /* only numaric number enter means other fields will not be enter on the mobile number textbox*/
             $('#phonenum').keypress(function(e) {
                 var valid = (e.which>=48 && e.which<=57)
                 if(!valid)
                 {
                     e.preventDefault();
                 }
-            });
-            
-            $('#i_file').change( function(event) {
-                console.log(event.target.files[0]);
-                var aa = URL.createObjectURL(event.target.files[0]);
-                console.log(URL.createObjectURL(event.target.files[0]));
-                console.log(URL.revokeObjectURL(aa));
-                $("img").fadeIn("fast").attr('src',URL.createObjectURL(event.target.files[0]));
             });
             
             /*Get the image or docs from the mobile Device*/
@@ -118,10 +128,6 @@
                     app.mobileApp.navigate('#signupView2'); ///-----------------------------------------    
                // },3000);
             }
-            
-            
-           /* */
-            
         },
         
         registrationStep2:function()
@@ -148,6 +154,11 @@
             if(confpassword !== password)
             {
                  navigator.notification.alert("Enter Password does not match.",function(){},'Notification','OK');
+            }
+            else
+            if($('#check').css('display') === 'none')
+            {
+                navigator.notification.alert("Please check the terms & condition.",function(){},'Notification','OK');
             }
             else
             {
@@ -188,17 +199,14 @@
                 var data = this.data();
                 app.mobileApp.hideLoading();
                 console.log(data);
-                //data[0]['msg']
                 if(data[0]['status'] === '1' || data[0]['status'] === 1)
                 {
-                    //localStorage.setItem("user_id",data[0]['userID']);
                     navigator.notification.alert(data[0]['msg'],function(){},'Signup',"OK");
                     app.mobileApp.navigate('#loginView');
                 }
                 else
                 {
-                     navigator.notification.alert(data[0]['msg'],
-                        function () { }, "Message", 'OK');
+                     navigator.notification.alert(data[0]['msg'],function () { }, "Message", 'OK');
                 }
             });
         }

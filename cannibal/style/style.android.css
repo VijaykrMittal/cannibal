@@ -1412,7 +1412,7 @@
     #forgotpasswordView .nvbar { background-color:#23A505;border-bottom:none}
     #forgotpasswordView .nvbar span {font-size:25px;color:#fff;margin-left: 15px;}
     #verificationcode::-webkit-input-placeholder{color:#999;}
-    #forgotpasswordView .backArrow {width:30px;height:35px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
+    #forgotpasswordView .backArrow {width:25px;height:30px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
     #forgotpasswordView .wrapper {width:100%;height:auto;}
     #forgotpasswordView .wrapper .main {width:90%;height:auto;margin:0px auto;}
     #forgotpasswordView .wrapper .main .forgotFldDv {width:100%;margin-top:40%}
@@ -1432,7 +1432,7 @@
     
     
     /*****************************************************Registration 1 View********************************************************/
-    #signupView .backArrow {width:30px;height:35px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
+    #signupView .backArrow {width:25px;height:30px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
     #signupView .wrapper {width:100%;height:auto}
     #signupView .wrapper .header {width:100%;margin-top: -10px;}
     #signupView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}

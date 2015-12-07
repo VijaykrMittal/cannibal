@@ -10,38 +10,22 @@
         
         show:function()
         {
-            $('#uncheck').show();
-            $('#check').hide();
-            $('#uncheck').unbind(".myPlugin");
-            $('#uncheck').on('click.myPlugin',function(){
-                $('#check').show();
-                $(this).hide();
-            });
-            
-            $('#check').unbind(".myPlugin");
-            $('#check').on('click.myPlugin',function(){
-                $('#uncheck').show();
-                $(this).hide();
-            });
-            
+            /* signin validation link*/
             $('#signin').unbind(".myPlugin");
             $('#signin').on('click.myPlugin',function(){
                 app.loginService.viewModel.loginValidation();
             });
             
-            /*$('#signup').click(function(){
-                app.mobileApp.navigate('views/shop.html');    
-            });*/
-            
-             $('#newaccount').unbind(".myPlugin");
-             $('#newaccount').on('click.myPlugin',function(){
-               
+            /*Move to club registration page*/
+
+            $('#newaccount').unbind(".myPlugin");
+            $('#newaccount').on('click.myPlugin',function(){
                 $('.footerLeft').css('background-color','#1E9E01');
                 $('.footerRight').css('background-color','#1A530C');
                 app.mobileApp.navigate('#signupView');
-                 
-             });
+            });
             
+            /* Blank textfield for forgot and login section.*/
             app.loginService.viewModel.blankForgotFld();
             app.loginService.viewModel.blankLoginFld();
             
@@ -186,7 +170,6 @@
         },
         
         /*Forgot Password Section*/
-        
         submitforgotpwd:function()
         {
             var forgor_fld = this.get('forgotTextFld');
