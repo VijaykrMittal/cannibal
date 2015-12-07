@@ -188,6 +188,18 @@
                 var data = this.data();
                 app.mobileApp.hideLoading();
                 console.log(data);
+                //data[0]['msg']
+                if(data[0]['status'] === '1' || data[0]['status'] === 1)
+                {
+                    //localStorage.setItem("user_id",data[0]['userID']);
+                    navigator.notification.alert(data[0]['msg'],function(){},'Signup',"OK");
+                    app.mobileApp.navigate('#loginView');
+                }
+                else
+                {
+                     navigator.notification.alert(data[0]['msg'],
+                        function () { }, "Message", 'OK');
+                }
             });
         }
     });
