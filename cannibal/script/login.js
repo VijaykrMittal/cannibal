@@ -29,9 +29,9 @@
                 app.loginService.viewModel.loginValidation();
             });
             
-            $('#signup').click(function(){
+            /*$('#signup').click(function(){
                 app.mobileApp.navigate('views/shop.html');    
-            });
+            });*/
             
              $('#newaccount').unbind(".myPlugin");
              $('#newaccount').on('click.myPlugin',function(){

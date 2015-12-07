@@ -29,6 +29,7 @@ var app = (function(){
     var onDeviceReady = function()
     {
         window.connectionInfo = new connectionApp();
+        window.fileGet = new getFileApplication();
         document.addEventListener('backbutton',onBackKeyDown,false);
     };
     
@@ -55,6 +56,107 @@ var app = (function(){
                 }
             }
             return true;
+        }
+    }
+    
+    function getFileApplication() {}
+    
+    getFileApplication.prototype = {
+        storeLicenseID:function()
+        {
+            /*navigator.camera.getPicture(
+            uploadPhoto,
+            function(message) {
+                alert('Failed to get a picture');
+            }, {
+                quality         : 50,
+                destinationType : navigator.camera.DestinationType.FILE_URI,
+                sourceType      : navigator.camera.PictureSourceType.PHOTOLIBRARY,
+                mediaType: navigator.camera.MediaType.ALLMEDIA 
+            });
+
+            function uploadPhoto(fileURI) {
+                var re = /(?:\.([^.]+))?$/;
+                var ext = re.exec(fileURI)[1]
+                alert(fileURI);
+                alert(ext);
+                console.log(window.btoa(fileURI));
+                localStorage.setItem('fileURL',fileURI);
+                $('#testimg').attr('src','data:image/png;base64,'+window.btoa(fileURI));
+
+                var options = new FileUploadOptions();
+                options.fileKey = "file";
+                options.fileName = fileURI.substr(fileURI.lastIndexOf('/') + 1);
+                if (cordova.platformId == "android") 
+                {
+                    if(ext == 'pdf' || ext == 'docx')
+                    {
+
+                    }
+                    else
+                    {
+                        //options.fileName += ".jpg"         
+                    }
+                }
+
+                alert(options.fileName);
+                options.mimeType = "application/octet-stream";
+                options.params = {}; // if we need to send parameters to the server request 
+                options.headers = {
+                Connection: "Close"
+            };
+                options.chunkedMode = false;
+                alert(JSON.stringify(options));
+            }*/
+            
+            navigator.camera.getPicture(onSuccess,onFail,{
+                quality:50,
+                destinationType :Camera.DestinationType.FILE_URI,
+                sourceType      : Camera.PictureSourceType.SAVEDPHOTOALBUM,
+                mediaType: Camera.MediaType.ALLMEDIA 
+            });
+            
+            function onSuccess(imageData)
+            {
+                var re = /(?:\.([^.]+))?$/;
+                var ext = re.exec(imageData)[1];
+                var base64Data = window.btoa(imageData);
+                localStorage.setItem('license_id',base64Data);
+                localStorage.setItem('licenseId_fileEXT',ext);
+                var filename = imageData.substr(imageData.lastIndexOf('/') + 1);
+                $('#licenceId').val(filename);
+            }
+            
+            function onFail(message)
+            {
+                console.log(message);
+            }
+        },
+        
+        storePrescription : function()
+        {
+            navigator.camera.getPicture(onSuccess,onFail,{
+                quality:50,
+                destinationType :Camera.DestinationType.FILE_URI,
+                sourceType      : Camera.PictureSourceType.SAVEDPHOTOALBUM,
+                mediaType: Camera.MediaType.ALLMEDIA 
+            });
+            
+            function onSuccess(imageData)
+            {
+                var re = /(?:\.([^.]+))?$/;
+                var ext = re.exec(imageData)[1];
+                var base64Data = window.btoa(imageData);
+                localStorage.setItem('prescription',base64Data);
+                localStorage.setItem('prescription_fileEXT',ext);
+                var filename = imageData.substr(imageData.lastIndexOf('/') + 1);
+                $('#prescroption').val(filename);
+            }
+            
+            function onFail(message)
+            {
+                console.log(message);
+            }
         }
     }
     

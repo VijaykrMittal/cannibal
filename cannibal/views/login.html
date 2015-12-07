@@ -95,18 +95,20 @@
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="licenceId" id="licenceId" class="txtFld attch" placeholder="Upload California Driver's License/ID" />
+                        <input type="text" name="licenceId" id="licenceId"  class="txtFld attch" placeholder="Upload California Driver's License/ID" />
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="prescroption" id="prescroption"  class="txtFld attch" placeholder="Upload Your Prescription"/>
+                        <input type="text" name="prescroption" id="prescroption" class="txtFld attch" placeholder="Upload Your Prescription"/>
                     </p>
                 </div>
             </div>
+            
+            
             <div class="subDv">
                 <p>
-                    <a data-role="button" id="moveToRegisterStep2">Continue</a>
+                    <a data-role="button" id="moveToRegisterStep1">Continue</a>
                 </p>
             </div>
         </div>
@@ -120,7 +122,7 @@
 </script>
 
 <!--Signup View 2-->
-<div data-role="view" id="signupView2" data-model="app.loginService.viewModel" data-show="app.loginService.viewModel.show">
+<div data-role="view" id="signupView2" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" style="background-color:#23A505;border-bottom:none">
             <a data-align="left" data-role="backbutton" class="backArrow"></a>
@@ -137,17 +139,17 @@
             <div class="conFldDv">
                 <div class="fldDv">
                     <p>
-                        <input type="text" name="username" id="username" class="txtFld" placeholder="Choose a Username"/>
+                        <input type="text" name="username" id="username" data-bind="value:username" class="txtFld" placeholder="Choose a Username"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="password" name="userPwd" id="userPwd" class="txtFld" placeholder="Select a Password"/>
+                        <input type="password" name="userPwd" id="userPwd" data-bind="value:userPwd" class="txtFld" placeholder="Select a Password"/>
                     </p>
                 </div>
                 <div class="fldDv">
                     <p>
-                        <input type="password" name="userCnfPwd" id="userCnfPwd" class="txtFld" placeholder="Confirm Your Password"/>
+                        <input type="password" name="userCnfPwd" id="userCnfPwd" class="txtFld" data-bind="value:userCnfPwd" placeholder="Confirm Your Password"/>
                     </p>
                 </div>
                 <div class="fldDv">
@@ -166,7 +168,7 @@
             </div>
             <div class="subDv">
                 <p>
-                    <a data-role="button" id="signup">SIGN UP</a>
+                    <a data-role="button" id="signup" data>SIGN UP</a>
                 </p>
             </div>
         </div>
