@@ -1447,7 +1447,7 @@
     
     
     /*****************************************************Registration 2 View********************************************************/
-    #signupView2 .backArrow {width:30px;height:35px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
+    #signupView2 .backArrow {width:25px;height:30px;border:none;background:url('./slideImage/back_icon.png') no-repeat;background-size:100% 100%;}
     #signupView2 .wrapper {width:100%;height:auto}
     #signupView2 .wrapper .header {width:100%;margin-top: -10px;}
     #signupView2 .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
