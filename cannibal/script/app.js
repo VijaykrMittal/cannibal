@@ -186,6 +186,7 @@ var app = (function(){
     localStorage.setItem('login_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/login.php');
     localStorage.setItem('forgot_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Forget.php');
     localStorage.setItem('changePwd_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Change_Password.php');
+    localStorage.setItem('registration_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/test.php');
     
     return{
         mobileApp:mobileApp

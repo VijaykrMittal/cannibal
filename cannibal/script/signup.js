@@ -111,42 +111,16 @@
                 dataParamSignup['phone'] = mobilenum,
                 dataParamSignup['emailid'] = emailAdd;
                 dataParamSignup['driving_licence'] = localStorage.getItem('license_id');
+                dataParamSignup['ext_dl'] = localStorage.getItem('licenseId_fileEXT');
                 dataParamSignup['prescription'] = localStorage.getItem('prescription');
+                dataParamSignup['ext_pr'] = localStorage.getItem('prescription_fileEXT');
                // setTimeout(function(){
                     app.mobileApp.navigate('#signupView2'); ///-----------------------------------------    
                // },3000);
             }
             
             
-           /* app.mobileApp.showLoading();
-            var signupDataS = new kendo.data.DataSource({
-                transport:{
-                    read:{
-                        url:'http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/test.php',
-                        type:'POST',
-                        dataType:'json',
-                        data:dataParamSignup
-                    }
-                },
-                schema:{
-                    data:function(data)
-                    {
-                        return [data];
-                    }
-                },
-                error:function(e)
-                {
-                    app.mobileApp.hideLoading();
-                    console.log(e);
-                    navigator.notification.alert("Server not responding properly.Please check your internet connection.",
-                        function () { }, "Message", 'OK');
-                }
-            });
-            signupDataS.fetch(function(){
-                var data = this.data();
-                app.mobileApp.hideLoading();
-                console.log(data);
-            });*/
+           /* */
             
         },
         
@@ -179,9 +153,42 @@
             {
                 dataParamSignup['username'] = username;
                 dataParamSignup['pass'] = password;
-                console.log(dataParamSignup);
-                
+                //app.mobileApp.navigate('views/shop.html');
+                app.signupService.viewModel.registrationAPI(dataParamSignup);
             }
+        },
+        
+        registrationAPI : function(data)
+        {
+            app.mobileApp.showLoading();
+            var signupDataS = new kendo.data.DataSource({
+                transport:{
+                    read:{
+                        url:localStorage.getItem('registration_API'),
+                        type:'POST',
+                        dataType:'json',
+                        data:data
+                    }
+                },
+                schema:{
+                    data:function(data)
+                    {
+                        return [data];
+                    }
+                },
+                error:function(e)
+                {
+                    app.mobileApp.hideLoading();
+                    console.log(e);
+                    navigator.notification.alert("Server not responding properly.Please check your internet connection.",
+                        function () { }, "Message", 'OK');
+                }
+            });
+            signupDataS.fetch(function(){
+                var data = this.data();
+                app.mobileApp.hideLoading();
+                console.log(data);
+            });
         }
     });
     
