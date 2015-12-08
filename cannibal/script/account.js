@@ -13,6 +13,7 @@
             $('#changePassordSubmit').on('click.myPlugin',function(){
                 app.accountService.viewModel.changePwdValidation();         
             });
+            app.accountService.viewModel.resetChangepwdFld();
         },
         
         changePwdValidation:function()
@@ -88,6 +89,7 @@
                 {
                      navigator.notification.alert(data[0]['msg'],function () { }, "Notification", 'OK');
                      app.accountService.viewModel.changePwdModalView();
+                     app.accountService.viewModel.resetChangepwdFld();
                      app.mobileApp.hideLoading();
                 }
             });
@@ -97,6 +99,12 @@
         {
             $('#changePassword').data('kendoMobileModalView').close();
             app.loginService.viewModel.blankForgotFld();
+        },
+        
+        resetChangepwdFld : function()
+        {
+            this.set('oldpwdTextFld','');
+            this.set('newpwdTextFld','');
         }
     });
     

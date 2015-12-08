@@ -56,19 +56,21 @@
             
             /*Get the image or docs from the mobile Device*/
             $('#licenceId').unbind('.myPlugin');
-            $('#licenceId').on('click',function(){
+            $('#licenceId').on('click.myPlugin',function(){
                 window.fileGet.storeLicenseID();
             });
             
             $('#prescroption').unbind('.myPlugin');
-            $('#prescroption').on('click',function(){
+            $('#prescroption').on('click.myPlugin',function(){
                 window.fileGet.storePrescription();
             });
+            
+            app.signupService.viewModel.resetSignupFld();  // club registration and account details field blank function
         },
         
         registrationStep1 : function()
         {
-            var firstname = this.get('firstname'),
+           /* var firstname = this.get('firstname'),
                 lastname = this.get('lastname'),
                 mobilenum = this.get('mobilenum'),
                 emailAdd = this.get('emailadd');
@@ -123,16 +125,16 @@
                 dataParamSignup['driving_licence'] = localStorage.getItem('license_id');
                 dataParamSignup['ext_dl'] = localStorage.getItem('licenseId_fileEXT');
                 dataParamSignup['prescription'] = localStorage.getItem('prescription');
-                dataParamSignup['ext_pr'] = localStorage.getItem('prescription_fileEXT');
+                dataParamSignup['ext_pr'] = localStorage.getItem('prescription_fileEXT');*/
                // setTimeout(function(){
                     app.mobileApp.navigate('#signupView2'); ///-----------------------------------------    
                // },3000);
-            }
+         //   }
         },
         
         registrationStep2:function()
         {
-            var username = this.get('username'),
+           /* var username = this.get('username'),
                 password = this.get('userPwd'),
                 confpassword = this.get('userCnfPwd');
             
@@ -163,10 +165,10 @@
             else
             {
                 dataParamSignup['username'] = username;
-                dataParamSignup['pass'] = password;
-                //app.mobileApp.navigate('views/shop.html');
-                app.signupService.viewModel.registrationAPI(dataParamSignup);
-            }
+                dataParamSignup['pass'] = password;*/
+                app.mobileApp.navigate('views/shop.html');
+               // app.signupService.viewModel.registrationAPI(dataParamSignup);
+          //*  }
         },
         
         registrationAPI : function(data)
@@ -202,6 +204,7 @@
                 if(data[0]['status'] === '1' || data[0]['status'] === 1)
                 {
                     navigator.notification.alert(data[0]['msg'],function(){},'Signup',"OK");
+                    app.signupService.viewModel.resetSignupFld();
                     app.mobileApp.navigate('#loginView');
                 }
                 else
@@ -209,6 +212,23 @@
                      navigator.notification.alert(data[0]['msg'],function () { }, "Message", 'OK');
                 }
             });
+        },
+        
+        resetSignupFld : function()
+        {
+            this.set('firstname','');
+            this.set('lastname','');
+            this.set('mobilenum','');
+            this.set('emailadd','');
+            this.set('username','');
+            this.set('userPwd','');
+            this.set('userCnfPwd','');
+            localStorage.removeItem('license_id');
+            localStorage.removeItem('licenseId_fileEXT');
+            localStorage.removeItem('prescription');
+            localStorage.removeItem('prescription_fileEXT');
+            $('#licenceId').val('');
+            $('#prescroption').val('');
         }
     });
     

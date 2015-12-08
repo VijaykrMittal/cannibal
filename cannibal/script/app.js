@@ -16,10 +16,6 @@ var app = (function(){
         {
             navigator.app.exitApp();
         }
-       /* else if(mobileApp.view()['element']['0']['id']==='signupView2')
-        {
-            e.preventDefault();
-        }*/
         else
         {
             mobileApp.navigate('#:back');
@@ -190,7 +186,7 @@ var app = (function(){
     localStorage.setItem('forgot_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Forget.php');
     localStorage.setItem('changePwd_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Change_Password.php');
     localStorage.setItem('registration_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Registration.php');
-    
+    localStorage.setItem('productlist_API','http://wordpress2014:Flexsin_2020@flexsin.org/lab/wordpress/cannibalsonline/conAPI/Products.php');
     return{
         mobileApp:mobileApp
     }

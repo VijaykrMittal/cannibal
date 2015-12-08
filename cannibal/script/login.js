@@ -17,11 +17,13 @@
             });
             
             /*Move to club registration page*/
+            
+            $('.footerRight').css('background-color','#1A530C');
 
             $('#newaccount').unbind(".myPlugin");
             $('#newaccount').on('click.myPlugin',function(){
-                $('.footerLeft').css('background-color','#1E9E01');
-                $('.footerRight').css('background-color','#1A530C');
+                //$('.footerLeft').css('background-color','#1E9E01');
+                //$('.footerRight').css('background-color','#1A530C');
                 app.mobileApp.navigate('#signupView');
             });
             
@@ -160,8 +162,8 @@
         moveToForgetPwd:function()
         {
             app.mobileApp.navigate('#forgotpasswordView');
-            $('.footerLeft').css('background-color','#1A530C');
-            $('.footerRight').css('background-color','#1E9E01');
+           // $('.footerLeft').css('background-color','#1A530C');
+           // $('.footerRight').css('background-color','#1E9E01');
         },
         
         moveToRegister:function()
