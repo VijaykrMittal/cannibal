@@ -96,7 +96,7 @@
     
     /*****************************************************Products View********************************************************/
     #shopView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #shopView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
+    #shopView .nvbar .menu {background: url('./newImage/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;}
     #shopView .nvbar span {color:#fff;  font-size: 22px;}
     
     #shopView .wrapper {width:100%;}
@@ -119,4 +119,6 @@
     #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 5px 0 0px;}
     #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border:none;background-size: 80% 80%;}
     #shopListData li {width:50%;float:left;padding-top: 25px;}
+    
+    /*****************************************************Products Details********************************************************/
 }
