@@ -11,12 +11,12 @@
         
         moveToProfile:function()
         {
-            app.mobileApp.navigate('views/myprofile.html');
+            //app.mobileApp.navigate('views/myprofile.html');
         },
         
         moveToContactus:function()
         {
-            app.mobileApp.navigate('views/contact.html');
+            //app.mobileApp.navigate('views/contact.html');
         },
         
         moveToAboutus:function()
@@ -36,47 +36,47 @@
         
         moveToShoppingCart:function()
         {
-            app.mobileApp.navigate('views/mycart.html');
+            //app.mobileApp.navigate('views/mycart.html');
         },
         
         moveToClones:function()
         {
-            app.mobileApp.navigate('views/clones.html');
+            //app.mobileApp.navigate('views/clones.html');
         },
         
         moveToSpecials:function()
         {
-            app.mobileApp.navigate('views/special.html');
+            //app.mobileApp.navigate('views/special.html');
         },
         
         moveToGallery:function()
         {
-           app.mobileApp.navigate('views/gallery.html');
+           //app.mobileApp.navigate('views/gallery.html');
         },
         
         moveToPrivacyPloicy:function()
         {
-            app.mobileApp.navigate('views/privacy_policy.html');
+            //app.mobileApp.navigate('views/privacy_policy.html');
         },
         
         moveToTerms_Condition:function()
         {
-            app.mobileApp.navigate('views/terms_condition.html');
+            //app.mobileApp.navigate('views/terms_condition.html');
         },
         
         moveToInviteFriend:function()
         {
-            app.mobileApp.navigate('views/invite_friend.html');
+           // app.mobileApp.navigate('views/invite_friend.html');
         },
         
         moveToPastorder:function()
         {
-            app.mobileApp.navigate('views/past_order.html');
+           // app.mobileApp.navigate('views/past_order.html');
         },
         
         moveToRateapp:function()
         {
-            alert("Rate the App");
+           // alert("Rate the App");
         }
         
         
