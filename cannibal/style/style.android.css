@@ -102,22 +102,24 @@
     #shopView .wrapper {width:100%;}
     #shopView .wrapper .main {width:100%;margin:0px auto}
     #shopView .wrapper .prodSrchDv {width:100%;padding: 1px 0 1px 0;background-color: #ffffff;}
-    #shopView .wrapper .prodSrchDv p {margin:15px 9px 15px 9px;}
-    #shopView .wrapper .prodSrchDv .dropDwn{width: 100%;height: 45px;border: 1px solid #ccc;color:#7E7C7C;}
+    #shopView .wrapper .prodSrchDv p {margin:15px 11px 15px 11px;}
+    #shopView .wrapper .prodSrchDv .dropDwn{width: 100%;height: 45px;border: 1px solid #ccc;color: #C7C7C7;font-size: 18px;font-family: -webkit-body;padding-left:8px;}
+    #shopView .wrapper .prodSrchDv .dropDwn {-webkit-appearance: none;-moz-appearance: none;text-indent: 1px;background: url('./newImage/down_arrow_gray.png') no-repeat;background-position: 98% 16px;background-size: 22px 13px;}
     #shopView .wrapper .listContentDV{width:100%}
     
     #shopListData li {background:#F3F3F1 !important;border-style:none !important}
     #shopListData .dynDv {width: 100%;height: auto;margin: 0px auto;border: 1px solid #ccc;box-shadow: 0px 0px 10px 0px #DDDCDC;}
-    #shopListData .dynDv .prodCls {  width: 100%;height: auto;border-bottom:1px solid #E5E5E5;background-color: #fff}
-    #shopListData .dynDv .prodCls img {width:100%;}
+    #shopListData .dynDv .prodCls {  width: 100%;height: auto;border-bottom:1px solid #E5E5E5;background-color: #fff;}
+    #shopListData .dynDv .prodCls p {text-align: center;margin: 0 0 0 0;padding: 15px 0 15px 0;}
+    #shopListData .dynDv .prodCls p img {width:50%;}
     #shopListData .dynDv .prodTitle {width: 100%;background-color: #fff;border-bottom: 1px solid #E5E5E5;padding: 1px 0 1px 0;}
     #shopListData .dynDv .prodTitle p {font-size: 16px;color: #000;font-weight: 500;margin-left: 10px;}
     #shopListData .dynDv .bindCls {width: 100%;display: inline-block;background-color: #f8f8f8;}
     #shopListData .dynDv .bindCls .priCls {width: 50%;float: left;}
-    #shopListData .dynDv .bindCls .priCls p{font-size: 17px;color:#23A505;margin-left: 10px;}
+    #shopListData .dynDv .bindCls .priCls p{font-size: 18px;color:#23A505;margin-left: 10px;margin-top: 20px;}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 13px 5px 0 0px;}
-    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border:none;background-size: 80% 80%;}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 35px;height: 35px;border:none;background-size: 80% 80%;}
     #shopListData li {width:50%;float:left;padding-top: 25px;}
     
     /*****************************************************product detail View********************************************************/
@@ -152,5 +154,43 @@
     #productDetail .footer p a{width: 50%;height: 45px;background: none;border: none;}
     #productDetail .footer p a:active {background:none;color:#fff;border:none}
     #productDetail .footer p a span {line-height: 38px;font-size: 20px;color: #fff;}
-    .cart .km-badge {line-height: 1.8em !important;font-size:11px !important;top: -10px !important;right: 3px !important; }
+    .cart .km-badge {line-height: 1.8em !important;font-size:9px !important;top: -8px !important;right: 10px !important; }
+    
+    /*****************************************************Aboutus View********************************************************/
+    #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #aboutusView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 10px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;  margin-left: 10px;}
+    #aboutusView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #aboutusView .nvbar span {color:#fff;  font-size: 20px;line-height: 55px;}
+    
+    #aboutusView .wrapper {width:100%;height:auto;margin:0px auto;}
+    /*#aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
+    #aboutusView .wrapper .mainbind .checkGreenDv {width:10%;float:left;}
+    #aboutusView .wrapper .mainbind .checkGreenDv p{margin-top: 18px;}
+    #aboutusView .wrapper .mainbind .checkGreenDv img {width:20px}
+    #aboutusView .wrapper .mainbind .contentDv {width:90%;float:left;}
+    #aboutusView .wrapper .mainbind .contentDv p {font-size:18px;text-align:justify}*/
+    
+    /*NEW DESIGN CSS*/
+    #aboutusView .wrapper .textDesc {width:100%;}
+    #aboutusView .wrapper .textDesc .titleDV {width:100%;padding: 1px 0 1px 0;background-color:#EAEAEA}
+    #aboutusView .wrapper .textDesc .titleDV p {font-size: 20px;color: #000;/*font-weight: bold;*//*margin: 15px 0 15px 0;*/}
+    #aboutusView .wrapper .textDesc .titleDesc {width:95%; margin:0px auto}
+    #aboutusView .wrapper .textDesc .titleDesc p {font-size:16px;text-align:justify;margin: 15px 0 15px 0;}
+    #aboutusView .wrapper .mapView {width:95%;border:1px solid #ccc;height:300px;background-color:#F5F5E3;margin: 0px auto;}
+    #aboutusView .wrapper .hoursDv { width:100%;margin-top: 25px;}
+    #aboutusView .wrapper .hoursDv .hoursTitle {width:100%;background:#EAEAEA}
+    #aboutusView .wrapper .hoursDv .hoursTitle p {padding: 18px 0 18px 0;font-size: 20px;color: #000;}
+    #aboutusView .wrapper .hoursDv .hoursdtl {width:100%;margin: -8px 0 0 0;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain {width:100%;display:inline-block;padding: 1px 0 5px 0;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain .containLeft {width:30%;float:left;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain .containLeft p {font-family: inherit;margin: 0px 0px 0 5px;font-size: 17px;color: #666464;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain .containRight {width:70%;float:left;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain .containRight p {font-family: inherit;margin: 0px 0px 0 5px;font-size: 17px;color: #666464;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain1 {width:100%;display:inline-block;padding: 11px 0 5px 0;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain1 .contain1Left {width:30%;float:left;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain1 .contain1Left p {font-family: inherit;margin: 0px 0px 0 5px;font-size: 17px;color: #666464;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain1 .contain1right {width:70%;float:left;}
+    #aboutusView .wrapper .hoursDv .hoursdtl .contain1 .contain1right p{font-family: inherit;margin: 0px 0px 0 5px;font-size: 17px;color: #666464;}
+    
+    
 }

@@ -10,7 +10,7 @@
            <div class="main">
                 <div class="prodSrchDv">
                     <p>
-                        <select class="dropDwn" id="productCategory" style="background: #fff;">
+                        <select class="dropDwn" id="productCategory">
                             <option>Product Categories</option>
                         </select>
                     </p>
@@ -26,7 +26,9 @@
 <script type="text/x-kendo-template" id="shopListView">
     <div class="dynDv">
         <div class="prodCls" data-bind="click:moveToMain" data-id="#:data['id']#">
-            <img src="#:data['prodImg']#"/>
+            <p style="text-align:center">
+                <img src="#:data['prodImg']#" style="width:50%"/>
+            </p>
         </div>
         <div class="prodTitle">
             <p>#:data['title']#</p>
