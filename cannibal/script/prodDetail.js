@@ -91,7 +91,7 @@
             html += '<div class="fldDv">';
             html += '<div class="leftFldDv">';
             html += '<p>';
-            html += '<label style="color:#6C6C6C;">Quantity</label>';
+            html += '<label style="color:#5C5C5C;">Quantity</label>';
             html += '<select class="dropdwn" id="quantity" data-bind="value:quantity" onchange="app.productService.viewModel.setQuantity(this.value)">';
             html += '<option value="0">Quantity</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option>';
             html += '</select>';
@@ -99,7 +99,7 @@
             html += '</div>';
             html += '<div class="rightFldDv">';
             html += '<p>';
-            html += '<label style="color:#6C6C6C;">Size</label>';
+            html += '<label style="color:#5C5C5C;">Size</label>';
             html += '<select class="dropdwn" id="materialSize" onchange="app.productService.viewModel.setSize(this.value)">';
             html += '<option value="0">Size</option><option value="100Mg">100Mg</option><option value="120Mg">120Mg</option><option value="130Mg">130Mg</option><option value="150Mg">150Mg</option ><option value="180Mg">180Mg</option><option value="200Mg">200Mg</option>';
             html += '</select>';
