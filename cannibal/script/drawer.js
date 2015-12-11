@@ -41,7 +41,7 @@
         
         moveToClones:function()
         {
-            //app.mobileApp.navigate('views/clones.html');
+            app.mobileApp.navigate('views/clones.html');
         },
         
         moveToSpecials:function()
