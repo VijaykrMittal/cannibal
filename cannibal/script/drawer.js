@@ -16,7 +16,7 @@
         
         moveToContactus:function()
         {
-            //app.mobileApp.navigate('views/contact.html');
+            app.mobileApp.navigate('views/contact.html');
         },
         
         moveToAboutus:function()
@@ -36,7 +36,7 @@
         
         moveToShoppingCart:function()
         {
-            //app.mobileApp.navigate('views/mycart.html');
+            app.mobileApp.navigate('views/mycart.html');
         },
         
         moveToClones:function()
@@ -71,7 +71,7 @@
         
         moveToPastorder:function()
         {
-           // app.mobileApp.navigate('views/past_order.html');
+            app.mobileApp.navigate('views/past_order.html');
         },
         
         moveToRateapp:function()

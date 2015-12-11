@@ -355,4 +355,105 @@
     #inviteFriend .wrapper .down .down3 p:nth-child(1) a {background:url(./slideImage/message_icon.png) no-repeat;width:60px;height:60px;background-size:100% 100%;border:none}
     #inviteFriend .wrapper .down .down3 p:nth-child(2) {text-align:left;color:#555555;font-size: 20px;margin: 0 0 0 10px;}
     
+    /*****************************************************Past Order view View********************************************************/
+    #pastOrderView .nvbar {background-color:#23A505 !important;height: 55px;}
+    #pastOrderView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;margin-left: 10px;}
+    #pastOrderView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
+    #pastOrderView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
+    #pastOrderView #pastOrderListData li {background-color: #F3F3F1 !important;border: none;}
+    #pastOrderView #pastOrderListData li:first-child {margin-top:15px;}
+    #pastOrderView #pastOrderListData li {padding: .1em .7em;}
+    #pastOrderView #pastOrderListData .main {width:100%;display:inline-block;background-color: #fff;padding: 5px 0 15px 0;}
+    #pastOrderView #pastOrderListData .main .leftDv {width:70%;float:left}
+    #pastOrderView #pastOrderListData .main .leftDv p:nth-child(1) {color:#000;font-size:20px;/*font-weight:bold;*/margin: 10px 0px 0 15px;}
+    #pastOrderView #pastOrderListData .main .leftDv p:nth-child(2) {color:#CF2321;font-size: 18px;margin: 10px 0px 0 15px;}
+    #pastOrderView #pastOrderListData .main .leftDv p:nth-child(3) {color:#615E5E;;font-size: 18px;margin: 10px 0px 0 15px;}
+    #pastOrderView #pastOrderListData .main .rightDv {width:30%;float:left}
+    #pastOrderView #pastOrderListData .main .rightDv p {font-size:22px;color:#23A505;float:right;margin-top: 38px;}
+    
+    /*****************************************************Contactus View********************************************************/
+    #contactView .nvbar {background-color:#23A505 !important;border-bottom: none !important;}
+    #contactView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;margin-left:10px;}
+    #contactView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 13px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;}
+    #contactView .nvbar span {color:#fff;  font-size: 18px;}
+    
+    #contactView .wrapper {width:100%;height:auto}
+    #contactView .wrapper .header {width:100%;margin-top: 10%;}
+    #contactView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
+    #contactView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:0px}
+    #contactView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
+    #contactView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
+    #contactView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
+    #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;font-size: 20px;color:#fff}
+    #contactView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
+    #contactView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;}
+    #contactView .wrapper .subDv a span{font-size:20px;line-height:30px;color:#23A503 !important;/*font-weight: bold;*/}
+    
+    
+    /*****************************************************My Cart View********************************************************/
+    #myCart .nvbar {background-color:#23A505 !important;height: 55px;}
+    #myCart .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;margin-left: 10px;}
+    #myCart .nvbar .cart {background:url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border:none !important;margin-top: 11px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;}
+    #myCart .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
+    
+    #myCart .wrapper {width:100%;padding: 15px 10px 10px 10px;}
+    
+    /**************************Dynamic HTML CSS***************************/
+    #myCart .wrapper .main {width:100%;height:auto;display:inline-block;border-bottom:1px solid #ECE7E7;padding: 15px 0 13px 0;background-color: #fff;margin-bottom: 5px;}
+    #myCart .wrapper .main .dv1{width:30%;float:left}
+    #myCart .wrapper .main .dv1 p {margin: 0px 0px 0 10px;}
+    #myCart .wrapper .main .dv1 img {width:90%;/*height: 125px;*/}
+    #myCart .wrapper .main .dv2 {width:60%;float:left;  margin-top: -14px;} 
+    #myCart .wrapper .main .dv2 .dv21 {width:100%;}
+    #myCart .wrapper .main .dv2 .dv21 p {/*font-weight:bold;*/color:#000;font-size:20px;margin: 13px 0 0 5px;}
+    #myCart .wrapper .main .dv2 .dv22 {width:100%;}
+    #myCart .wrapper .main .dv2 .dv22 p {font-size:14px;margin: 10px 0 0 5px;text-overflow: ellipsis;width: 90%;white-space: nowrap;overflow: hidden;}
+    #myCart .wrapper .main .dv2 .dv23 {width:100%;display:inline-block;margin-left: 15px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv230 {width:25%;float:left}
+    #myCart .wrapper .main .dv2 .dv23 .dv230 p {margin:15px 0 0 -10px;color:#CF2321;font-weight:bold;font-size: 16px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv231 {width:13%;float:left;margin: 10px 0 0 0;}
+    #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:28px;height:28px;}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 {width:17%;float:left}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:18px;color: #23A505;margin: 5px 0 0 0;}
+    #myCart .wrapper .main .dv2 .dv23 .dv233 {width:12%;float:left}
+    #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:28px;height:28px;margin: 10px 0 0 0;}
+    #myCart .wrapper .main .dv3 {width:10%;float:left}
+    #myCart .wrapper .main .dv3 p {margin: -10px 5px 0px 0px;float: right;}
+    #myCart .wrapper .main .dv3 p .cross {width:32px;}
+    #myCart .mainTotalDv {width:100%;height:auto;display:inline-block}
+    #myCart .mainTotalDv .leftdv1 {width:80%;float:left}
+    #myCart .mainTotalDv .leftdv1 p {font-size:18px;color:#000;}
+    #myCart .mainTotalDv .leftdv2 {width:20%;float:left}
+    #myCart .mainTotalDv .leftdv2 p {text-align:center;color:#23A505;/*font-weight:bold;*/margin: 15px 0 0 -10px;}
+    
+    #myCart .footer {width:100%;display:inline-block}
+    #myCart .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid rgba(52, 53, 14, 0.48);;}
+    #myCart .footer .footerRight {width:50%;height:60px;background-color:#1E9101;float:left;text-align:center;}
+    #myCart .footer .footerLeft,#loginView .footer .footerRight {text-align: center;/*line-height: 35px;*/font-size: 16px;color: #F1F1F1;}
+    #myCart .footer .footerLeft p {margin:0 0 0 0}
+    #myCart .footer .footerRight p {margin:0 0 0 0}
+    #myCart .footer .footerLeft p a {border: none;background:none;line-height:30px;font-size: 18px;}
+    #myCart .footer .footerLeft p a:active {border: none;background: none;}
+    #myCart .footer .footerRight p a {border: none;background:none;line-height:30px;font-size: 18px;color:#fff}
+    #myCart .footer .footerRight p a:active {border: none;background: none;}
+    
+    
+    /*****************************************************Billing info View********************************************************/
+    #billingView .wrapper {width:100%;height:auto}
+    #billingView .wrapper .header {width:100%;margin-top: 15%;}
+    #billingView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
+    #billingView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
+    #billingView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
+    #billingView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 12px;}
+    #billingView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
+    #billingView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
+    #billingView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
+    #billingView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;}
+    #billingView .wrapper .subDv a span{font-size:17px;line-height:25px;color:#23A503 !important}
+    
+    #billingView .wrapper .conFldDv .mixdrop {width:100%;margin-top: -10px !important;}
+    #billingView .wrapper .conFldDv .mixdrop .city_FldDV {width:50%;float:left}
+    #billingView .wrapper .conFldDv .mixdrop .city_FldDV .dropdown{width: 100%;height: 35px;color:#E0E0E0;border:none;background:none}
+    #billingView .wrapper .conFldDv .mixdrop .state_FldDv {width:50%;float:left;}
+    #billingView .wrapper .conFldDv .mixdrop .state_FldDv .dropdown{width: 100%;height: 35px;color:#FFFFFF;border:none;background:none;font-size: 18px;-webkit-appearance: none;-moz-appearance: none;text-indent: 1px;background: url('./newImage/down_arrow.png') no-repeat;background-position: 98% 17px;background-size: 20px 11px;}
 }
