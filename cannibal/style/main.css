@@ -9,4 +9,4 @@
 
 
 /*------------------------------------------------------------------------------------------------------------------*/
-#shopView .km-content {background-color:#F3F3F1 !important}
+#shopView .km-content,#specialView .km-content {background-color:#F3F3F1 !important}

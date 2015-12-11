@@ -11,7 +11,7 @@
         
         moveToProfile:function()
         {
-            //app.mobileApp.navigate('views/myprofile.html');
+            app.mobileApp.navigate('views/myprofile.html');
         },
         
         moveToContactus:function()
@@ -46,27 +46,27 @@
         
         moveToSpecials:function()
         {
-            //app.mobileApp.navigate('views/special.html');
+            app.mobileApp.navigate('views/special.html');
         },
         
         moveToGallery:function()
         {
-           //app.mobileApp.navigate('views/gallery.html');
+           app.mobileApp.navigate('views/gallery.html');
         },
         
         moveToPrivacyPloicy:function()
         {
-            //app.mobileApp.navigate('views/privacy_policy.html');
+            app.mobileApp.navigate('views/privacy_policy.html');
         },
         
         moveToTerms_Condition:function()
         {
-            //app.mobileApp.navigate('views/terms_condition.html');
+            app.mobileApp.navigate('views/terms_condition.html');
         },
         
         moveToInviteFriend:function()
         {
-           // app.mobileApp.navigate('views/invite_friend.html');
+            app.mobileApp.navigate('views/invite_friend.html');
         },
         
         moveToPastorder:function()

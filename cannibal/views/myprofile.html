@@ -1,9 +1,10 @@
 <div data-role="view" id="profileView" data-title="MY ACCOUNT" data-use-native-scrolling="true" data-model="app.accountService.viewModel" data-show="app.accountService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="nvbar">
+            <a data-role="backbutton" data-align="left" class="back"></a>
             <a data-role="button" data-align="left" data-rel="drawer" href="#drawerList" class="menu"></a>
             <span data-role="view-title"></span>
-            <a data-role="button" data-align="right" data-badge="10" class="cart" data-click="app.shopService.viewModel.moveToCart"></a>
+            <a data-role="button" data-align="right" data-badge="2" class="cart" data-click="app.shopService.viewModel.moveToCart"></a>
         </div>
     </div>
     <div data-role="content">
@@ -14,24 +15,29 @@
                 </p>
             </div>
             <div class="addressDV">
-                <p>
+                <p class="add0">
                     Robert Wade
                 </p>
-                <p>
-                    <img src="style/images/390/phone_ico.png"/>
-                    <span>(661) 393-9333</span>
+                <p class="add1">
+                   <!-- <img src="style/images/390/phone_ico.png"/>
+                    <span>(661) 393-9333</span>-->
+                    <a data-role="button">(661) 393-9333</a>
                 </p>
-                <p>
-                    <img src="style/images/390/location_pin.png"/>
-                    <span>221 S Montclair st, Bakersfield,</span>
+                <p class="add2">
+                    <!--<img src="style/images/390/location_pin.png"/>
+                    <span>221 S Montclair st, Bakersfield,</span>-->
+                    <a data-role="button">221 S Montclair st, Bakersfield,</a>
                 </p>
-                <p>
+                <p class="add3">
                     CA 93309, USA
                 </p>
             </div>
             <div class="edtscn">
                 <p>
                    <a data-role="button" class="editBtn">Edit Account</a> 
+                </p>
+                <p class="border">
+                    &nbsp;
                 </p>
                 <p>
                     <a data-role="button" class="changePwdBtn" data-rel="modalview" href="#changePassword">Change Passowrd</a> 
@@ -42,7 +48,7 @@
 </div>
 
 <!--Modal View for forgot password-->
-<div data-role="modalview" id="changePassword" style="width:95%;" data-use-native-scrolling="false" data-model="app.accountService.viewModel" data-show="app.accountService.viewModel.show">
+<div data-role="modalview" id="changePassword" style="width:80%;" data-use-native-scrolling="false" data-model="app.accountService.viewModel" data-show="app.accountService.viewModel.show">
     <div data-role="header">
         <div data-role="navbar" class="navbar">
             <span>CHANGE PASSWORD</span>
