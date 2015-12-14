@@ -53,9 +53,10 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-       
-    })
+    function newaccount()
+    {
+        //app.mobileApp.navigate('#signupView');
+    }
 </script>
 
 <!--Signup View-->
@@ -123,7 +124,7 @@
 </script>
 
 <!--Signup View 2-->
-<div data-role="view" id="signupView2" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show">
+<div data-role="view" id="signupView2" data-model="app.signupService.viewModel" data-show="app.signupService.viewModel.show" data-use-native-scrolling="true">
     <div data-role="header">
         <div data-role="navbar" style="background-color:#23A505;border-bottom:none">
             <a data-align="left" data-role="backbutton" class="backArrow"></a>
