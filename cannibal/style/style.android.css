@@ -470,13 +470,13 @@
     #loginView .wrapper .contFldPrt {width:80%;height:auto;margin:0px auto;margin-top:10%}
     #loginView .wrapper .contFldPrt .logmail {width:100%;display: inline-block;}
     #loginView .wrapper .contFldPrt .logmail .txticon {width:15%;float:left;}
-    #loginView .wrapper .contFldPrt .logmail .txticon img{width:30px;}
+    #loginView .wrapper .contFldPrt .logmail .txticon img{width:28px;}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv {width:85%;float:left;padding-bottom:7px;border:1px solid #D5F5A9;border-top:none;border-left:none;border-right:none;}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv p {margin:-5px 0 0 0}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv .txtFld{width: 100%;height: 40px;padding-top: 5px;padding-left: 0px;border: none;background: none;color: #fff;font-size: 20px;font-family: 'Helvetica', 'Arial', sans-serif;}
     #loginView .wrapper .contFldPrt .logpwd {width:100%;display: inline-block;  margin-top: 15px;}
     #loginView .wrapper .contFldPrt .logpwd .txticon {width:15%;float:left;}
-    #loginView .wrapper .contFldPrt .logpwd .txticon img{width:30px}
+    #loginView .wrapper .contFldPrt .logpwd .txticon img{width:28px}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv {width: 85%;float: left;padding-bottom: 15px;border: 1px solid #D5F5A9;border-top: none;border-left: none;border-right: none;}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv p {margin:-5px 0 0 0}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width: 100%;height: 40px;padding-top: 10px;padding-left: 0px;border: none;background: none;color: #fff;font-size: 20px;font-family: 'Helvetica', 'Arial', sans-serif;}
@@ -491,10 +491,10 @@
     #loginView .footer .footerLeft p {margin:0 0 0 0}
     #loginView .footer .footerRight p {margin:0 0 0 0}
     #loginView .footer .footerLeft p a {border: none;background: none;}
-    #loginView .footer .footerLeft p a span {font-size:15px;font-family:'Helvetica','Arial',sans-serif;font-style: normal;color: #fff;}
+    #loginView .footer .footerLeft p a span {font-size:17px;font-family:'Helvetica','Arial',sans-serif;font-style: normal;color: #fff;}
     #loginView .footer .footerLeft p a:active {border: none;background: none;}
     #loginView .footer .footerRight p a {border: none;background: none;}
-    #loginView .footer .footerRight p a span {font-size:15px;font-family:'Helvetica','Arial',sans-serif;font-style: normal;color: #fff;}
+    #loginView .footer .footerRight p a span {font-size:17px;font-family:'Helvetica','Arial',sans-serif;font-style: normal;color: #fff;}
     #loginView .footer .footerRight p a:active {border: none;background: none;}
     ::-webkit-input-placeholder { color:#D4EDCF;font-size:16px;font-family: 'Helvetica', 'Arial', sans-serif;font-weight: 500;line-height:20px}
     
@@ -694,7 +694,7 @@
     #specialView #specialListData .main .leftDv p:nth-child(4) {color:#615E5E;;font-size: 13px;margin: 25px 0 0px 14px;}
     #specialView #specialListData .main .rightDv {width:35%;float:left}
     #specialView #specialListData .main .rightDv p {margin: 15px 0px 0 0px;}
-    #specialView #specialListData .main .rightDv p img {width:90%}
+    #specialView #specialListData .main .rightDv p img {width:90%;margin: 0 0 0 0px;}
     #specialView #specialListData .main .rightDv p .bonus{width:20%;position:absolute;top:33%;left:53%;}
     
     /*****************************************************Gallery View********************************************************/
@@ -848,7 +848,7 @@
     #contactView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;font-size: 20px;color:#fff}
     #contactView .wrapper .subDv {width:93%;margin: 0px auto;margin-top: 12%;}
-    #contactView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;}
+    #contactView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;background-repeat: no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #contactView .wrapper .subDv a span{font-size:20px;line-height:30px;color:#23A503 !important;/*font-weight: bold;*/}
     
     
@@ -894,9 +894,11 @@
     #myCart .footer .footerLeft,#loginView .footer .footerRight {text-align: center;/*line-height: 35px;*/font-size: 16px;color: #F1F1F1;}
     #myCart .footer .footerLeft p {margin:0 0 0 0}
     #myCart .footer .footerRight p {margin:0 0 0 0}
-    #myCart .footer .footerLeft p a {border: none;background:none;line-height:30px;font-size: 18px;}
+    #myCart .footer .footerLeft p a {border: none;background:none;color:#fff}
+    #myCart .footer .footerLeft p a span{line-height:35px;font-size: 18px;}
     #myCart .footer .footerLeft p a:active {border: none;background: none;}
-    #myCart .footer .footerRight p a {border: none;background:none;line-height:30px;font-size: 18px;color:#fff}
+    #myCart .footer .footerRight p a {border: none;background:none;}
+    #myCart .footer .footerRight p a span{line-height:35px;font-size: 18px;color:#fff}
     #myCart .footer .footerRight p a:active {border: none;background: none;}
     
     
@@ -963,11 +965,11 @@
     #forgotPassword .navbar span {font-size:18px;color:#fff;margin-left: 15px;}
     #verificationcode::-webkit-input-placeholder{color:#999;}
     #forgotPassword #maincontent {width:100%;height:auto;margin:0px auto;}
-    #forgotPassword #maincontent .forgotfTxtfld{width: 100%;height: 45px;padding-left: 7px;border: 1px solid #ccc;font-size: 20px;}
+    #forgotPassword #maincontent .forgotfTxtfld{width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;font-size: 20px;}
     #forgotPassword #maincontent .btnpar {text-align: center;}
-    #forgotPassword #maincontent .btnpar a:nth-child(1) {width:48.3%;height:45px;background:#1A530C !important;color:#fff}
+    #forgotPassword #maincontent .btnpar a:nth-child(1) {width:48.1%;height:40px;background:#1A530C !important;color:#fff}
     #forgotPassword #maincontent .btnpar a:nth-child(1) span {font-size: 18px;line-height: 26px;}
-    #forgotPassword #maincontent .btnpar a:nth-child(2) {width:48.3%;height:45px;background:#1E9E01 !important;color:#fff}
+    #forgotPassword #maincontent .btnpar a:nth-child(2) {width:48.1%;height:40px;background:#1E9E01 !important;color:#fff}
     #forgotPassword #maincontent .btnpar a:nth-child(2) span {font-size: 18px;line-height: 26px;}
     
     /***************************************************** Signup View1 ********************************************************/
@@ -1218,8 +1220,8 @@
     #changePassword #maincontent p:nth-child(1) .pwdTextFld { width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}
     #changePassword #maincontent p:nth-child(2) .pwdTextFld { width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}
     #changePassword #maincontent p:nth-child(3) {margin-top:25px;}
-    #changePassword #maincontent p:nth-child(3) a:nth-child(1) {width: 48%;height: 40px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;}
-    #changePassword #maincontent p:nth-child(3) a:nth-child(2) {width: 48%;margin-left:3px;height: 40px;line-height: 25px;background-color: #23A505;border: 1px solid #ccc;color: #FFF;} 
+    #changePassword #maincontent p:nth-child(3) a:nth-child(1) {width: 47.5%;height: 40px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;}
+    #changePassword #maincontent p:nth-child(3) a:nth-child(2) {width: 47.5%;margin-left:3px;height: 40px;line-height: 25px;background-color: #23A505;border: 1px solid #ccc;color: #FFF;} 
     
     /*****************************************************Privacy Policy View********************************************************/
     #privacy_policy .nvbar {background-color:#23A505 !important;height: 55px;}
@@ -1304,7 +1306,7 @@
     #contactView .wrapper .header {width:100%;margin-top: 10%;}
     #contactView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
     #contactView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:0px}
-    #contactView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
+    #contactView .wrapper .conFldDv .fldDv {width:100%;margin-top: 20px;}
     #contactView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
     #contactView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #contactView .wrapper .conFldDv .fldDv .txtarea{width: 100%;height: 80px;border: none;background: none;font-size: 20px;color:#fff}
@@ -1322,7 +1324,7 @@
     #myCart .wrapper {width:100%;padding: 15px 10px 10px 10px;}
     
     /**************************Dynamic HTML CSS***************************/
-    #myCart .wrapper .main {width:100%;height:auto;display:inline-block;border-bottom:1px solid #ECE7E7;padding: 15px 0 13px 0;background-color: #fff;margin-bottom: 5px;}
+    #myCart .wrapper .main {width:100%;height:auto;display:inline-block;border-bottom:1px solid #ECE7E7;padding: 15px 0 8px 0;background-color: #fff;margin-bottom: 5px;}
     #myCart .wrapper .main .dv1{width:30%;float:left}
     #myCart .wrapper .main .dv1 p {margin: 0px 0px 0 10px;}
     #myCart .wrapper .main .dv1 img {width:90%;/*height: 125px;*/}
@@ -1342,12 +1344,12 @@
     #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:28px;height:28px;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv3 {width:10%;float:left}
     #myCart .wrapper .main .dv3 p {margin: -10px 5px 0px 0px;float: right;}
-    #myCart .wrapper .main .dv3 p .cross {width:32px;}
+    #myCart .wrapper .main .dv3 p .cross {width:30px;}
     #myCart .mainTotalDv {width:100%;height:auto;display:inline-block}
     #myCart .mainTotalDv .leftdv1 {width:80%;float:left}
     #myCart .mainTotalDv .leftdv1 p {font-size:18px;color:#000;}
     #myCart .mainTotalDv .leftdv2 {width:20%;float:left}
-    #myCart .mainTotalDv .leftdv2 p {text-align:center;color:#23A505;/*font-weight:bold;*/margin: 15px 0 0 -10px;}
+    #myCart .mainTotalDv .leftdv2 p {text-align:center;color:#23A505;/*font-weight:bold;*/margin: 15px 0 0 -20px;}
     
     #myCart .footer {width:100%;display:inline-block}
     #myCart .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid rgba(52, 53, 14, 0.48);;}
@@ -1366,7 +1368,7 @@
     #billingView .wrapper .header {width:100%;margin-top: 15%;}
     #billingView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
     #billingView .wrapper .conFldDv {width:90%;height:auto;margin:0px auto;margin-top:10%}
-    #billingView .wrapper .conFldDv .fldDv {width:100%;margin-top: 25px;}
+    #billingView .wrapper .conFldDv .fldDv {width:100%;margin-top: 20px;}
     #billingView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 12px;}
     #billingView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #billingView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 290px 4px !important;background-size: 20px 20px !important;}
