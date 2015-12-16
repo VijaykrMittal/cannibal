@@ -58,7 +58,7 @@
             }
             
             var hhtml = '';
-            hhtml +='<div class="mainTotalDv" style="width:100%;height:auto;display:inline-block">';
+            hhtml +='<div class="mainTotalDv" style="width:100%;height:auto;display:inline-block;margin: 0 0 0 0;">';
             hhtml +='<div class="leftdv1"><p>Total</p>';
             hhtml +='</div>';
             hhtml +='<div class="leftdv2"><p>$180.00</p>';
