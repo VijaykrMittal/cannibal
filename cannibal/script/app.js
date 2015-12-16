@@ -27,6 +27,12 @@ var app = (function(){
         window.connectionInfo = new connectionApp();
         window.fileGet = new getFileApplication();
         document.addEventListener('backbutton',onBackKeyDown,false);
+        
+        if (device.platform === 'iOS' && parseFloat(device.version) >= 7.0) 
+        {                    
+            StatusBar.overlaysWebView(false);
+            StatusBar.backgroundColorByHexString('#23A505');
+        } 
     };
     
     function connectionApp()

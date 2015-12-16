@@ -1503,7 +1503,7 @@
     #shopListData .dynDv .bindCls .priCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .priCls p{font-size: 16px;color:#23A505;margin-left: 10px;margin-top: 20px;}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
-    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 15px 3px 0 0px;}
+    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 17px 3px 0 0px;}
     #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 28px;height: 28px;border:none;background-size: 80% 80%;}
     #shopListData li {}
     
@@ -1800,7 +1800,7 @@
     #myCart .wrapper .main .dv2 .dv23 .dv231 {width:15%;float:left;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:25px;height:25px;}
     #myCart .wrapper .main .dv2 .dv23 .dv232 {width:22%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:16px;color: #23A505;margin: 5px 0 0 0;  padding: 0px 2px 4px 0;}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:16px;color: #28621A;margin: 5px 0 0 0;  padding: 0px 2px 4px 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv233 {width:12%;float:left}
     #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:25px;height:25px;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv3 {width:5%;float:left}
