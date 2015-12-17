@@ -469,7 +469,7 @@
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
-    #loginView .wrapper .logoPrt p img {width:160px}
+    #loginView .wrapper .logoPrt p img {width:180px}
     #loginView .wrapper .contFldPrt {width:80%;height:auto;margin:0px auto;margin-top:10%}
     #loginView .wrapper .contFldPrt .logmail {width:100%;display: inline-block;}
     #loginView .wrapper .contFldPrt .logmail .txticon {width:15%;float:left;}
@@ -485,7 +485,7 @@
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width: 100%;height: 40px;padding-top: 10px;padding-left: 0px;border: none;background: none;color: #fff;font-size: 20px;font-family: 'Helvetica', 'Arial', sans-serif;}
     #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:50px}
     #loginView .wrapper .contFldPrt .logSub p {margin: 0 0 0 0;}
-    #loginView .wrapper .contFldPrt .logSub a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
+    #loginView .wrapper .contFldPrt .logSub a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #loginView .wrapper .contFldPrt .logSub a span {font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #loginView .footer {width:100%;display:inline-block}
     #loginView .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid #1E9E01;}
@@ -1342,7 +1342,7 @@
     #myCart .wrapper .main .dv2 .dv23 .dv231 {width:13%;float:left;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:27px;height:27px;}
     #myCart .wrapper .main .dv2 .dv23 .dv232 {width:19%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:18px;color: #1A5306;margin: 5px 0 0 0;  padding: 0px 0 4px 0;}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:18px;color: #115A00;margin: 5px 0 0 0;  padding: 0px 0 4px 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv233 {width:12%;float:left}
     #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:27px;height:27px;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv3 {width:10%;float:left}
