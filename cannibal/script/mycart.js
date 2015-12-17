@@ -47,7 +47,7 @@
                 html+='<div class="dv21"><p>'+data[i]['title']+'</p></div>';
                 html+='<div class="dv22"><p>'+data[i]['desc']+'</p></div>';
                 html+='<div class="dv23">';
-                html+='<div class="dv230"><p>'+data[i]['price']+'</p></div><div class="dv231"><img class="minus" src="style/images/390/green_minus.png"/></div><div class="dv232" id="qunatDv"><input tyep="text" id="quantity" value="'+data[i]['quantity']+'" style="background-color:#fff;" disabled="true"/></div><div class="dv233"><img class="add" src="style/images/390/green_plus.png"/></div>';
+                html+='<div class="dv230"><p>'+data[i]['price']+'</p></div><div class="dv231"><img class="minus" src="style/images/390/green_minus.png"/></div><div class="dv232" id="qunatDv"><input tyep="text" id="quantity" value="'+data[i]['quantity']+'" style="background-color:#fff;" disabled="false"/></div><div class="dv233"><img class="add" src="style/images/390/green_plus.png"/></div>';
                 html+='</div>';
                 html+='</div>';
                 html+='<div class="dv3">';
