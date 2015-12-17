@@ -514,7 +514,7 @@
     #forgotPassword #maincontent .btnpar a:nth-child(2) span {font-size: 18px;line-height: 26px;}
     
     /***************************************************** Signup View1 ********************************************************/
-    #signupView .backArrow {width: 40px;height: 40px;border: none;background: url('./slideImage/back_icon.png') no-repeat;background-size: 60% 60% !important;background-position: 5px 5px;}
+    #signupView .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 24px 34px !important;background-position: 5px 5px;}
     #signupView .wrapper {width:100%;height:auto}
     #signupView .wrapper .header {width:100%;margin-top: 7%;}
     #signupView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
@@ -524,11 +524,11 @@
     #signupView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #signupView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 96% 4px !important;background-size: 20px 20px !important;}
     #signupView .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 12%;}
-    #signupView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
+    #signupView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #signupView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     
     /***************************************************** Signup View2 ********************************************************/
-    #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./slideImage/back_icon.png') no-repeat;background-size: 60% 60% !important;background-position: 5px 5px;}
+    #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 24px 34px !important;background-position: 5px 5px;}
     #signupView2 .wrapper {width:100%;height:auto}
     #signupView2 .wrapper .header {width:100%;margin-top: 7%;}
     #signupView2 .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
@@ -537,7 +537,7 @@
     #signupView2 .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 18px;}
     #signupView2 .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #signupView2 .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 20%;}
-    #signupView2 .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
+    #signupView2 .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #signupView2 .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #signupView2 .wrapper .conFldDv .fldDv .checkDv {width:9%;float:left;margin-left: 5px;}
     #signupView2 .wrapper .conFldDv .fldDv .checkDv img {width:16px}
@@ -560,7 +560,7 @@
     
     /*****************************************************Products View********************************************************/
     #shopView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #shopView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
+    #shopView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
     #shopView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     
     #shopView .wrapper {width:100%;}
@@ -582,14 +582,14 @@
     #shopListData .dynDv .bindCls .priCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .priCls p{font-size: 16px;color:#23A505;margin-left: 10px;margin-top: 20px;}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
-    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 15px 3px 0 0px;}
-    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 30px;height: 30px;border:none;background-size: 80% 80%;}
+    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 14px 3px 0 0px;}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./IOS/cart.png) no-repeat;width: 30px;height: 30px;border:none;background-size: 80% 80%;}
     #shopListData li {}
     
     /*****************************************************product detail View********************************************************/
     #productDetail .nvbar {background-color:#23A505 !important;height: 55px;}
-    #productDetail .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #productDetail .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #productDetail .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #productDetail .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #productDetail .nvbar span {color:#fff;  font-size: 18px;line-height:55px;}
     
     #productDetail .wrapper {width:100%;height:auto}
@@ -622,8 +622,8 @@
     
     /*****************************************************Aboutus View********************************************************/
     #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #aboutusView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #aboutusView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #aboutusView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #aboutusView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #aboutusView .nvbar span {color:#fff;  font-size: 18px;line-height: 55px;}
     
     #aboutusView .wrapper {width:100%;height:auto;margin:0px auto;}
@@ -659,8 +659,8 @@
     /*****************************************************Clone View********************************************************/
     #clonesView .nvbar {background-color:#23A505 !important;height: 55px;}
     #clonesView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
-    #clonesView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #clonesView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #clonesView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #clonesView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #clonesView .nvbar span {color:#fff;  font-size: 18px;line-height: 55px;}
     
     #clonesView .wrapper {width:100%;}
@@ -682,8 +682,8 @@
     /*****************************************************Specials View********************************************************/
     #specialView .nvbar {background-color:#23A505 !important;height: 55px;}
     #specialView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
-    #specialView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #specialView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #specialView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #specialView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #specialView .nvbar span {color:#fff;  font-size: 18px;line-height: 55px;}
     #specialView #specialListData li{background-color:#F3F3F1 !important;border:none}
     #specialView #specialListData li:first-child {padding-top:15px}
@@ -702,8 +702,8 @@
     
     /*****************************************************Gallery View********************************************************/
     #galleryView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #galleryView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #galleryView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #galleryView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #galleryView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #galleryView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     #galleryView .wrapper {width:100%;height:auto;}
     #galleryView .wrapper .headerTab {width:100%;height:auto;display:inline-block}
@@ -721,8 +721,8 @@
     /*****************************************************My Account View********************************************************/
     #profileView .nvbar {background-color:#23A505 !important;height: 55px;}
     #profileView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
-    #profileView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #profileView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #profileView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #profileView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #profileView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     #profileView .wrapper {width:100%;margin:0px auto}
     #profileView .wrapper .profile_pic {width:50%;margin:0px auto;margin-top: 10%;}
@@ -731,11 +731,11 @@
     #profileView .wrapper .addressDV {width:80%;margin:0px auto;font-size:20px}
     #profileView .wrapper .addressDV .add0 {text-align:center;margin-bottom: -20px;}
     #profileView .wrapper .addressDV .add1 {text-align:center}
-    #profileView .wrapper .addressDV .add1 a {color:#494343;background:url('./images/390/phone_ico.png') no-repeat;width: 80%;border:none;background-size: 20px;background-position: 12% 13px;}
+    #profileView .wrapper .addressDV .add1 a {color:#494343;background:url('./IOS/phone_ico.png') no-repeat;width: 80%;border:none;background-size: 22px;background-position: 12% 11px;}
     #profileView .wrapper .addressDV .add1 a span {font-size:18px;}
     #profileView .wrapper .addressDV .add1 a:active {color:#494343}
     #profileView .wrapper .addressDV .add2 {text-align:center;margin: -26px 0 0 22px;}
-    #profileView .wrapper .addressDV .add2 a {color:#494343;background:url('./images/390/location_pin.png') no-repeat;width: 100%;border:none;background-size: 18px;background-position: 0% 12px;}
+    #profileView .wrapper .addressDV .add2 a {color:#494343;background:url('./IOS/location_pin.png') no-repeat;width: 100%;border:none;background-size: 20px;background-position: 0% 10px;}
     #profileView .wrapper .addressDV .add2 a span {font-size:18px;}
     #profileView .wrapper .addressDV .add2 a:active {color:#494343}
     #profileView .wrapper .addressDV .add3 {text-align:center;margin: 0 0 0 0;font-size:18px}
@@ -744,11 +744,11 @@
     #profileView .wrapper .edtscn p{text-align: center;}
     #profileView .wrapper .edtscn p:nth-child(1) {margin-bottom: -15px;}
     #profileView .wrapper .edtscn .border {border-bottom:1px solid rgba(0,0,0,0.1);}
-    #profileView .wrapper .edtscn .editBtn {width:60%;background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 15px 6px;background-size: 20px 20px;}
-    #profileView .wrapper .edtscn .editBtn:active {background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 15px 6px;background-size: 20px 20px;}
+    #profileView .wrapper .edtscn .editBtn {width:60%;background:none;border:none;color:#4c5356;background-image:url('./IOS/edit.png');background-repeat:no-repeat;background-position: 15px 2px;background-size: 24px 24px;}
+    #profileView .wrapper .edtscn .editBtn:active {background:none;border:none;color:#4c5356;background-image:url('./IOS/edit.png');background-repeat:no-repeat;background-position: 15px 2px;background-size: 24px 24px;}
     #profileView .wrapper .edtscn .editBtn span{font-size: 18px;}
-    #profileView .wrapper .edtscn .changePwdBtn {width:72%;background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 15px 6px;background-size: 20px 20px;}
-    #profileView .wrapper .edtscn .changePwdBtn:active {background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 15px 6px;background-size: 20px 20px;}
+    #profileView .wrapper .edtscn .changePwdBtn {width:72%;background:none;border:none;color:#4c5356;background-image:url('./IOS/key_ico.png');background-repeat:no-repeat;background-position: 15px 3px;background-size: 24px 24px;}
+    #profileView .wrapper .edtscn .changePwdBtn:active {background:none;border:none;color:#4c5356;background-image:url('./IOS/key_ico.png');background-repeat:no-repeat;background-position: 15px 3px;background-size: 24px 24px;}
     #profileView .wrapper .edtscn .changePwdBtn span {font-size:18px}
     
     /*****************************************************Change Password Modal View********************************************************/
@@ -765,8 +765,8 @@
     
     /*****************************************************Privacy Policy View********************************************************/
     #privacy_policy .nvbar {background-color:#23A505 !important;height: 55px;}
-    #privacy_policy .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #privacy_policy .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #privacy_policy .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #privacy_policy .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #privacy_policy .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     
     #privacy_policy .wrapper {width:96%;height:auto;margin:0px auto;}
@@ -782,8 +782,8 @@
     
     /*****************************************************Terms and Condition View********************************************************/
     #terms_cond .nvbar {background-color:#23A505 !important;height: 55px;}
-    #terms_cond .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #terms_cond .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #terms_cond .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #terms_cond .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #terms_cond .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     
     #terms_cond .wrapper {width:96%;height:auto;margin:0px auto;}
@@ -822,7 +822,7 @@
     
     /*****************************************************Past Order view View********************************************************/
     #pastOrderView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #pastOrderView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
+    #pastOrderView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
     #pastOrderView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
     #pastOrderView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     #pastOrderView #pastOrderListData li {background-color: #F3F3F1 !important;border: none;}
@@ -838,8 +838,8 @@
     
     /*****************************************************Contactus View********************************************************/
     #contactView .nvbar {background-color:#23A505 !important;border-bottom: none !important;}
-    #contactView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #contactView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #contactView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #contactView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #contactView .nvbar span {color:#fff;  font-size: 18px;}
     
     #contactView .wrapper {width:100%;height:auto}
@@ -857,8 +857,8 @@
     
     /*****************************************************My Cart View********************************************************/
     #myCart .nvbar {background-color:#23A505 !important;height: 55px;}
-    #myCart .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #myCart .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #myCart .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #myCart .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #myCart .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     
     #myCart .wrapper {width:100%;padding: 15px 10px 10px 10px;}
@@ -879,7 +879,7 @@
     #myCart .wrapper .main .dv2 .dv23 .dv231 {width:13%;float:left;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:28px;height:28px;}
     #myCart .wrapper .main .dv2 .dv23 .dv232 {width:17%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:18px;color: #23A505;margin: 5px 0 0 0;  padding: 0px 0 0 0;}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:18px;color: #114A03;margin: 5px 0 0 0;  padding: 0px 0 0 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv233 {width:12%;float:left}
     #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:28px;height:28px;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv3 {width:10%;float:left}
@@ -1215,13 +1215,13 @@
     #profileView .wrapper .edtscn .changePwdBtn span {font-size:18px}
     
     /*****************************************************Change Password Modal View********************************************************/
-    #changePwdold::-webkit-input-placeholder{color:#999;font-size:15px}
-    #changePwdnew::-webkit-input-placeholder{color:#999;font-size:15px}
+    #changePwdold::-webkit-input-placeholder{color:#999;font-size:14px}
+    #changePwdnew::-webkit-input-placeholder{color:#999;font-size:14px}
     #changePassword .navbar {background-color:#23A505;color:#fff;}
     #changePassword .navbar span {font-size:18px}
     #changePassword #maincontent p:nth-child(1) {margin-top: 30px;}
-    #changePassword #maincontent p:nth-child(1) .pwdTextFld { width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}
-    #changePassword #maincontent p:nth-child(2) .pwdTextFld { width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}
+    #changePassword #maincontent p:nth-child(1) .pwdTextFld {font-size: 15px;width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}
+    #changePassword #maincontent p:nth-child(2) .pwdTextFld {font-size: 15px;width: 100%;height: 40px;padding-left: 7px;border: 1px solid #ccc;border-radius: 5px;}
     #changePassword #maincontent p:nth-child(3) {margin-top:25px;}
     #changePassword #maincontent p:nth-child(3) a:nth-child(1) {width: 47.5%;height: 40px;line-height: 25px;background-color: #fff;border: 1px solid #ccc;color: #23A505;}
     #changePassword #maincontent p:nth-child(3) a:nth-child(2) {width: 47.5%;margin-left:3px;height: 40px;line-height: 25px;background-color: #23A505;border: 1px solid #ccc;color: #FFF;} 
@@ -1396,19 +1396,19 @@
     #loginView .wrapper .contFldPrt {width:80%;height:auto;margin:0px auto;margin-top:10%}
     #loginView .wrapper .contFldPrt .logmail {width:100%;display: inline-block;}
     #loginView .wrapper .contFldPrt .logmail .txticon {width:15%;float:left;}
-    #loginView .wrapper .contFldPrt .logmail .txticon img{width:28px;}
+    #loginView .wrapper .contFldPrt .logmail .txticon img{width:25px;}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv {width:85%;float:left;padding-bottom:7px;border:1px solid #D5F5A9;border-top:none;border-left:none;border-right:none;}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv p {margin:-5px 0 0 0}
     #loginView .wrapper .contFldPrt .logmail .txtfldDv .txtFld{width: 100%;height: 40px;padding-top: 5px;padding-left: 0px;border: none;background: none;color: #fff;font-size: 20px;font-family: 'Helvetica', 'Arial', sans-serif;}
     #loginView .wrapper .contFldPrt .logpwd {width:100%;display: inline-block;  margin-top: 15px;}
     #loginView .wrapper .contFldPrt .logpwd .txticon {width:15%;float:left;}
-    #loginView .wrapper .contFldPrt .logpwd .txticon img{width:28px}
+    #loginView .wrapper .contFldPrt .logpwd .txticon img{width:25px}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv {width: 85%;float: left;padding-bottom: 15px;border: 1px solid #D5F5A9;border-top: none;border-left: none;border-right: none;}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv p {margin:-5px 0 0 0}
     #loginView .wrapper .contFldPrt .logpwd .txtfldDv .txtFld{width: 100%;height: 40px;padding-top: 10px;padding-left: 0px;border: none;background: none;color: #fff;font-size: 20px;font-family: 'Helvetica', 'Arial', sans-serif;}
     #loginView .wrapper .contFldPrt .logSub {width:100%;margin-top:50px}
     #loginView .wrapper .contFldPrt .logSub p {margin: 0 0 0 0;}
-    #loginView .wrapper .contFldPrt .logSub a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
+    #loginView .wrapper .contFldPrt .logSub a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #loginView .wrapper .contFldPrt .logSub a span {font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #loginView .footer {width:100%;display:inline-block}
     #loginView .footer .footerLeft {width:50%;height:60px;background-color:#1E9101;float:left;border-right: 1px solid #1E9E01;}
@@ -1437,7 +1437,7 @@
     #forgotPassword #maincontent .btnpar a:nth-child(2) span {font-size: 16px;line-height: 26px;}
     
     /***************************************************** Signup View1 ********************************************************/
-    #signupView .backArrow {width: 40px;height: 40px;border: none;background: url('./slideImage/back_icon.png') no-repeat;background-size: 60% 60% !important;background-position: 5px 5px;}
+    #signupView .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 20px 30px !important;background-position: 5px 5px;}
     #signupView .wrapper {width:100%;height:auto}
     #signupView .wrapper .header {width:100%;margin-top: 7%;}
     #signupView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:25px}
@@ -1447,11 +1447,11 @@
     #signupView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #signupView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 96% 4px !important;background-size: 20px 20px !important;}
     #signupView .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 12%;}
-    #signupView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
+    #signupView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #signupView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #signupView .txtFld::-webkit-input-placeholder{font-size:14px;}
     /***************************************************** Signup View2 ********************************************************/
-    #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./slideImage/back_icon.png') no-repeat;background-size: 60% 60% !important;background-position: 5px 5px;}
+    #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 20px 30px !important;background-position: 5px 5px;}
     #signupView2 .wrapper {width:100%;height:auto}
     #signupView2 .wrapper .header {width:100%;margin-top: 7%;}
     #signupView2 .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:25px}
@@ -1460,7 +1460,7 @@
     #signupView2 .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
     #signupView2 .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
     #signupView2 .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 20%;}
-    #signupView2 .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
+    #signupView2 .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #signupView2 .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #signupView2 .wrapper .conFldDv .fldDv .checkDv {width:9%;float:left;margin-left: 5px;}
     #signupView2 .wrapper .conFldDv .fldDv .checkDv img {width:15px}
@@ -1474,6 +1474,7 @@
     #drawerList .listparent li:first-child {background-color:#243117;padding: 60px 0 10px 0;border-bottom:1px solid #1F670E;}
     #drawerList .listparent li:first-child .header {width:100%}
     #drawerList .listparent li:first-child .header .headerinner1 {width:20%;float:left;margin: -45px 0 0px 0px;padding: 0 0 0px 10px;}
+    #drawerList .listparent li:first-child .header .headerinner1 img {width:40px}
     #drawerList .listparent li:first-child .header .headerinner2 {width:80%;float:left;margin: -52px 0 0 50px;}
     #drawerList .listparent li:first-child .header .headerinner2 p {font-size: 18px;color: #fff;}
     #drawerList .listparent .drawerDv {width:100%;display:inline-block}
@@ -1484,8 +1485,8 @@
     
     /*****************************************************Products View********************************************************/
     #shopView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #shopView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #shopView .nvbar span {color:#fff;font-size: 16px;line-height: 52px;}
+    #shopView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #shopView .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     
     #shopView .wrapper {width:100%;}
     #shopView .wrapper .main {width:100%;margin:0px auto}
@@ -1512,9 +1513,9 @@
     
     /*****************************************************product detail View********************************************************/
     #productDetail .nvbar {background-color:#23A505 !important;height: 55px;}
-    #productDetail .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #productDetail .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #productDetail .nvbar span {color:#fff;  font-size: 16px;line-height:52px;}
+    #productDetail .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #productDetail .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #productDetail .nvbar span {color:#fff;  font-size: 17px;line-height:55px;}
     
     #productDetail .wrapper {width:100%;height:auto}
     #productDetail .wrapper .prod_image {width:100%;border:1px solid #E5E5E5}
@@ -1546,9 +1547,9 @@
     
     /*****************************************************Aboutus View********************************************************/
     #aboutusView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #aboutusView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #aboutusView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #aboutusView .nvbar span {color:#fff;  font-size: 16px;line-height: 52px;}
+    #aboutusView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #aboutusView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #aboutusView .nvbar span {color:#fff;  font-size: 17px;line-height: 55px;}
     
     #aboutusView .wrapper {width:100%;height:auto;margin:0px auto;}
     /*#aboutusView .wrapper .mainbind{width:100%;height:auto;display:inline-block}
@@ -1583,9 +1584,9 @@
     /*****************************************************Clone View********************************************************/
     #clonesView .nvbar {background-color:#23A505 !important;height: 55px;}
     #clonesView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
-    #clonesView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #clonesView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #clonesView .nvbar span {color:#fff;  font-size: 16px;line-height: 52px;}
+    #clonesView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #clonesView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #clonesView .nvbar span {color:#fff;  font-size: 17px;line-height: 55px;}
     
     #clonesView .wrapper {width:100%;}
     #clonesView #cloneListData li {border:none}
@@ -1606,9 +1607,9 @@
     /*****************************************************Specials View********************************************************/
     #specialView .nvbar {background-color:#23A505 !important;height: 55px;}
     #specialView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
-    #specialView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #specialView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #specialView .nvbar span {color:#fff;  font-size: 16px;line-height: 52px;}
+    #specialView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #specialView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #specialView .nvbar span {color:#fff;  font-size: 17px;line-height: 55px;}
     #specialView #specialListData li{background-color:#F3F3F1 !important;border:none}
     #specialView #specialListData li:first-child {padding-top:15px}
     #specialView #specialListData li:first-child .main .rightDv p .bonus{width:20%;position:absolute;top:42%;left:47%;}
@@ -1626,9 +1627,9 @@
     
     /*****************************************************Gallery View********************************************************/
     #galleryView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #galleryView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #galleryView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #galleryView .nvbar span {color:#fff;font-size: 16px;line-height: 52px;}
+    #galleryView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #galleryView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #galleryView .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     #galleryView .wrapper {width:100%;height:auto;}
     #galleryView .wrapper .headerTab {width:100%;height:auto;display:inline-block}
     #galleryView .wrapper .headerTab .tab1 {width:50%;float:left;height:50px;background-color:#F1F1F1;border-right:1px solid #ccc}
@@ -1645,9 +1646,9 @@
     /*****************************************************My Account View********************************************************/
     #profileView .nvbar {background-color:#23A505 !important;height: 55px;}
     #profileView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
-    #profileView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #profileView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #profileView .nvbar span {color:#fff;font-size: 16px;line-height: 52px;}
+    #profileView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #profileView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #profileView .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     #profileView .wrapper {width:100%;margin:0px auto}
     #profileView .wrapper .profile_pic {width:50%;margin:0px auto;margin-top: 7%;}
     #profileView .wrapper .profile_pic p {text-align:center}
@@ -1655,11 +1656,11 @@
     #profileView .wrapper .addressDV {width:80%;margin:0px auto;font-size:20px}
     #profileView .wrapper .addressDV .add0 {text-align:center;margin-bottom: -20px;}
     #profileView .wrapper .addressDV .add1 {text-align:center}
-    #profileView .wrapper .addressDV .add1 a {color:#494343;background:url('./images/390/phone_ico.png') no-repeat;width: 80%;border:none;background-size: 20px;background-position: 6% 13px;}
+    #profileView .wrapper .addressDV .add1 a {color:#494343;background:url('./IOS/phone_ico.png') no-repeat;width: 80%;border:none;background-size: 20px;background-position: 6% 13px;}
     #profileView .wrapper .addressDV .add1 a span {font-size:16px;}
     #profileView .wrapper .addressDV .add1 a:active {color:#494343}
     #profileView .wrapper .addressDV .add2 {text-align:center;margin: -26px 0 0 22px;}
-    #profileView .wrapper .addressDV .add2 a {color:#494343;background:url('./images/390/location_pin.png') no-repeat;width: 100%;border:none;background-size: 18px;background-position: 11% 12px;}
+    #profileView .wrapper .addressDV .add2 a {color:#494343;background:url('./IOS/location_pin.png') no-repeat;width: 100%;border:none;background-size: 18px;background-position: 11% 12px;}
     #profileView .wrapper .addressDV .add2 a span {font-size:16px;}
     #profileView .wrapper .addressDV .add2 a:active {color:#494343}
     #profileView .wrapper .addressDV .add3 {text-align:center;margin: 0 0 0 0;font-size:16px}
@@ -1668,11 +1669,11 @@
     #profileView .wrapper .edtscn p{text-align: center;}
     #profileView .wrapper .edtscn p:nth-child(1) {margin-bottom: -15px;}
     #profileView .wrapper .edtscn .border {border-bottom:1px solid rgba(0,0,0,0.1);}
-    #profileView .wrapper .edtscn .editBtn {width:60%;background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 5px 4px;background-size: 20px 20px;}
-    #profileView .wrapper .edtscn .editBtn:active {background:none;border:none;color:#4c5356;background-image:url('./images/390/edit.png');background-repeat:no-repeat;background-position: 5px 4px;background-size: 20px 20px;}
+    #profileView .wrapper .edtscn .editBtn {width:60%;background:none;border:none;color:#4c5356;background-image:url('./IOS/edit.png');background-repeat:no-repeat;background-position: 5px 4px;background-size: 20px 20px;}
+    #profileView .wrapper .edtscn .editBtn:active {background:none;border:none;color:#4c5356;background-image:url('./IOS/edit.png');background-repeat:no-repeat;background-position: 5px 4px;background-size: 20px 20px;}
     #profileView .wrapper .edtscn .editBtn span{font-size: 16px;}
-    #profileView .wrapper .edtscn .changePwdBtn {width:72%;background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 2px 4px;background-size: 20px 20px;}
-    #profileView .wrapper .edtscn .changePwdBtn:active {background:none;border:none;color:#4c5356;background-image:url('./images/390/key_ico.png');background-repeat:no-repeat;background-position: 2px 4px;background-size: 20px 20px;}
+    #profileView .wrapper .edtscn .changePwdBtn {width:72%;background:none;border:none;color:#4c5356;background-image:url('./IOS/key_ico.png');background-repeat:no-repeat;background-position: 2px 4px;background-size: 20px 20px;}
+    #profileView .wrapper .edtscn .changePwdBtn:active {background:none;border:none;color:#4c5356;background-image:url('./IOS/key_ico.png');background-repeat:no-repeat;background-position: 2px 4px;background-size: 20px 20px;}
     #profileView .wrapper .edtscn .changePwdBtn span {font-size:16px}
     
     /*****************************************************Change Password Modal View********************************************************/
@@ -1689,9 +1690,9 @@
     
     /*****************************************************Privacy Policy View********************************************************/
     #privacy_policy .nvbar {background-color:#23A505 !important;height: 55px;}
-    #privacy_policy .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #privacy_policy .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #privacy_policy .nvbar span {color:#fff;font-size: 16px;line-height: 52px;}
+    #privacy_policy .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #privacy_policy .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #privacy_policy .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     
     #privacy_policy .wrapper {width:96%;height:auto;margin:0px auto;}
     #privacy_policy .wrapper .mainbind{width:100%;height:auto;display:inline-block}
@@ -1706,9 +1707,9 @@
     
     /*****************************************************Terms and Condition View********************************************************/
     #terms_cond .nvbar {background-color:#23A505 !important;height: 55px;}
-    #terms_cond .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #terms_cond .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #terms_cond .nvbar span {color:#fff;font-size: 16px;line-height: 52px;}
+    #terms_cond .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #terms_cond .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #terms_cond .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     
     #terms_cond .wrapper {width:96%;height:auto;margin:0px auto;}
     #terms_cond .wrapper .mainbind{width:100%;height:auto;display:inline-block}
@@ -1746,9 +1747,9 @@
     
     /*****************************************************Past Order view View********************************************************/
     #pastOrderView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #pastOrderView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
+    #pastOrderView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
     #pastOrderView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 28px;height: 25px;border: none !important;margin-top: 11px;padding-right: 30px;padding-top: 20px;padding-bottom: 8px;}
-    #pastOrderView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
+    #pastOrderView .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     #pastOrderView #pastOrderListData li {background-color: #F3F3F1 !important;border: none;}
     #pastOrderView #pastOrderListData li:first-child {margin-top:15px;}
     #pastOrderView #pastOrderListData li {padding: .1em .7em;}
@@ -1762,8 +1763,8 @@
     
     /*****************************************************Contactus View********************************************************/
     #contactView .nvbar {background-color:#23A505 !important;border-bottom: none !important;}
-    #contactView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #contactView .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
+    #contactView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #contactView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #contactView .nvbar span {color:#fff;  font-size: 18px;}
     
     #contactView .wrapper {width:100%;height:auto}
@@ -1781,9 +1782,9 @@
     
     /*****************************************************My Cart View********************************************************/
     #myCart .nvbar {background-color:#23A505 !important;height: 55px;}
-    #myCart .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
-    #myCart .nvbar .cart {background: url('./images/390/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 7px;margin-right: 0px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 25px 25px !important;background-position: 4px 4px !important;}
-    #myCart .nvbar span {color:#fff;font-size: 16px;line-height: 52px;}
+    #myCart .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
+    #myCart .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
+    #myCart .nvbar span {color:#fff;font-size: 17px;line-height: 55px;}
     
     #myCart .wrapper {width:100%;padding: 15px 10px 10px 10px;}
     
@@ -1803,7 +1804,7 @@
     #myCart .wrapper .main .dv2 .dv23 .dv231 {width:15%;float:left;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv231 img {width:25px;height:25px;}
     #myCart .wrapper .main .dv2 .dv23 .dv232 {width:22%;float:left}
-    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:16px;color: #28621A;margin: 5px 0 0 0;  padding: 0px 2px 4px 0;}
+    #myCart .wrapper .main .dv2 .dv23 .dv232 input {width:40px;height:40px;border:0px solid #ccc;text-align:center;font-size:16px;color: #114A03;margin: 5px 0 0 0;  padding: 0px 2px 4px 0;}
     #myCart .wrapper .main .dv2 .dv23 .dv233 {width:12%;float:left}
     #myCart .wrapper .main .dv2 .dv23 .dv233 img {width:25px;height:25px;margin: 10px 0 0 0;}
     #myCart .wrapper .main .dv3 {width:5%;float:left}
