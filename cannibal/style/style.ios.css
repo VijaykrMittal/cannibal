@@ -1002,7 +1002,7 @@
     #signupView2 .wrapper .conFldDv .fldDv .checkDv {width:9%;float:left;margin-left: 5px;}
     #signupView2 .wrapper .conFldDv .fldDv .checkDv img {width:16px}
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv {width:80%;float:left}
-    #signupView2 .wrapper .conFldDv .fldDv .txtTitDv .terms {color: #FFF;font-size: 16px;margin-top: 15px;}
+    #signupView2 .wrapper .conFldDv .fldDv .txtTitDv .terms {color: #FFF;font-size: 16px;margin-top: 14px;}
     .checkDv p,.txtTitDv P {border-bottom:none !importaNT;padding-bottom:0px}
     #signupView2 .txtFld::-webkit-input-placeholder{font-size:15px;}
     /*****************************************************Slider View********************************************************/
@@ -1020,7 +1020,7 @@
     
     /*****************************************************Products View********************************************************/
     #shopView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #shopView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 20px !important;background-position: 5px 5px !important;}
+    #shopView .nvbar .menu {background: url('./images/390/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 5px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 20px 18px !important;background-position: 5px 5px !important;}
     #shopView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
     
     #shopView .wrapper {width:100%;}
