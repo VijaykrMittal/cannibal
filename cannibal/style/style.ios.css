@@ -974,7 +974,7 @@
     #forgotPassword #maincontent .btnpar a:nth-child(2) span {font-size: 18px;line-height: 26px;}
     
     /***************************************************** Signup View1 ********************************************************/
-    #signupView .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 24px 36px !important;background-position: 5px 5px;}
+    #signupView .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 24px 34px !important;background-position: 5px 5px;}
     #signupView .wrapper {width:100%;height:auto}
     #signupView .wrapper .header {width:100%;margin-top: 7%;}
     #signupView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:28px}
@@ -988,7 +988,7 @@
     #signupView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #signupView .txtFld::-webkit-input-placeholder{font-size:15px;}
     /***************************************************** Signup View2 ********************************************************/
-    #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./slideImage/back_icon.png') no-repeat;background-size: 60% 60% !important;background-position: 5px 5px;}
+    #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 24px 34px !important;background-position: 5px 5px;}
     #signupView2 .wrapper {width:100%;height:auto}
     #signupView2 .wrapper .header {width:100%;margin-top: 7%;}
     #signupView2 .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:28px}
@@ -1010,6 +1010,7 @@
     #drawerList .listparent li:first-child {background-color:#243117;padding: 60px 0 10px 0;border-bottom:1px solid #1F670E;}
     #drawerList .listparent li:first-child .header {width:100%}
     #drawerList .listparent li:first-child .header .headerinner1 {width:20%;float:left;margin: -45px 0 0px 0px;padding: 0 0 0px 10px;}
+    #drawerList .listparent li:first-child .header .headerinner1 img {width: 45px;}
     #drawerList .listparent li:first-child .header .headerinner2 {width:80%;float:left;margin: -52px 0 0 50px;}
     #drawerList .listparent li:first-child .header .headerinner2 p {font-size: 18px;color: #fff;}
     #drawerList .listparent .drawerDv {width:100%;display:inline-block}
@@ -1026,8 +1027,8 @@
     
     #shopView .wrapper {width:100%;}
     #shopView .wrapper .main {width:100%;margin:0px auto}
-    #shopView .wrapper .prodSrchDv {width:100%;padding: 1px 0 1px 0;background-color: #ffffff;}
-    #shopView .wrapper .prodSrchDv p {margin:15px 7px 15px 7px;}
+    #shopView .wrapper .prodSrchDv {width:100%;padding: 1px 0 0px 0;background-color: #ffffff;}
+    #shopView .wrapper .prodSrchDv p {margin:15px 7px 15px 7px;padding: 0px 0 15px 0;}
     #shopView .wrapper .prodSrchDv .dropDwn{width: 100%;height: 45px;border: 1px solid #ccc;color: #C7C7C7;font-size: 18px;font-family: inherit;;padding-left:8px;}
     #shopView .wrapper .prodSrchDv .dropDwn {-webkit-appearance: none;-moz-appearance: none;text-indent: 1px;background: url('./newImage/down_arrow_gray.png') no-repeat;background-position: 98% 17px;background-size: 20px 11px;}
     #shopView .wrapper .listContentDV{width:100%}
@@ -1043,9 +1044,10 @@
     #shopListData .dynDv .bindCls .priCls {width: 50%;float: left;}
     #shopListData .dynDv .bindCls .priCls p{font-size: 16px;color:#23A505;margin-left: 10px;margin: 15px 0 0 10px;}
     #shopListData .dynDv .bindCls .cartCls {width: 50%;float: left;}
-    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 8px 10px 5px 0px;}
-    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./images/390/cart.png) no-repeat;width: 25px;height: 25px;border:none;background-size: 25px 25px;}
-    #shopListData li {}
+    #shopListData .dynDv .bindCls .cartCls p {text-align: right;margin: 10px 10px 5px 0px;}
+    #shopListData .dynDv .bindCls .cartCls p .cartImage{background:url(./IOS/cart.png) no-repeat;width: 25px;height: 25px;border:none;background-size: 25px 25px;}
+    #shopListData li:nth-child(1) {padding-top: 0px;}
+    #shopListData li:nth-child(2) {padding-top: 0px;}
     
     /*****************************************************product detail View********************************************************/
     #productDetail .nvbar {background-color:#23A505 !important;height: 55px;}
@@ -1119,7 +1121,7 @@
     
     /*****************************************************Clone View********************************************************/
     #clonesView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #clonesView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
+    #clonesView .nvbar .back {background: url('./IOS/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
     #clonesView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
     #clonesView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #clonesView .nvbar span {color:#fff;  font-size: 18px;line-height: 55px;}
@@ -1135,14 +1137,14 @@
     #clonesView #cloneListData li:last-child .main .dv2 {border-bottom:0px solid red;}
     #clonesView #cloneListData .main .dv21,#myCart #cartListData .main .dv22,#myCart #cartListData .main .dv23 {width:100%;}
     #clonesView #cloneListData .main .dv23 {display:inline-block;margin-top: 0px;}
-    #clonesView #cloneListData .main .dv21 p {margin: 13px 0 8px 0px;/*font-weight:bold;*/font-size:20px;color: #000;}
+    #clonesView #cloneListData .main .dv21 p {margin: 11px 0 8px 0px;/*font-weight:bold;*/font-size:20px;color: #000;}
     #clonesView #cloneListData .main .dv22 p {margin: 0px 0 0 -1px;font-size: 15px;text-overflow: ellipsis;width: 90%;white-space: nowrap;overflow: hidden;}
     #clonesView #cloneListData .main .dv23 .dv231 {width:100%;}
     #clonesView #cloneListData .main .dv23 .dv231 p {color: #23A505;/*font-weight: bold;*/font-size: 16px;margin: 15px 0 15px 0;}
     
     /*****************************************************Specials View********************************************************/
     #specialView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #specialView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
+    #specialView .nvbar .back {background: url('./IOS/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
     #specialView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
     #specialView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #specialView .nvbar span {color:#fff;  font-size: 18px;line-height: 55px;}
@@ -1181,7 +1183,7 @@
     
     /*****************************************************My Account View********************************************************/
     #profileView .nvbar {background-color:#23A505 !important;height: 55px;}
-    #profileView .nvbar .back {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
+    #profileView .nvbar .back {background: url('./IOS/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
     #profileView .nvbar .menu {background: url('./IOS/menu.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 10px;margin-left: 0px;padding-left: 38px;padding-top: 10px;padding-bottom: 10px;background-size: 25px 22px !important;background-position: 5px 5px !important;}
     #profileView .nvbar .cart {background: url('./IOS/cart_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 5px;margin-right: 2px;padding-right: 20px;padding-top: 20px;padding-bottom: 8px;background-size: 28px 30px !important;background-position: 4px 4px !important;}
     #profileView .nvbar span {color:#fff;font-size: 18px;line-height: 55px;}
