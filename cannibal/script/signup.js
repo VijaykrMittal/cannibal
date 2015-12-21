@@ -19,30 +19,10 @@
         {
             $(".km-native-scroller").scrollTop(0);
             
-            /*For check and uncheck the terms and condition*/
-            $('#uncheck').show();
-            $('#check').hide();
-            $('#uncheck').unbind(".myPlugin");
-            $('#uncheck').on('click.myPlugin',function(){
-                $('#check').show();
-                $(this).hide();
-            });
-            
-            $('#check').unbind(".myPlugin");
-            $('#check').on('click.myPlugin',function(){
-                $('#uncheck').show();
-                $(this).hide();
-            });
-            
             /* validation for registration step1 and registration step2 */
             $('#moveToRegisterStep1').unbind('.myPlugin');
             $('#moveToRegisterStep1').on('click.myPlugin',function(){
                 app.signupService.viewModel.registrationStep1();
-            });
-            
-            $('#signup').unbind('.myPlugin');
-            $('#signup').on('click.myPlugin',function(){
-                app.signupService.viewModel.registrationStep2();
             });
             
             /* only numaric number enter means other fields will not be enter on the mobile number textbox*/
@@ -65,12 +45,41 @@
                 window.fileGet.storePrescription();
             });
             
-            app.signupService.viewModel.resetSignupFld();  // club registration and account details field blank function
+            console.log(localStorage.getItem('backstatus'));
+            if(localStorage.getItem('backstatus') === null || localStorage.getItem('backstatus') === 'null' || localStorage.getItem('backstatus') === 0 || localStorage.getItem('backstatus') === '0')
+            {
+                app.signupService.viewModel.resetSignupFld();  // club registration and account details field blank function
+            } 
+        },
+        
+        show2:function()
+        {
+            app.mobileApp.hideLoading();
+            
+            /*For check and uncheck the terms and condition*/
+            $('#uncheck').show();
+            $('#check').hide();
+            $('#uncheck').unbind(".myPlugin");
+            $('#uncheck').on('click.myPlugin',function(){
+                $('#check').show();
+                $(this).hide();
+            });
+            
+            $('#check').unbind(".myPlugin");
+            $('#check').on('click.myPlugin',function(){
+                $('#uncheck').show();
+                $(this).hide();
+            });
+            
+            $('#signup').unbind('.myPlugin');
+            $('#signup').on('click.myPlugin',function(){
+                app.signupService.viewModel.registrationStep2();
+            });
         },
         
         registrationStep1 : function()
         {
-           /* var firstname = this.get('firstname'),
+            var firstname = this.get('firstname'),
                 lastname = this.get('lastname'),
                 mobilenum = this.get('mobilenum'),
                 emailAdd = this.get('emailadd');
@@ -118,6 +127,7 @@
             }
             else
             {   
+                app.mobileApp.showLoading();
                 dataParamSignup['firstName'] = firstname,
                 dataParamSignup['lastName'] = lastname,
                 dataParamSignup['phone'] = mobilenum,
@@ -125,16 +135,17 @@
                 dataParamSignup['driving_licence'] = localStorage.getItem('license_id');
                 dataParamSignup['ext_dl'] = localStorage.getItem('licenseId_fileEXT');
                 dataParamSignup['prescription'] = localStorage.getItem('prescription');
-                dataParamSignup['ext_pr'] = localStorage.getItem('prescription_fileEXT');*/
-               // setTimeout(function(){
+                dataParamSignup['ext_pr'] = localStorage.getItem('prescription_fileEXT');
+                localStorage.setItem('backstatus','1');
+                setTimeout(function(){
                     app.mobileApp.navigate('#signupView2'); ///-----------------------------------------    
-               // },3000);
-         //   }
+                },3000);
+            }
         },
         
         registrationStep2:function()
         {
-           /* var username = this.get('username'),
+            var username = this.get('username'),
                 password = this.get('userPwd'),
                 confpassword = this.get('userCnfPwd');
             
@@ -165,10 +176,10 @@
             else
             {
                 dataParamSignup['username'] = username;
-                dataParamSignup['pass'] = password;*/
-                app.mobileApp.navigate('views/shop.html');
-               // app.signupService.viewModel.registrationAPI(dataParamSignup);
-          //*  }
+                dataParamSignup['pass'] = password;
+               // app.mobileApp.navigate('views/shop.html');
+                app.signupService.viewModel.registrationAPI(dataParamSignup);
+            }
         },
         
         registrationAPI : function(data)
@@ -227,6 +238,7 @@
             localStorage.removeItem('licenseId_fileEXT');
             localStorage.removeItem('prescription');
             localStorage.removeItem('prescription_fileEXT');
+            localStorage.setItem('backstatus','0');
             $('#licenceId').val('');
             $('#prescroption').val('');
         }

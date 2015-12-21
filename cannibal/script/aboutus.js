@@ -9,6 +9,7 @@
         show:function()
         {
             app.about.viewModel.aboutUsAPI();
+            $('#dataNew').html('');
         },
         
         aboutUsAPI : function()
