@@ -2,12 +2,12 @@
     var loginViewMOdel,
         app = global.app =global.app || {};
     
+    loginData = [];
     loginViewMOdel = kendo.data.ObservableObject.extend({
         
         log_email:'',
         log_pwd:'',
         forgotTextFld:'',
-        
         show:function()
         {
             /* signin validation link*/

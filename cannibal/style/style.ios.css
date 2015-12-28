@@ -1,7 +1,7 @@
 @media (min-width:0px) and (max-width:768px) {
     
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./bg/768x1004.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./bg/768x1004.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -82,6 +82,21 @@
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv {width:80%;float:left}
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv .terms {color: #FFF;font-size: 16px;margin-top: 16px;}
     .checkDv p,.txtTitDv P {border-bottom:none !importaNT;padding-bottom:0px}
+    
+    /***************************************************** Edit Profile View ********************************************************/
+    #editprofileView .backArrow {background: url('./slideImage/back_icon.png') no-repeat !important;width: 20px;height: 30px;border: none !important;margin-top: 4px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 5px;}
+    #editprofileView .wrapper {width:100%;height:auto}
+    #editprofileView .wrapper .header {width:100%;margin-top: 3%;}
+    #editprofileView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:32px}
+    #editprofileView .wrapper .conFldDv {width:88%;height:auto;margin:0px auto;margin-top:8%}
+    #editprofileView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
+    #editprofileView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 18px;}
+    #editprofileView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
+    #editprofileView .txtFld::-webkit-input-placeholder{font-size:18px}
+    #editprofileView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 96% 4px !important;background-size: 20px 20px !important;}
+    #editprofileView .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 12%;}
+    #editprofileView .wrapper .subDv a {width:100%;height:55px;background-color:#fff !important;/* background-image:url(./images/390/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 16px;background-size: 50px 20px;*/}
+    #editprofileView .wrapper .subDv a span{font-size:20px;line-height:38px;color:#23A503 !important;font-weight: 100;}
     
     /*****************************************************Slider View********************************************************/
     #drawerList .listparent {list-style-type: none;margin: 0 0 0 -40px;}
@@ -465,7 +480,7 @@
 
 @media (min-width:0px) and (max-width:440px) {
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./bg/414x716.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./bg/414x716.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -544,6 +559,21 @@
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv {width:80%;float:left}
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv .terms {color: #FFF;font-size: 16px;margin-top: 15px;}
     .checkDv p,.txtTitDv P {border-bottom:none !importaNT;padding-bottom:0px}
+    
+    /***************************************************** Edit Profile View ********************************************************/
+    #editprofileView .backArrow {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
+    #editprofileView .wrapper {width:100%;height:auto}
+    #editprofileView .wrapper .header {width:100%;margin-top: 7%;}
+    #editprofileView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:30px}
+    #editprofileView .wrapper .conFldDv {width:88%;height:auto;margin:0px auto;margin-top:13%}
+    #editprofileView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
+    #editprofileView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 18px;}
+    #editprofileView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
+    #editprofileView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 96% 4px !important;background-size: 20px 20px !important;}
+    #editprofileView .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 12%;}
+    #editprofileView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;/* background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;*/}
+    #editprofileView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
+    #editprofileView .txtFld::-webkit-input-placeholder{font-size:16px;}
     
     /*****************************************************Slider View********************************************************/
     #drawerList .listparent {list-style-type: none;margin: 0 0 0 -40px;}
@@ -925,7 +955,7 @@
 
 @media (min-width:0px) and (max-width:390px) {
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./bg/414x716.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./bg/414x716.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -1005,6 +1035,22 @@
     #signupView2 .wrapper .conFldDv .fldDv .txtTitDv .terms {color: #FFF;font-size: 16px;margin-top: 13px;}
     .checkDv p,.txtTitDv P {border-bottom:none !importaNT;padding-bottom:0px}
     #signupView2 .txtFld::-webkit-input-placeholder{font-size:15px;}
+    
+    /*********************************************************Edit Profile*************************************************/
+    #editprofileView .backArrow {background: url('./IOS/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 23px 25px !important;background-position: 8px 7px !important;}
+    #editprofileView .wrapper {width:100%;height:auto}
+    #editprofileView .wrapper .header {width:100%;margin-top: 7%;}
+    #editprofileView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:28px}
+    #editprofileView .wrapper .conFldDv {width:88%;height:auto;margin:0px auto;margin-top:13%}
+    #editprofileView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
+    #editprofileView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 18px;}
+    #editprofileView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
+    #editprofileView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 96% 4px !important;background-size: 20px 20px !important;}
+    #editprofileView .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 12%;}
+    #editprofileView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;/* background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;*/}
+    #editprofileView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
+    #editprofileView .txtFld::-webkit-input-placeholder{font-size:15px;}
+    
     /*****************************************************Slider View********************************************************/
     #drawerList .listparent {list-style-type: none;margin: 0 0 0 -40px;}
     #drawerList .listparent li:first-child {background-color:#243117;padding: 60px 0 10px 0;border-bottom:1px solid #1F670E;}
@@ -1388,7 +1434,7 @@
 
 @media (min-width:0px) and (max-width:320px) {
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./images/390/320x568.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./images/390/320x568.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -1424,6 +1470,21 @@
     #loginView .footer .footerRight p a:active {border: none;background: none;}
     ::-webkit-input-placeholder { color:#D4EDCF;font-size:16px;font-family: 'Helvetica', 'Arial', sans-serif;font-weight: 500;line-height:20px}
     
+    /***************************************************** Edit Profile View ********************************************************/
+    #editprofileView .backArrow {background: url('./slideImage/back_icon.png') no-repeat !important;width: 35px;height: 35px;border: none !important;margin-top: 2px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;margin-left: 0px;background-size: 22px 24px !important;background-position: 8px 7px !important;}
+    #editprofileView .wrapper {width:100%;height:auto}
+    #editprofileView .wrapper .header {width:100%;margin-top: 7%;}
+    #editprofileView .wrapper .header p {text-align:center;color:#fff;font-family:sans-serif;font-size:25px}
+    #editprofileView .wrapper .conFldDv {width:95%;height:auto;margin:0px auto;margin-top:13%}
+    #editprofileView .wrapper .conFldDv .fldDv {width:100%;margin-top: 32px;}
+    #editprofileView .wrapper .conFldDv .fldDv p {border:1px solid #D5F5A9;border-top: none;border-right: none;border-left: none;padding-bottom: 10px;}
+    #editprofileView .wrapper .conFldDv .fldDv .txtFld {width:100%;height:35px;padding-left:0px;border:none;background: none;color:#fff;font-size:20px}
+    #editprofileView .wrapper .conFldDv .fldDv .attch {background:url('./images/390/attached_ico.png') no-repeat !important;background-position: 96% 4px !important;background-size: 20px 20px !important;}
+    #editprofileView .wrapper .subDv {width:90%;margin: 0px auto;margin-top: 12%;}
+    #editprofileView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important;/* background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;*/}
+    #editprofileView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
+    #editprofileView .txtFld::-webkit-input-placeholder{font-size:14px;}
+    
     /*****************************************************Forgot ModalView********************************************************/
     #forgotPassword .navbar { background-color:#23A505;border-bottom:none}
     #forgotPassword .navbar span {font-size:16px;color:#fff;margin-left: 15px;}
@@ -1450,6 +1511,7 @@
     #signupView .wrapper .subDv a {width:100%;height:45px;background-color:#fff !important; background-image:url(./IOS/btn_arrow.png) !important;background-repeat:no-repeat;background-position: 85% 12px;background-size: 35px 19px;}
     #signupView .wrapper .subDv a span{font-size:18px;line-height:30px;color:#23A503 !important;font-weight: 100;}
     #signupView .txtFld::-webkit-input-placeholder{font-size:14px;}
+    
     /***************************************************** Signup View2 ********************************************************/
     #signupView2 .backArrow {width: 40px;height: 40px;border: none;background: url('./IOS/back_icon.png') no-repeat;background-size: 20px 30px !important;background-position: 5px 5px;}
     #signupView2 .wrapper {width:100%;height:auto}
