@@ -1,7 +1,7 @@
 @media (min-width:0px) and (max-width:640px) {
 
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./newImage/login_bg.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./newImage/login_bg.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 25%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -477,7 +477,7 @@
 
 @media (min-width:0px) and (max-width:440px) {
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./images/440/640x960.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./images/440/640x960.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 25%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -954,7 +954,7 @@
 
 @media (min-width:0px) and (max-width:390px) {
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./bg/414x716.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./bg/414x716.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
@@ -1430,7 +1430,7 @@
 
 @media (min-width:0px) and (max-width:360px) {
     /*****************************************************Login View********************************************************/
-    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content{background: url('./bg/375x647.png') !important;}
+    #loginView .km-content,#signupView .km-content,#signupView2 .km-content,#billingView .km-content,#contactView .km-content,#forgotpasswordView .km-content,#editprofileView .km-content {background: url('./bg/375x647.png') !important;}
     #loginView .wrapper {width:100%;height:auto}
     #loginView .wrapper .logoPrt {width:50%;margin:0px auto;height: auto;margin-top: 12%;}
     #loginView .wrapper .logoPrt p {text-align:center}
