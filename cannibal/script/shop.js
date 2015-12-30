@@ -8,9 +8,41 @@
         show:function()
         {
             var data = [{id:1,title:'Pure Canna Balm',price:'$20.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:2,title:'Pure Canna Balm',price:'$30.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:3,title:'Pure Canna Balm',price:'$35.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:4,title:'Pure Canna Balm',price:'$45.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:5,title:'Pure Canna Balm',price:'$60.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:6,title:'Pure Canna Balm',price:'$70.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:1,title:'Pure Canna Balm',price:'$20.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:2,title:'Pure Canna Balm',price:'$30.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:3,title:'Pure Canna Balm',price:'$35.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:4,title:'Pure Canna Balm',price:'$45.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:5,title:'Pure Canna Balm',price:'$60.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:6,title:'Pure Canna Balm',price:'$70.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:1,title:'Pure Canna Balm',price:'$20.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:2,title:'Pure Canna Balm',price:'$30.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:3,title:'Pure Canna Balm',price:'$35.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:4,title:'Pure Canna Balm',price:'$45.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:5,title:'Pure Canna Balm',price:'$60.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'},{id:6,title:'Pure Canna Balm',price:'$70.00',prodImg:'style/newImage/product_img.png',cart:'style/images/390/cart.png'}];
-           // app.shopService.viewModel.setShopListData(data);
-           // app.shopService.viewModel.productListAPI();
+            // app.shopService.viewModel.setShopListData(data);
+            app.shopService.viewModel.productListAPI();
+            //app.shopService.viewModel.API_productList();
         },
+        
+        /*API_productList : function()
+        {
+            app.mobileApp.showLoading();
+            var productData = new kendo.data.DataSource({
+              transport:{
+                  read:{
+                      url:localStorage.getItem('productlist_API'),
+                      type:'GET',
+                      dataType:'JSON'
+                  }
+              },
+              schema:{
+                  data:function(data)
+                  {
+                      return [data];
+                  }
+              },
+              error:function(e)
+              {
+                  app.mobileApp.hideLoading();
+                  navigator.notification.alert("Server not responding properly.Please check your internet connection.",
+                        function () { }, "Message", 'OK');
+              }
+          });
+           productData.fetch(function(){
+                var data = this.data();
+                app.mobileApp.hideLoading();
+                app.shopService.viewModel.setShopListData(data[0]);
+           }); 
+        },*/
         
         productListAPI:function()
         {
@@ -26,9 +58,6 @@
               schema:{
                   data:function(data)
                   {
-                      /*console.log('*********************************');
-                      console.log(data);
-                      console.log('*********************************');*/
                       return [data];
                   }
               },
@@ -49,12 +78,14 @@
                 {
                     if($.isNumeric(x))
                     {
-                        categoryData.push({'category':data[0][x]['MainCategoryName']});
+                        //categoryData.push({'category':data[0][x]['MainCategoryName']});
+                        console.log(data[0][x]['subcategories'][x]);
                     }
                 }
-                app.shopService.viewModel.createCategoryList(categoryData);
+               
+                //app.shopService.viewModel.createCategoryList(categoryData);
                 //app.shopService.viewModel.setShopListData(data[0]);
-                app.shopService.viewModel.createShopList(data[0]);
+                //app.shopService.viewModel.createShopList(data[0]);
            }); 
         },
         

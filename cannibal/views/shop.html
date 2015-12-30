@@ -17,35 +17,18 @@
                 </div>
                 <div class="listContentDV">
                     <!--<ul id="shopListData" data-role="listview" data-template="shopListView" data-bind="source:shopListSource"></ul>-->
-                    <ul id="shopListData" data-role="listview"></ul>
+                    <!--<ul id="shopListData" data-role="listview"></ul>-->
+                    <ul id="shopList" data-bind="source:shopListSource" data-template="shopTemplate">
+                        
+                    </ul>
                 </div>
            </div>
         </div>
     </div>
 </div>
 
-<script type="text/x-kendo-template" id="shopListView">
+<script type="text/x-kendo-template" id="shopTemplate">
     <div class="dynDv">
-        <div class="prodCls" data-bind="click:moveToMain" data-id="#:data['id']#">
-            <p style="text-align:center">
-                <img src="#:data['prodImg']#" style="width:50%"/>
-            </p>
-        </div>
-        <div class="prodTitle">
-            <p>#:data['title']#</p>
-        </div>
-        <div class="bindCls">
-            <div class="priCls">
-                <p>
-                    #:data['price']#
-                </p>
-            </div>
-            <div class="cartCls">
-                <p>
-                   <!-- <img src="#:data['cart']#"/>-->
-                    <a data-role="button" class="cartImage" data-price="#:data['price']#" data-id="#:data['id']#" data-bind="click:addToCart"></a>
-                </p>
-            </div>
-        </div>
+    
     </div>
 </script>

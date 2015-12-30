@@ -1714,7 +1714,7 @@
     #profileView .wrapper .addressDV {width:80%;margin:0px auto;font-size:20px}
     #profileView .wrapper .addressDV .add0 {text-align:center;margin-bottom: -20px;}
     #profileView .wrapper .addressDV .add1 {text-align:center}
-    #profileView .wrapper .addressDV .add1 a {color:#494343;background:url('./IOS/phone_ico.png') no-repeat;width: 80%;border:none;background-size: 20px;background-position: 12% 15px;}
+    #profileView .wrapper .addressDV .add1 a {color:#494343;background:url('./IOS/phone_ico.png') no-repeat;width: 80%;border:none;background-size: 20px;background-position: 12% 13px;}
     #profileView .wrapper .addressDV .add1 a span {font-size:16px;}
     #profileView .wrapper .addressDV .add1 a:active {color:#494343}
     #profileView .wrapper .addressDV .add2 {text-align:center;margin: -26px 0 0 22px;}
