@@ -124,6 +124,7 @@ var app = (function(){
                 var ext = re.exec(imageData)[1];
                 var base64Data = window.btoa(imageData);
                 localStorage.setItem('license_id',base64Data);
+                console.log(localStorage.getItem('license_id'));
                 localStorage.setItem('licenseId_fileEXT',ext);
                 var filename = imageData.substr(imageData.lastIndexOf('/') + 1);
                 $('#licenceId').val(filename);
@@ -153,6 +154,7 @@ var app = (function(){
                 var ext = re.exec(imageData)[1];
                 var base64Data = window.btoa(imageData);
                 localStorage.setItem('prescription',base64Data);
+                console.log(localStorage.getItem('prescription'));
                 localStorage.setItem('prescription_fileEXT',ext);
                 var filename = imageData.substr(imageData.lastIndexOf('/') + 1);
                 $('#prescroption').val(filename);

@@ -30,6 +30,10 @@
         {
             this.set('firstname',localStorage.getItem('user_fname'));
             this.set('lastname',localStorage.getItem('user_lname'));
+            $('#licenceId').val(localStorage.getItem('cb_member_dl'));
+            $('#prescroption').val(localStorage.getItem('cb_member_priscription'));
+            this.set('emailadd',localStorage.getItem('email'));
+            this.set('mobilenum',localStorage.getItem('phoneNumber'));
         },
         
         validationState:function()
@@ -37,8 +41,7 @@
            var firstname = this.get('firstname'),
                lastname = this.get('lastname'),
                mobilenum = this.get('mobilenum'),
-               emailAdd = this.get('emailadd'),
-               username = this.get('username');
+               emailAdd = this.get('emailadd');
             
             var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             
@@ -84,6 +87,7 @@
             else
             {   
                 alert('123456');
+                app.mobileApp.navigate('#:back');
             }
             
         }

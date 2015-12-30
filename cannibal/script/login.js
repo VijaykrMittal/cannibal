@@ -140,6 +140,10 @@
             localStorage.setItem("user_id",data['user_id']);
             localStorage.setItem("user_fname",data['firstName']);
             localStorage.setItem("user_lname",data['lastName']);
+            localStorage.setItem("cb_member_dl",data['cb_member_dl']);
+            localStorage.setItem("cb_member_priscription",data['cb_member_priscription']);
+            localStorage.setItem("email",data['email']);
+            localStorage.setItem("phoneNumber",data['phoneNumber']);
             app.mobileApp.navigate('views/shop.html');
         },
         
@@ -155,6 +159,8 @@
             localStorage.removeItem("user_id");
             localStorage.removeItem("user_fname");
             localStorage.removeItem("user_lname");
+            localStorage.removeItem('email');
+            localStorage.removeItem('phoneNumber');
             app.loginService.viewModel.blankLoginFld();
             app.mobileApp.navigate('views/login.html');
         },
