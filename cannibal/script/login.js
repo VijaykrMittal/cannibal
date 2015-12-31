@@ -107,7 +107,10 @@
                 schema:{
                     data:function(data)
                     {
+                        console.log("*****");
+                        console.log(data);
                         return [data];
+                        
                     }
                 },
                 error:function(e)
@@ -144,6 +147,7 @@
             localStorage.setItem("cb_member_priscription",data['cb_member_priscription']);
             localStorage.setItem("email",data['email']);
             localStorage.setItem("phoneNumber",data['phoneNumber']);
+           // localStorage.setItem("userName",data['userName']);
             app.mobileApp.navigate('views/shop.html');
         },
         
@@ -161,6 +165,11 @@
             localStorage.removeItem("user_lname");
             localStorage.removeItem('email');
             localStorage.removeItem('phoneNumber');
+            localStorage.removeItem("cb_member_dl");
+            localStorage.removeItem("cb_member_priscription");
+            localStorage.removeItem("userName");
+            localStorage.removeItem('termsObject');
+            localStorage.removeItem('privacyObject');
             app.loginService.viewModel.blankLoginFld();
             app.mobileApp.navigate('views/login.html');
         },
