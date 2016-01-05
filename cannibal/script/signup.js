@@ -35,13 +35,13 @@
             });
             
             /*Get the image or docs from the mobile Device*/
-            $('#licenceId').unbind('.myPlugin');
-            $('#licenceId').on('click.myPlugin',function(){
+            $('.licenceId').unbind('.myPlugin');
+            $('.licenceId').on('click.myPlugin',function(){
                 window.fileGet.storeLicenseID();
             });
             
-            $('#prescroption').unbind('.myPlugin');
-            $('#prescroption').on('click.myPlugin',function(){
+            $('.prescroption').unbind('.myPlugin');
+            $('.prescroption').on('click.myPlugin',function(){
                 window.fileGet.storePrescription();
             });
             

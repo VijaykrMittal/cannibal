@@ -127,7 +127,7 @@ var app = (function(){
                 console.log(localStorage.getItem('license_id'));
                 localStorage.setItem('licenseId_fileEXT',ext);
                 var filename = imageData.substr(imageData.lastIndexOf('/') + 1);
-                $('#licenceId').val(filename);
+                $('.licenceId').val(filename);
             }
             
             function onFail(message)
@@ -157,7 +157,7 @@ var app = (function(){
                 console.log(localStorage.getItem('prescription'));
                 localStorage.setItem('prescription_fileEXT',ext);
                 var filename = imageData.substr(imageData.lastIndexOf('/') + 1);
-                $('#prescroption').val(filename);
+                $('.prescroption').val(filename);
             }
             
             function onFail(message)

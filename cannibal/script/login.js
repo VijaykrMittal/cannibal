@@ -170,6 +170,10 @@
             localStorage.removeItem("userName");
             localStorage.removeItem('termsObject');
             localStorage.removeItem('privacyObject');
+            localStorage.removeItem('prescription_fileEXT');
+            localStorage.removeItem('licenseId_fileEXT');
+            localStorage.removeItem('prescription');
+            localStorage.removeItem('license_id');
             app.loginService.viewModel.blankLoginFld();
             app.mobileApp.navigate('views/login.html');
         },

@@ -1,4 +1,4 @@
-<div data-role="view" id="inviteFriend" data-use-native-scrolling="true">
+<div data-role="view" id="inviteFriend" data-use-native-scrolling="true" data-model="app.inviteService.viewModel" data-show="app.inviteService.viewModel.show">
     <div data-role="content">
         <div class="wrapper">
             <div class="upper">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="down3">
                     <p>
-                        <a data-role="button"></a>
+                        <a data-role="button" data-bind="click:sendSMSViaComposer"></a>
                     </p>
                     <p>
                         <label>Message</label>
