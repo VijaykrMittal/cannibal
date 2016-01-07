@@ -42,6 +42,43 @@
                 return false;
             }
         },
+        
+        sendEmailViaComposer:function()
+        {
+            alert("done");
+            if (!this.checkSimulator()) {
+                cordova.plugins.email.open({
+                    to:          ['person1@domain.com'],
+                    cc:          ['person2@domain.com'],
+                    bcc:         ['person3@domain.com', 'person4@domain.com'],
+                    attachments: ['file://styles/images/logo.png', 'file://styles/images/logo2x.png'],
+                    subject:     'EmailComposer plugin test',
+                    body:        '<h2>Hello!</h2>This is a nice <strong>HTML</strong> email with two attachments.',
+                    isHtml:      true
+                }, this.callback)
+            }
+        },
+        
+        callback: function(msg) {
+            alert("done 2");
+            navigator.notification.alert(JSON.stringify(msg), null, 'EmailComposer callback', 'Close');
+        },
+        
+        
+        composeEmail: function () {
+            if (!this.checkSimulator()) {
+                cordova.plugins.email.open({
+                    to:          ['person1@domain.com'],
+                    cc:          ['person2@domain.com'],
+                    bcc:         ['person3@domain.com', 'person4@domain.com'],
+                    attachments: ['file://styles/images/logo.png', 'file://styles/images/logo2x.png'],
+                    subject:     'EmailComposer plugin test',
+                    body:        '<h2>Hello!</h2>This is a nice <strong>HTML</strong> email with two attachments.',
+                    isHtml:      true
+                }, this.callback)
+            }
+        },
+        
     });
     app.inviteService = {
         viewModel:new inviteViewModel()
