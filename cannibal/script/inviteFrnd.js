@@ -17,22 +17,18 @@
                     intent: 'INTENT'
                   }
                 };
-                window.sms.send('0123456789', 'Hi there!', options, this.onSuccess, this.onError);
+                window.sms.send('', 'Hi! This is a Testing message!', options, this.onSuccess, this.onError);
             }
         },
         
         onSuccess:function(msg)
         {
-            setTimeout(function() {
- 	           alert('SMS success: ' + msg);                
-            }, 1);
+            console.log(msg);
         },
         
         onError:function(msg)
         {
-            setTimeout(function() {
- 	           alert('SMS error: ' + msg);                
-            }, 1);
+            console.log(msg);
         },
         
         checkSimulator: function() {
